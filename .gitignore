@@ -147,11 +147,10 @@ ENV/
 env.bak/
 venv.bak/
 
+!.env.rss_feeds
+
 # Example environment configuration
 !.env.example
-
-# Example environment configuration for RSS feeds
-!.env.rss_feeds.example
 
 # Security: Secrets and credentials (NEVER commit these)
 *.pem
