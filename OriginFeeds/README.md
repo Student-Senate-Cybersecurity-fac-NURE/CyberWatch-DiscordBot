@@ -2,4 +2,4 @@
 
 We would like to express our sincere gratitude to **David Longenecker** ([@dnlongen](https://x.com/dnlongen)) for publicly sharing his extensive list of security RSS feeds on GitHub.
 
-His contribution has been invaluable, providing approximately 90% of the feeds included in our example configuration file: [.env.rss_feeds.example](.env.rss_feeds.example).
+His contribution has been invaluable, providing approximately 90% of the feeds included in our configuration file: [.env.rss_feeds](.env.rss_feeds).
