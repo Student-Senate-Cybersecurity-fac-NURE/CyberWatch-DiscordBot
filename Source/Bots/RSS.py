@@ -344,42 +344,7 @@ def run_interval_sync() -> None:
 
 
 def write_status_message(message: str) -> None:
-    webhooks["StatusMessages"].send(f"**{time.ctime()}**: *{message}*")
+    status_webhook = webhooks.get("StatusMessages")
+    if status_webhook is not None:
+        status_webhook.send(f"**{time.ctime()}**: *{message}*")
     logger.info(message)
-
-
-def clean_up_and_close() -> None:
-    logger.critical("Writing last things to rss log file and closing up")
-    with open(rss_log_file_path, "w") as f:
-        rss_log.write(f)
-
-    sys.exit(0)
-
-
-def main() -> None:
-    logger.debug("Registering clean-up handlers")
-    atexit.register(clean_up_and_close)
-    signal.signal(signal.SIGTERM, lambda num, frame: clean_up_and_close())
-
-    while True:
-        for detail_name, details in source_details.items():
-            write_status_message(f"Checking {detail_name}")
-
-            if details["type"] == FeedTypes.JSON:
-                process_source(get_ransomware_news, details["source"], details["hook"])
-            elif details["type"] == FeedTypes.RSS:
-                handle_rss_feed_list(details["source"], details["hook"])
-
-            time.sleep(3)
-
-        logger.debug("Writing new time to rss log file")
-        with open(rss_log_file_path, "w") as f:
-            rss_log.write(f)
-
-        write_status_message("All done, going to sleep")
-
-        time.sleep(1800)
-
-
-if __name__ == "__main__":
-    main()
