@@ -6,7 +6,7 @@ import dateutil.parser
 
 
 MAIN_COLOR = 0x000000
-THUMBNAIL_URL = "https://avatars.githubusercontent.com/u/87911852?s=280&v=4"
+THUMBNAIL_URL = "https://avatars.githubusercontent.com/u/277730359?s=280&v=4"
 
 
 def cut_string(string: str, length: int) -> str:
