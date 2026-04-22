@@ -241,20 +241,49 @@ def _dispatch_interval_articles(
             if len(message_payload) < 10:
                 continue
 
-        messages.append(format_single_article(article))
-        new_articles.append(article)
+            hook.send(embeds=message_payload)
+            for sent_article in payload_articles:
+                fingerprint = str(sent_article.get("_fingerprint", ""))
+                feed_key = str(sent_article.get("_feed_key", ""))
+                publish_date = str(sent_article.get("publish_date", ""))
 
-    return messages, new_articles
+                if len(fingerprint) > 0:
+                    sent_fingerprints[fingerprint] = _format_datetime_utc(run_end_utc)
 
+                if len(feed_key) > 0:
+                    feeds_state[feed_key] = {
+                        "last_seen_published_at_utc": publish_date,
+                        "last_seen_at_utc": _format_datetime_utc(run_end_utc),
+                        "source_name": str(sent_article.get("source", "")),
+                    }
 
-def send_messages(hook: Any, messages: List[Any], articles: List[Any], batch_size: int = 10) -> None:
-    logger.debug(f"Sending {len(messages)} messages in batches of {batch_size}")
-    for i in range(0, len(messages), batch_size):
-        hook.send(embeds=messages[i : i + batch_size])
+            total_dispatched += len(payload_articles)
+            dispatched_by_source[detail_name] += len(payload_articles)
+            message_payload = []
+            payload_articles = []
+            time.sleep(3)
 
-        for article in articles[i : i + batch_size]:
-            rss_log.set("main", article["source"], article["publish_date"])
+        if len(message_payload) == 0:
+            continue
 
+        hook.send(embeds=message_payload)
+        for sent_article in payload_articles:
+            fingerprint = str(sent_article.get("_fingerprint", ""))
+            feed_key = str(sent_article.get("_feed_key", ""))
+            publish_date = str(sent_article.get("publish_date", ""))
+
+            if len(fingerprint) > 0:
+                sent_fingerprints[fingerprint] = _format_datetime_utc(run_end_utc)
+
+            if len(feed_key) > 0:
+                feeds_state[feed_key] = {
+                    "last_seen_published_at_utc": publish_date,
+                    "last_seen_at_utc": _format_datetime_utc(run_end_utc),
+                    "source_name": str(sent_article.get("source", "")),
+                }
+
+        total_dispatched += len(payload_articles)
+        dispatched_by_source[detail_name] += len(payload_articles)
         time.sleep(3)
 
 
