@@ -147,21 +147,87 @@ def get_news_from_rss(rss_item: List[str]) -> List[Any]:
     return cast(List[Any], feed_entries)
 
 
-def proccess_articles(articles: List[Any]) -> Tuple[List[Any], List[Any]]:
-    messages, new_articles = [], []
-    articles.sort(key=lambda article: article["publish_date"])
+def _collect_interval_articles(
+    sync_state: Dict[str, Any],
+    run_start_utc: datetime,
+    run_end_utc: datetime,
+) -> Dict[str, List[Dict[str, Any]]]:
+    overlap_delta = timedelta(minutes=RSS_INTERVAL_OVERLAP_MINUTES)
+    effective_start = run_start_utc - overlap_delta
 
-    for article in articles:
-        try:
-            config_entry = rss_log.get("main", article["source"])
-        except NoOptionError:  # automatically add newly discovered groups to config
-            rss_log.set("main", article["source"], " = ?")
-            config_entry = rss_log.get("main", article["source"])
+    sent_fingerprints = sync_state.get("sent_fingerprints", {})
+    already_sent: Set[str] = set(sent_fingerprints.keys())
+    seen_in_current_run: Set[str] = set()
 
-        if config_entry.endswith("?"):
-            rss_log.set("main", article["source"], article["publish_date"])
-        else:
-            if config_entry >= article["publish_date"]:
+    articles_by_source: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+
+    for detail_name, details in source_details.items():
+        write_status_message(f"Checking {detail_name}")
+
+        if details["type"] == FeedTypes.RSS:
+            total_rss_feeds = len(details["source"])
+            for index, rss_feed in enumerate(details["source"], start=1):
+                if index == 1 or index % RSS_PROGRESS_NOTIFY_EVERY == 0 or index == total_rss_feeds:
+                    write_status_message(
+                        f"{detail_name}: feed {index}/{total_rss_feeds} ({rss_feed[1]})"
+                    )
+                raw_articles = get_news_from_rss(rss_feed)
+                for raw_article in raw_articles:
+                    article = cast(Dict[str, Any], raw_article)
+                    published_at = _parse_datetime_utc(article.get("publish_date"))
+                    if published_at is None:
+                        continue
+
+                    if not (effective_start < published_at <= run_end_utc):
+                        continue
+
+                    feed_key = _get_feed_key(
+                        detail_name,
+                        str(rss_feed[0]),
+                        str(rss_feed[1]),
+                    )
+                    fingerprint = _get_article_fingerprint(article, feed_key)
+
+                    if fingerprint in already_sent or fingerprint in seen_in_current_run:
+                        continue
+
+                    seen_in_current_run.add(fingerprint)
+                    article["publish_date"] = _format_datetime_utc(published_at)
+                    article["_fingerprint"] = fingerprint
+                    article["_feed_key"] = feed_key
+                    articles_by_source[detail_name].append(article)
+
+    for detail_name, detail_articles in articles_by_source.items():
+        detail_articles.sort(key=lambda article: article["publish_date"])
+        logger.info(
+            "Collected %s unique articles for %s within interval",
+            len(detail_articles),
+            detail_name,
+        )
+
+    return articles_by_source
+
+
+def _dispatch_interval_articles(
+    articles_by_source: Dict[str, List[Dict[str, Any]]],
+    sync_state: Dict[str, Any],
+    run_end_utc: datetime,
+) -> Tuple[int, Dict[str, int]]:
+    sent_fingerprints = sync_state.setdefault("sent_fingerprints", {})
+    feeds_state = sync_state.setdefault("feeds", {})
+    total_dispatched = 0
+    dispatched_by_source: Dict[str, int] = defaultdict(int)
+
+    for detail_name, detail_articles in articles_by_source.items():
+        hook = source_details[detail_name]["hook"]
+        message_payload: List[Any] = []
+        payload_articles: List[Dict[str, Any]] = []
+
+        for article in detail_articles:
+            message_payload.append(format_single_article(article))
+            payload_articles.append(article)
+
+            if len(message_payload) < 10:
                 continue
 
         messages.append(format_single_article(article))
