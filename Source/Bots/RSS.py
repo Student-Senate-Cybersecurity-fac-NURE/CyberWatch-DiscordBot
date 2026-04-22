@@ -286,20 +286,61 @@ def _dispatch_interval_articles(
         dispatched_by_source[detail_name] += len(payload_articles)
         time.sleep(3)
 
-
-def process_source(post_gathering_func: Callable[[Any], List[Any]], source: Any, hook: Any) -> None:
-    raw_articles = post_gathering_func(source)
-
-    processed_articles, new_raw_articles = proccess_articles(raw_articles)
-    send_messages(hook, processed_articles, new_raw_articles)
+    return total_dispatched, dict(dispatched_by_source)
 
 
-def handle_rss_feed_list(rss_feed_list: List[List[str]], hook: Any) -> None:
-    for rss_feed in rss_feed_list:
-        logger.info(f"Handling RSS feed for {rss_feed[1]}")
-        webhooks["StatusMessages"].send(f"> {rss_feed[1]}")
+def run_interval_sync() -> None:
+    run_end_utc = datetime.now(timezone.utc)
+    sync_state = _load_sync_state()
+    run_start_utc = _get_window_start(sync_state, run_end_utc)
 
-        process_source(get_news_from_rss, rss_feed, hook)
+    interval_message = (
+        "Starting RSS interval sync from "
+        f"{_format_datetime_utc(run_start_utc)} to {_format_datetime_utc(run_end_utc)}"
+    )
+    print(interval_message)
+
+    write_status_message(
+        interval_message
+    )
+
+    interval_articles = _collect_interval_articles(sync_state, run_start_utc, run_end_utc)
+    total_candidates = sum(len(articles) for articles in interval_articles.values())
+    candidates_by_source = {
+        source_name: len(articles)
+        for source_name, articles in interval_articles.items()
+    }
+    logger.info("Collected %s candidate articles for dispatch", total_candidates)
+    print(f"Candidates total={total_candidates}; by_source={candidates_by_source}")
+    write_status_message(
+        "Candidates collected: "
+        + ", ".join(
+            f"{source_name}={count}"
+            for source_name, count in candidates_by_source.items()
+        )
+    )
+
+    dispatched_count, dispatched_by_source = _dispatch_interval_articles(
+        interval_articles, sync_state, run_end_utc
+    )
+    logger.info("Dispatched %s articles", dispatched_count)
+    print(f"Dispatched total={dispatched_count}; by_source={dispatched_by_source}")
+    write_status_message(
+        "Dispatched articles: "
+        + ", ".join(
+            f"{source_name}={count}"
+            for source_name, count in dispatched_by_source.items()
+        )
+        + f"; total={dispatched_count}"
+    )
+
+    sync_state["schema_version"] = 2
+    sync_state["last_successful_run_at_utc"] = _format_datetime_utc(run_end_utc)
+    sync_state["updated_at_utc"] = _format_datetime_utc(datetime.now(timezone.utc))
+    _prune_sent_fingerprints(sync_state)
+    _save_sync_state(sync_state)
+
+    write_status_message("RSS interval sync completed")
 
 
 def write_status_message(message: str) -> None:
