@@ -3,7 +3,6 @@ import requests
 import time
 import json
 import hashlib
-import re
 from enum import Enum
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -16,41 +15,44 @@ import feedparser  # type: ignore
 
 from .. import webhooks
 from ..Formatting import format_single_article
+from ..public_settings import (
+    GOV_RSS_SOURCE_NAME,
+    PRIVATE_RSS_SOURCE_NAME,
+    RSS_FEEDS_CONFIG_FILE_PATH,
+    RSS_GOV_FEEDS_CONFIG_KEY,
+    RSS_PRIVATE_FEEDS_CONFIG_KEY,
+    RSS_BACKFILL_HOURS_DEFAULT,
+    RSS_BACKFILL_HOURS_ENV_KEY,
+    RSS_BATCH_DELAY_SECONDS,
+    RSS_EMBEDS_BATCH_SIZE,
+    RSS_FINGERPRINT_RETENTION_DAYS_DEFAULT,
+    RSS_FINGERPRINT_RETENTION_DAYS_ENV_KEY,
+    RSS_FORCE_WINDOW_START_UTC_ENV_KEY,
+    RSS_HTTP_TIMEOUT_SECONDS_DEFAULT,
+    RSS_HTTP_TIMEOUT_SECONDS_ENV_KEY,
+    RSS_HTTP_USER_AGENT,
+    RSS_INTERVAL_OVERLAP_MINUTES_DEFAULT,
+    RSS_INTERVAL_OVERLAP_MINUTES_ENV_KEY,
+    RSS_PROGRESS_NOTIFY_EVERY_DEFAULT,
+    RSS_PROGRESS_NOTIFY_EVERY_ENV_KEY,
+    RSS_STATE_FILE_DEFAULT,
+    RSS_STATE_FILE_ENV_KEY,
+    RSS_STATE_SCHEMA_VERSION,
+    WEBHOOK_KEY_GOVERNMENT_FEED,
+    WEBHOOK_KEY_PRIVATE_SECTOR_FEED,
+    WEBHOOK_KEY_STATUS_MESSAGES,
+)
 
 logger = logging.getLogger("rss")
 
-RSS_FEEDS_ENV_FILE_PATH = Path(os.getcwd()) / "OriginFeeds" / ".env.rss_feeds"
 
-
-def _parse_feed_list_from_env_file(file_path: Path, key: str) -> Optional[List[List[str]]]:
-    if not file_path.exists():
-        return None
-
-    try:
-        env_content = file_path.read_text(encoding="utf-8")
-    except OSError:
-        return None
-
-    matcher = re.search(
-        rf"^\s*{re.escape(key)}\s*=\s*'(?P<json>\[[\s\S]*?\])'\s*$",
-        env_content,
-        re.MULTILINE,
-    )
-    if matcher is None:
-        return None
-
-    raw_json = matcher.group("json")
-    try:
-        parsed = json.loads(raw_json)
-    except json.JSONDecodeError:
-        logger.warning("Could not parse %s from %s", key, str(file_path))
-        return None
-
-    if not isinstance(parsed, list):
-        return None
+def _normalize_feed_list(raw_feed_list: Any, list_name: str) -> List[List[str]]:
+    if not isinstance(raw_feed_list, list):
+        logger.warning("%s in %s is not a list", list_name, RSS_FEEDS_CONFIG_FILE_PATH)
+        return []
 
     normalized_feed_list: List[List[str]] = []
-    for item in parsed:
+    for item in raw_feed_list:
         if not isinstance(item, list) or len(item) != 2:
             continue
         normalized_feed_list.append([str(item[0]), str(item[1])])
@@ -58,58 +60,70 @@ def _parse_feed_list_from_env_file(file_path: Path, key: str) -> Optional[List[L
     return normalized_feed_list
 
 
-def _load_feed_list(key: str) -> List[List[str]]:
-    env_value = os.getenv(key)
-    if env_value is not None:
-        try:
-            parsed_env_value = json.loads(env_value)
-        except json.JSONDecodeError:
-            logger.warning("Could not parse %s from environment variable", key)
-            return []
+def _load_feed_lists() -> Tuple[List[List[str]], List[List[str]]]:
+    if not RSS_FEEDS_CONFIG_FILE_PATH.exists():
+        logger.warning("RSS feeds config file is missing: %s", RSS_FEEDS_CONFIG_FILE_PATH)
+        return [], []
 
-        if not isinstance(parsed_env_value, list):
-            return []
+    try:
+        raw_config = json.loads(RSS_FEEDS_CONFIG_FILE_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        logger.warning("Could not parse RSS feeds config file: %s", RSS_FEEDS_CONFIG_FILE_PATH)
+        return [], []
 
-        normalized_feed_list: List[List[str]] = []
-        for item in parsed_env_value:
-            if not isinstance(item, list) or len(item) != 2:
-                continue
-            normalized_feed_list.append([str(item[0]), str(item[1])])
+    if not isinstance(raw_config, dict):
+        logger.warning("RSS feeds config file must contain a JSON object: %s", RSS_FEEDS_CONFIG_FILE_PATH)
+        return [], []
 
-        return normalized_feed_list
+    private_feeds = _normalize_feed_list(
+        raw_config.get(RSS_PRIVATE_FEEDS_CONFIG_KEY),
+        RSS_PRIVATE_FEEDS_CONFIG_KEY,
+    )
+    gov_feeds = _normalize_feed_list(
+        raw_config.get(RSS_GOV_FEEDS_CONFIG_KEY),
+        RSS_GOV_FEEDS_CONFIG_KEY,
+    )
 
-    parsed_from_file = _parse_feed_list_from_env_file(RSS_FEEDS_ENV_FILE_PATH, key)
-    if parsed_from_file is not None:
-        return parsed_from_file
-
-    return []
+    return private_feeds, gov_feeds
 
 
-private_rss_feed_list: List[List[str]] = _load_feed_list("PRIVATE_RSS_FEED_LIST")
-
-gov_rss_feed_list: List[List[str]] = _load_feed_list("GOV_RSS_FEED_LIST")
+private_rss_feed_list, gov_rss_feed_list = _load_feed_lists()
 
 FeedTypes = Enum("FeedTypes", "RSS")
 
 source_details: Dict[str, Dict[str, Any]] = {
-    "Private RSS Feed": {
+    PRIVATE_RSS_SOURCE_NAME: {
         "source": private_rss_feed_list,
-        "hook": webhooks["PrivateSectorFeed"],
+        "hook": webhooks[WEBHOOK_KEY_PRIVATE_SECTOR_FEED],
         "type": FeedTypes.RSS,
     },
-    "Gov RSS Feed": {
+    GOV_RSS_SOURCE_NAME: {
         "source": gov_rss_feed_list,
-        "hook": webhooks["GovermentFeed"],
+        "hook": webhooks[WEBHOOK_KEY_GOVERNMENT_FEED],
         "type": FeedTypes.RSS,
     },
 }
 
-RSS_STATE_FILE_PATH = Path(os.getenv("RSS_STATE_FILE", "state/rss_state.json"))
-RSS_INTERVAL_OVERLAP_MINUTES = int(os.getenv("RSS_INTERVAL_OVERLAP_MINUTES", "120"))
-RSS_FINGERPRINT_RETENTION_DAYS = int(os.getenv("RSS_FINGERPRINT_RETENTION_DAYS", "45"))
-RSS_HTTP_TIMEOUT_SECONDS = int(os.getenv("RSS_HTTP_TIMEOUT_SECONDS", "20"))
-RSS_PROGRESS_NOTIFY_EVERY = int(os.getenv("RSS_PROGRESS_NOTIFY_EVERY", "15"))
-RSS_BACKFILL_HOURS = int(os.getenv("RSS_BACKFILL_HOURS", "0"))
+RSS_STATE_FILE_PATH = Path(os.getenv(RSS_STATE_FILE_ENV_KEY, RSS_STATE_FILE_DEFAULT))
+RSS_INTERVAL_OVERLAP_MINUTES = int(
+    os.getenv(
+        RSS_INTERVAL_OVERLAP_MINUTES_ENV_KEY,
+        str(RSS_INTERVAL_OVERLAP_MINUTES_DEFAULT),
+    )
+)
+RSS_FINGERPRINT_RETENTION_DAYS = int(
+    os.getenv(
+        RSS_FINGERPRINT_RETENTION_DAYS_ENV_KEY,
+        str(RSS_FINGERPRINT_RETENTION_DAYS_DEFAULT),
+    )
+)
+RSS_HTTP_TIMEOUT_SECONDS = int(
+    os.getenv(RSS_HTTP_TIMEOUT_SECONDS_ENV_KEY, str(RSS_HTTP_TIMEOUT_SECONDS_DEFAULT))
+)
+RSS_PROGRESS_NOTIFY_EVERY = int(
+    os.getenv(RSS_PROGRESS_NOTIFY_EVERY_ENV_KEY, str(RSS_PROGRESS_NOTIFY_EVERY_DEFAULT))
+)
+RSS_BACKFILL_HOURS = int(os.getenv(RSS_BACKFILL_HOURS_ENV_KEY, str(RSS_BACKFILL_HOURS_DEFAULT)))
 
 
 def _format_datetime_utc(value: datetime) -> str:
@@ -171,7 +185,7 @@ def _parse_datetime_utc(value: Any) -> Optional[datetime]:
 def _default_sync_state() -> Dict[str, Any]:
     now_utc = datetime.now(timezone.utc)
     return {
-        "schema_version": 2,
+        "schema_version": RSS_STATE_SCHEMA_VERSION,
         "created_at_utc": _format_datetime_utc(now_utc),
         "updated_at_utc": _format_datetime_utc(now_utc),
         "last_successful_run_at_utc": None,
@@ -216,7 +230,7 @@ def _load_sync_state() -> Dict[str, Any]:
 
     default_state = _default_sync_state()
     state: Dict[str, Any] = {
-        "schema_version": 2,
+        "schema_version": RSS_STATE_SCHEMA_VERSION,
         "created_at_utc": loaded_state.get(
             "created_at_utc", default_state["created_at_utc"]
         ),
@@ -272,7 +286,7 @@ def _get_article_fingerprint(article: Dict[str, Any], feed_key: str) -> str:
 
 
 def _get_window_start(sync_state: Dict[str, Any], run_end_utc: datetime) -> datetime:
-    forced_start_raw = os.getenv("RSS_FORCE_WINDOW_START_UTC")
+    forced_start_raw = os.getenv(RSS_FORCE_WINDOW_START_UTC_ENV_KEY)
     forced_start = _parse_datetime_utc(forced_start_raw)
     if forced_start is not None:
         return forced_start
@@ -319,7 +333,7 @@ def get_news_from_rss(rss_item: List[str]) -> List[Any]:
         response = requests.get(
             rss_item[0],
             timeout=RSS_HTTP_TIMEOUT_SECONDS,
-            headers={"User-Agent": "ThreatIntelligenceDiscordBot/rss-sync"},
+            headers={"User-Agent": RSS_HTTP_USER_AGENT},
         )
         response.raise_for_status()
     except requests.RequestException as error:
@@ -416,7 +430,7 @@ def _dispatch_interval_articles(
             message_payload.append(format_single_article(article))
             payload_articles.append(article)
 
-            if len(message_payload) < 10:
+            if len(message_payload) < RSS_EMBEDS_BATCH_SIZE:
                 continue
 
             hook.send(embeds=message_payload)
@@ -439,7 +453,7 @@ def _dispatch_interval_articles(
             dispatched_by_source[detail_name] += len(payload_articles)
             message_payload = []
             payload_articles = []
-            time.sleep(3)
+            time.sleep(RSS_BATCH_DELAY_SECONDS)
 
         if len(message_payload) == 0:
             continue
@@ -462,7 +476,7 @@ def _dispatch_interval_articles(
 
         total_dispatched += len(payload_articles)
         dispatched_by_source[detail_name] += len(payload_articles)
-        time.sleep(3)
+        time.sleep(RSS_BATCH_DELAY_SECONDS)
 
     return total_dispatched, dict(dispatched_by_source)
 
@@ -512,7 +526,7 @@ def run_interval_sync() -> None:
         + f"; total={dispatched_count}"
     )
 
-    sync_state["schema_version"] = 2
+    sync_state["schema_version"] = RSS_STATE_SCHEMA_VERSION
     sync_state["last_successful_run_at_utc"] = _format_datetime_utc(run_end_utc)
     sync_state["updated_at_utc"] = _format_datetime_utc(datetime.now(timezone.utc))
     _prune_sent_fingerprints(sync_state)
@@ -522,7 +536,7 @@ def run_interval_sync() -> None:
 
 
 def write_status_message(message: str) -> None:
-    status_webhook = webhooks.get("StatusMessages")
+    status_webhook = webhooks.get(WEBHOOK_KEY_STATUS_MESSAGES)
     if status_webhook is not None:
         status_webhook.send(f"**{time.ctime()}**: *{message}*")
     logger.info(message)
