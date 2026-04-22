@@ -2,30 +2,94 @@ import os
 import requests
 import time
 import json
+import hashlib
+import re
 from enum import Enum
-from typing import cast, List, Dict, Any, Callable, Tuple
-import signal
-import sys
-import atexit
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from email.utils import parsedate_to_datetime
+from collections import defaultdict
+from typing import cast, List, Dict, Any, Tuple, Optional, Set
 import logging
 
 import feedparser  # type: ignore
-from configparser import ConfigParser, NoOptionError
-from dotenv import load_dotenv
 
-from .. import webhooks, config
+from .. import webhooks
 from ..Formatting import format_single_article
 
 logger = logging.getLogger("rss")
 
-# Load environment variables
-load_dotenv(os.path.join(os.getcwd(), 'OriginFeeds', '.env.rss_feeds'))
+RSS_FEEDS_ENV_FILE_PATH = Path(os.getcwd()) / "OriginFeeds" / ".env.rss_feeds"
 
-private_rss_feed_list: List[List[str]] = json.loads(os.getenv("PRIVATE_RSS_FEED_LIST", "[]"))
 
-gov_rss_feed_list: List[List[str]] = json.loads(os.getenv("GOV_RSS_FEED_LIST", "[]"))
+def _parse_feed_list_from_env_file(file_path: Path, key: str) -> Optional[List[List[str]]]:
+    if not file_path.exists():
+        return None
 
-FeedTypes = Enum("FeedTypes", "RSS JSON")
+    try:
+        env_content = file_path.read_text(encoding="utf-8")
+    except OSError:
+        return None
+
+    matcher = re.search(
+        rf"^\s*{re.escape(key)}\s*=\s*'(?P<json>\[[\s\S]*?\])'\s*$",
+        env_content,
+        re.MULTILINE,
+    )
+    if matcher is None:
+        return None
+
+    raw_json = matcher.group("json")
+    try:
+        parsed = json.loads(raw_json)
+    except json.JSONDecodeError:
+        logger.warning("Could not parse %s from %s", key, str(file_path))
+        return None
+
+    if not isinstance(parsed, list):
+        return None
+
+    normalized_feed_list: List[List[str]] = []
+    for item in parsed:
+        if not isinstance(item, list) or len(item) != 2:
+            continue
+        normalized_feed_list.append([str(item[0]), str(item[1])])
+
+    return normalized_feed_list
+
+
+def _load_feed_list(key: str) -> List[List[str]]:
+    env_value = os.getenv(key)
+    if env_value is not None:
+        try:
+            parsed_env_value = json.loads(env_value)
+        except json.JSONDecodeError:
+            logger.warning("Could not parse %s from environment variable", key)
+            return []
+
+        if not isinstance(parsed_env_value, list):
+            return []
+
+        normalized_feed_list: List[List[str]] = []
+        for item in parsed_env_value:
+            if not isinstance(item, list) or len(item) != 2:
+                continue
+            normalized_feed_list.append([str(item[0]), str(item[1])])
+
+        return normalized_feed_list
+
+    parsed_from_file = _parse_feed_list_from_env_file(RSS_FEEDS_ENV_FILE_PATH, key)
+    if parsed_from_file is not None:
+        return parsed_from_file
+
+    return []
+
+
+private_rss_feed_list: List[List[str]] = _load_feed_list("PRIVATE_RSS_FEED_LIST")
+
+gov_rss_feed_list: List[List[str]] = _load_feed_list("GOV_RSS_FEED_LIST")
+
+FeedTypes = Enum("FeedTypes", "RSS")
 
 source_details: Dict[str, Dict[str, Any]] = {
     "Private RSS Feed": {
