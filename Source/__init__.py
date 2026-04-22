@@ -7,12 +7,8 @@ from discord import SyncWebhook
 
 from .Utils import verify_config_section
 from .public_settings import (
-    CONFIG_SECTION_RSS,
     CONFIG_SECTION_WEBHOOKS,
     LOGS_DIRECTORY,
-    RSS_LOG_FILE_CONFIG_KEY,
-    RSS_LOG_FILE_DEFAULT,
-    RSS_LOG_FILE_ENV_KEY,
     WEBHOOK_ENV_BY_KEY,
 )
 
@@ -30,9 +26,6 @@ config: Dict[str, Dict[str, Any]] = {
     CONFIG_SECTION_WEBHOOKS: {
         hook_name: os.getenv(env_var_name)
         for hook_name, env_var_name in WEBHOOK_ENV_BY_KEY.items()
-    },
-    CONFIG_SECTION_RSS: {
-        RSS_LOG_FILE_CONFIG_KEY: os.getenv(RSS_LOG_FILE_ENV_KEY, RSS_LOG_FILE_DEFAULT),
     }
 }
 
