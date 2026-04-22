@@ -23,16 +23,12 @@ LOGGER_FORMAT: Final[str] = "[%(asctime)s] %(levelname)s in %(module)s: %(messag
 
 # Environment and config keys
 CONFIG_SECTION_WEBHOOKS: Final[str] = "Webhooks"
-CONFIG_SECTION_RSS: Final[str] = "RSS"
-RSS_LOG_FILE_CONFIG_KEY: Final[str] = "RSSLogFile"
 
 WEBHOOK_ENV_BY_KEY: Final[Dict[str, str]] = {
     "PrivateSectorFeed": "WEBHOOK_PRIVATE_SECTOR_FEED",
     "GovermentFeed": "WEBHOOK_GOVERNMENT_FEED",
     "StatusMessages": "WEBHOOK_STATUS_MESSAGES",
 }
-RSS_LOG_FILE_ENV_KEY: Final[str] = "RSS_LOG_FILE"
-RSS_LOG_FILE_DEFAULT: Final[str] = "RSSLog.txt"
 
 # CLI settings
 SUPPORTED_RSS_COMMANDS: Final[Tuple[str, str]] = ("rss", "rss-sync")
@@ -54,9 +50,9 @@ WEBHOOK_KEY_GOVERNMENT_FEED: Final[str] = "GovermentFeed"
 WEBHOOK_KEY_STATUS_MESSAGES: Final[str] = "StatusMessages"
 
 # RSS synchronization settings
-RSS_FEEDS_ENV_FILE_PATH: Final[Path] = PROJECT_ROOT / "OriginFeeds" / ".env.rss_feeds"
-PRIVATE_RSS_FEED_LIST_ENV_KEY: Final[str] = "PRIVATE_RSS_FEED_LIST"
-GOV_RSS_FEED_LIST_ENV_KEY: Final[str] = "GOV_RSS_FEED_LIST"
+RSS_FEEDS_CONFIG_FILE_PATH: Final[Path] = PROJECT_ROOT / "OriginFeeds" / "rss_feeds.json"
+RSS_PRIVATE_FEEDS_CONFIG_KEY: Final[str] = "private_rss_feed_list"
+RSS_GOV_FEEDS_CONFIG_KEY: Final[str] = "gov_rss_feed_list"
 PRIVATE_RSS_SOURCE_NAME: Final[str] = "Private RSS Feed"
 GOV_RSS_SOURCE_NAME: Final[str] = "Gov RSS Feed"
 
