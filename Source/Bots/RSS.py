@@ -142,14 +142,7 @@ def get_news_from_rss(rss_item: List[str]) -> List[Any]:
     # This is needed to ensure that the oldest articles are proccessed first. See https://github.com/vxunderground/ThreatIntelligenceDiscordBot/issues/9 for reference
     for rss_object in feed_entries:
         rss_object["source"] = rss_item[1]
-        try:
-            rss_object["publish_date"] = time.strftime(
-                "%Y-%m-%dT%H:%M:%S", cast(time.struct_time, rss_object.published_parsed)
-            )
-        except (AttributeError, TypeError):
-            rss_object["publish_date"] = time.strftime(
-                "%Y-%m-%dT%H:%M:%S", cast(time.struct_time, rss_object.updated_parsed)
-            )
+        rss_object["publish_date"] = _extract_publish_date_from_entry(rss_object)
 
     return cast(List[Any], feed_entries)
 
