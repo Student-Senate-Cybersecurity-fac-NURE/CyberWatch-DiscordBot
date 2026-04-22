@@ -137,7 +137,18 @@ def get_ransomware_news(source: str) -> List[Dict[str, Any]]:
 
 def get_news_from_rss(rss_item: List[str]) -> List[Any]:
     logger.debug(f"Querying RSS feed at {rss_item[0]}")
-    feed_entries = feedparser.parse(rss_item[0]).entries
+    try:
+        response = requests.get(
+            rss_item[0],
+            timeout=RSS_HTTP_TIMEOUT_SECONDS,
+            headers={"User-Agent": "ThreatIntelligenceDiscordBot/rss-sync"},
+        )
+        response.raise_for_status()
+    except requests.RequestException as error:
+        logger.warning("Failed to fetch RSS feed %s (%s): %s", rss_item[1], rss_item[0], error)
+        return []
+
+    feed_entries = feedparser.parse(response.content).entries
 
     # This is needed to ensure that the oldest articles are proccessed first. See https://github.com/vxunderground/ThreatIntelligenceDiscordBot/issues/9 for reference
     for rss_object in feed_entries:
