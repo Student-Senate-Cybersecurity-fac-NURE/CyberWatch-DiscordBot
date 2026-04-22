@@ -102,37 +102,215 @@ source_details: Dict[str, Dict[str, Any]] = {
         "hook": webhooks["GovermentFeed"],
         "type": FeedTypes.RSS,
     },
-    "Ransomware News": {
-        "source": "https://raw.githubusercontent.com/joshhighet/ransomwatch/main/posts.json",
-        "hook": webhooks["RansomwareFeed"],
-        "type": FeedTypes.JSON,
-    },
 }
 
-rss_log_file_path = os.path.join(
-    os.getcwd(),
-    "Source",
-    str(config["RSS"].get("RSSLogFile", "RSSLog.txt")),
-)
+RSS_STATE_FILE_PATH = Path(os.getenv("RSS_STATE_FILE", "state/rss_state.json"))
+RSS_INTERVAL_OVERLAP_MINUTES = int(os.getenv("RSS_INTERVAL_OVERLAP_MINUTES", "120"))
+RSS_FINGERPRINT_RETENTION_DAYS = int(os.getenv("RSS_FINGERPRINT_RETENTION_DAYS", "45"))
+RSS_HTTP_TIMEOUT_SECONDS = int(os.getenv("RSS_HTTP_TIMEOUT_SECONDS", "20"))
+RSS_PROGRESS_NOTIFY_EVERY = int(os.getenv("RSS_PROGRESS_NOTIFY_EVERY", "15"))
+RSS_BACKFILL_HOURS = int(os.getenv("RSS_BACKFILL_HOURS", "0"))
 
 
-rss_log = ConfigParser()
-rss_log.read(rss_log_file_path)
-
-if not rss_log.has_section("main"):
-    rss_log.add_section("main")
+def _format_datetime_utc(value: datetime) -> str:
+    return value.astimezone(timezone.utc).replace(microsecond=0).isoformat()
 
 
-def get_ransomware_news(source: str) -> List[Dict[str, Any]]:
-    logger.debug("Querying latest ransomware information")
-    posts = requests.get(source, timeout=30).json()
+def _parse_datetime_utc(value: Any) -> Optional[datetime]:
+    if value is None:
+        return None
 
-    for post in posts:
-        post["publish_date"] = post["discovered"]
-        post["title"] = "Post: " + post["post_title"]
-        post["source"] = post["group_name"]
+    parsed_value: Optional[datetime] = None
+    if isinstance(value, datetime):
+        parsed_value = value
+    elif isinstance(value, time.struct_time):
+        try:
+            parsed_value = datetime(
+                value.tm_year,
+                value.tm_mon,
+                value.tm_mday,
+                value.tm_hour,
+                value.tm_min,
+                value.tm_sec,
+                tzinfo=timezone.utc,
+            )
+        except ValueError:
+            return None
+    elif isinstance(value, (int, float)):
+        try:
+            parsed_value = datetime.fromtimestamp(float(value), tz=timezone.utc)
+        except (OverflowError, OSError, ValueError):
+            return None
+    elif isinstance(value, str):
+        normalized_value = value.strip()
+        if len(normalized_value) == 0:
+            return None
 
-    return cast(List[Dict[str, Any]], posts)
+        try:
+            parsed_value = datetime.fromisoformat(
+                normalized_value.replace("Z", "+00:00")
+            )
+        except ValueError:
+            try:
+                parsed_email_datetime = parsedate_to_datetime(normalized_value)
+            except (TypeError, ValueError):
+                return None
+            else:
+                if isinstance(parsed_email_datetime, datetime):
+                    parsed_value = parsed_email_datetime
+
+    if parsed_value is None:
+        return None
+
+    if parsed_value.tzinfo is None:
+        parsed_value = parsed_value.replace(tzinfo=timezone.utc)
+
+    return parsed_value.astimezone(timezone.utc).replace(microsecond=0)
+
+
+def _default_sync_state() -> Dict[str, Any]:
+    now_utc = datetime.now(timezone.utc)
+    return {
+        "schema_version": 2,
+        "created_at_utc": _format_datetime_utc(now_utc),
+        "updated_at_utc": _format_datetime_utc(now_utc),
+        "last_successful_run_at_utc": None,
+        "feeds": {},
+        "sent_fingerprints": {},
+    }
+
+
+def _prune_sent_fingerprints(state: Dict[str, Any]) -> None:
+    raw_fingerprints = state.get("sent_fingerprints")
+    if not isinstance(raw_fingerprints, dict):
+        state["sent_fingerprints"] = {}
+        return
+
+    cutoff_datetime = datetime.now(timezone.utc) - timedelta(
+        days=RSS_FINGERPRINT_RETENTION_DAYS
+    )
+    pruned: Dict[str, str] = {}
+
+    for fingerprint, sent_at_raw in raw_fingerprints.items():
+        parsed_sent_at = _parse_datetime_utc(sent_at_raw)
+        if parsed_sent_at is None:
+            continue
+        if parsed_sent_at >= cutoff_datetime:
+            pruned[str(fingerprint)] = _format_datetime_utc(parsed_sent_at)
+
+    state["sent_fingerprints"] = pruned
+
+
+def _load_sync_state() -> Dict[str, Any]:
+    if not RSS_STATE_FILE_PATH.exists():
+        return _default_sync_state()
+
+    try:
+        loaded_state = json.loads(RSS_STATE_FILE_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        logger.warning("Could not parse rss state file, using defaults")
+        return _default_sync_state()
+
+    if not isinstance(loaded_state, dict):
+        return _default_sync_state()
+
+    default_state = _default_sync_state()
+    state: Dict[str, Any] = {
+        "schema_version": 2,
+        "created_at_utc": loaded_state.get(
+            "created_at_utc", default_state["created_at_utc"]
+        ),
+        "updated_at_utc": loaded_state.get(
+            "updated_at_utc", default_state["updated_at_utc"]
+        ),
+        "last_successful_run_at_utc": loaded_state.get("last_successful_run_at_utc"),
+        "feeds": loaded_state.get("feeds", {}),
+        "sent_fingerprints": loaded_state.get("sent_fingerprints", {}),
+    }
+
+    if not isinstance(state["feeds"], dict):
+        state["feeds"] = {}
+
+    _prune_sent_fingerprints(state)
+    return state
+
+
+def _save_sync_state(state: Dict[str, Any]) -> None:
+    RSS_STATE_FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    RSS_STATE_FILE_PATH.write_text(
+        json.dumps(state, ensure_ascii=True, indent=2),
+        encoding="utf-8",
+    )
+
+
+def _get_feed_key(feed_type: str, feed_url: str, feed_name: str) -> str:
+    normalized_key = f"{feed_type}::{feed_name}::{feed_url}".strip().lower()
+    return hashlib.sha256(normalized_key.encode("utf-8")).hexdigest()
+
+
+def _get_article_fingerprint(article: Dict[str, Any], feed_key: str) -> str:
+    identity_candidates = [
+        article.get("id"),
+        article.get("guid"),
+        article.get("link"),
+    ]
+
+    for candidate in identity_candidates:
+        if isinstance(candidate, str) and len(candidate.strip()) > 0:
+            fingerprint_input = f"{feed_key}::{candidate.strip()}"
+            return hashlib.sha256(fingerprint_input.encode("utf-8")).hexdigest()
+
+    fallback_identity = "::".join(
+        [
+            str(article.get("title", "")),
+            str(article.get("publish_date", "")),
+            str(article.get("source", "")),
+        ]
+    )
+    fallback_input = f"{feed_key}::{fallback_identity}"
+    return hashlib.sha256(fallback_input.encode("utf-8")).hexdigest()
+
+
+def _get_window_start(sync_state: Dict[str, Any], run_end_utc: datetime) -> datetime:
+    forced_start_raw = os.getenv("RSS_FORCE_WINDOW_START_UTC")
+    forced_start = _parse_datetime_utc(forced_start_raw)
+    if forced_start is not None:
+        return forced_start
+
+    if RSS_BACKFILL_HOURS > 0:
+        return run_end_utc - timedelta(hours=RSS_BACKFILL_HOURS)
+
+    last_successful_run = _parse_datetime_utc(sync_state.get("last_successful_run_at_utc"))
+    if last_successful_run is not None:
+        return last_successful_run
+
+    return run_end_utc - timedelta(
+        days=run_end_utc.weekday(),
+        hours=run_end_utc.hour,
+        minutes=run_end_utc.minute,
+        seconds=run_end_utc.second,
+        microseconds=run_end_utc.microsecond,
+    )
+
+
+def _extract_publish_date_from_entry(rss_object: Any) -> str:
+    parsed_publish_date = _parse_datetime_utc(getattr(rss_object, "published_parsed", None))
+    if parsed_publish_date is not None:
+        return _format_datetime_utc(parsed_publish_date)
+
+    parsed_updated_date = _parse_datetime_utc(getattr(rss_object, "updated_parsed", None))
+    if parsed_updated_date is not None:
+        return _format_datetime_utc(parsed_updated_date)
+
+    string_publish_date = _parse_datetime_utc(getattr(rss_object, "published", None))
+    if string_publish_date is not None:
+        return _format_datetime_utc(string_publish_date)
+
+    string_updated_date = _parse_datetime_utc(getattr(rss_object, "updated", None))
+    if string_updated_date is not None:
+        return _format_datetime_utc(string_updated_date)
+
+    return ""
 
 
 def get_news_from_rss(rss_item: List[str]) -> List[Any]:
