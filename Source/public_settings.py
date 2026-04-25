@@ -11,9 +11,13 @@ CUT_SUFFIX: Final[str] = "..."
 SUMMARY_MAX_DESCRIPTION_LENGTH: Final[int] = 250
 SUMMARY_TRUNCATION_SUFFIX: Final[str] = ".."
 DATETIME_FALLBACK_SEPARATOR: Final[str] = "T"
-DATE_OUTPUT_FORMAT: Final[str] = "%d, %b %Y"
-TIME_OUTPUT_FORMAT: Final[str] = "%H:%M"
+DATE_OUTPUT_FORMAT: Final[str] = "%d.%m.%Y"
+TIME_OUTPUT_FORMAT: Final[str] = "%H:%M:%S %Z"
 DETAILS_FIELD_NAME: Final[str] = "Details: "
+
+# Timezone settings
+TIMEZONE_NAME: Final[str] = "Europe/Kyiv"
+STATUS_MESSAGE_DATETIME_FORMAT: Final[str] = "%d.%m.%Y %H:%M:%S %Z"
 
 # Logger settings
 LOGS_DIRECTORY: Final[str] = "logs"
