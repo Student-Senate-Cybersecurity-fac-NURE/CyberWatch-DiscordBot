@@ -12,11 +12,13 @@ from typing import cast, List, Dict, Any, Tuple, Optional, Set
 import logging
 
 import feedparser  # type: ignore
+from dateutil.tz import gettz
 
 from .. import webhooks
 from ..Formatting import format_single_article
 from ..public_settings import (
     GOV_RSS_SOURCE_NAME,
+    TIMEZONE_NAME,
     PRIVATE_RSS_SOURCE_NAME,
     RSS_FEEDS_CONFIG_FILE_PATH,
     RSS_GOV_FEEDS_CONFIG_KEY,
@@ -38,12 +40,17 @@ from ..public_settings import (
     RSS_STATE_FILE_DEFAULT,
     RSS_STATE_FILE_ENV_KEY,
     RSS_STATE_SCHEMA_VERSION,
+    STATUS_MESSAGE_DATETIME_FORMAT,
     WEBHOOK_KEY_GOVERNMENT_FEED,
     WEBHOOK_KEY_PRIVATE_SECTOR_FEED,
     WEBHOOK_KEY_STATUS_MESSAGES,
 )
 
 logger = logging.getLogger("rss")
+KYIV_TIMEZONE = gettz(TIMEZONE_NAME) or gettz("Europe/Kiev")
+
+if KYIV_TIMEZONE is None:
+    raise RuntimeError(f"Could not resolve timezone: {TIMEZONE_NAME}")
 
 
 def _normalize_feed_list(raw_feed_list: Any, list_name: str) -> List[List[str]]:
@@ -126,8 +133,8 @@ RSS_PROGRESS_NOTIFY_EVERY = int(
 RSS_BACKFILL_HOURS = int(os.getenv(RSS_BACKFILL_HOURS_ENV_KEY, str(RSS_BACKFILL_HOURS_DEFAULT)))
 
 
-def _format_datetime_utc(value: datetime) -> str:
-    return value.astimezone(timezone.utc).replace(microsecond=0).isoformat()
+def _format_datetime_kyiv(value: datetime) -> str:
+    return value.astimezone(KYIV_TIMEZONE).replace(microsecond=0).isoformat()
 
 
 def _parse_datetime_utc(value: Any) -> Optional[datetime]:
@@ -183,11 +190,11 @@ def _parse_datetime_utc(value: Any) -> Optional[datetime]:
 
 
 def _default_sync_state() -> Dict[str, Any]:
-    now_utc = datetime.now(timezone.utc)
+    now_kyiv = datetime.now(KYIV_TIMEZONE)
     return {
         "schema_version": RSS_STATE_SCHEMA_VERSION,
-        "created_at_utc": _format_datetime_utc(now_utc),
-        "updated_at_utc": _format_datetime_utc(now_utc),
+        "created_at_utc": _format_datetime_kyiv(now_kyiv),
+        "updated_at_utc": _format_datetime_kyiv(now_kyiv),
         "last_successful_run_at_utc": None,
         "feeds": {},
         "sent_fingerprints": {},
@@ -200,7 +207,7 @@ def _prune_sent_fingerprints(state: Dict[str, Any]) -> None:
         state["sent_fingerprints"] = {}
         return
 
-    cutoff_datetime = datetime.now(timezone.utc) - timedelta(
+    cutoff_datetime = datetime.now(KYIV_TIMEZONE) - timedelta(
         days=RSS_FINGERPRINT_RETENTION_DAYS
     )
     pruned: Dict[str, str] = {}
@@ -210,7 +217,7 @@ def _prune_sent_fingerprints(state: Dict[str, Any]) -> None:
         if parsed_sent_at is None:
             continue
         if parsed_sent_at >= cutoff_datetime:
-            pruned[str(fingerprint)] = _format_datetime_utc(parsed_sent_at)
+            pruned[str(fingerprint)] = _format_datetime_kyiv(parsed_sent_at)
 
     state["sent_fingerprints"] = pruned
 
@@ -310,19 +317,19 @@ def _get_window_start(sync_state: Dict[str, Any], run_end_utc: datetime) -> date
 def _extract_publish_date_from_entry(rss_object: Any) -> str:
     parsed_publish_date = _parse_datetime_utc(getattr(rss_object, "published_parsed", None))
     if parsed_publish_date is not None:
-        return _format_datetime_utc(parsed_publish_date)
+        return _format_datetime_kyiv(parsed_publish_date)
 
     parsed_updated_date = _parse_datetime_utc(getattr(rss_object, "updated_parsed", None))
     if parsed_updated_date is not None:
-        return _format_datetime_utc(parsed_updated_date)
+        return _format_datetime_kyiv(parsed_updated_date)
 
     string_publish_date = _parse_datetime_utc(getattr(rss_object, "published", None))
     if string_publish_date is not None:
-        return _format_datetime_utc(string_publish_date)
+        return _format_datetime_kyiv(string_publish_date)
 
     string_updated_date = _parse_datetime_utc(getattr(rss_object, "updated", None))
     if string_updated_date is not None:
-        return _format_datetime_utc(string_updated_date)
+        return _format_datetime_kyiv(string_updated_date)
 
     return ""
 
@@ -395,7 +402,7 @@ def _collect_interval_articles(
                         continue
 
                     seen_in_current_run.add(fingerprint)
-                    article["publish_date"] = _format_datetime_utc(published_at)
+                    article["publish_date"] = _format_datetime_kyiv(published_at)
                     article["_fingerprint"] = fingerprint
                     article["_feed_key"] = feed_key
                     articles_by_source[detail_name].append(article)
@@ -440,12 +447,12 @@ def _dispatch_interval_articles(
                 publish_date = str(sent_article.get("publish_date", ""))
 
                 if len(fingerprint) > 0:
-                    sent_fingerprints[fingerprint] = _format_datetime_utc(run_end_utc)
+                    sent_fingerprints[fingerprint] = _format_datetime_kyiv(run_end_utc)
 
                 if len(feed_key) > 0:
                     feeds_state[feed_key] = {
                         "last_seen_published_at_utc": publish_date,
-                        "last_seen_at_utc": _format_datetime_utc(run_end_utc),
+                        "last_seen_at_utc": _format_datetime_kyiv(run_end_utc),
                         "source_name": str(sent_article.get("source", "")),
                     }
 
@@ -465,12 +472,12 @@ def _dispatch_interval_articles(
             publish_date = str(sent_article.get("publish_date", ""))
 
             if len(fingerprint) > 0:
-                sent_fingerprints[fingerprint] = _format_datetime_utc(run_end_utc)
+                sent_fingerprints[fingerprint] = _format_datetime_kyiv(run_end_utc)
 
             if len(feed_key) > 0:
                 feeds_state[feed_key] = {
                     "last_seen_published_at_utc": publish_date,
-                    "last_seen_at_utc": _format_datetime_utc(run_end_utc),
+                    "last_seen_at_utc": _format_datetime_kyiv(run_end_utc),
                     "source_name": str(sent_article.get("source", "")),
                 }
 
@@ -482,13 +489,13 @@ def _dispatch_interval_articles(
 
 
 def run_interval_sync() -> None:
-    run_end_utc = datetime.now(timezone.utc)
+    run_end_utc = datetime.now(KYIV_TIMEZONE)
     sync_state = _load_sync_state()
     run_start_utc = _get_window_start(sync_state, run_end_utc)
 
     interval_message = (
         "Starting RSS interval sync from "
-        f"{_format_datetime_utc(run_start_utc)} to {_format_datetime_utc(run_end_utc)}"
+        f"{_format_datetime_kyiv(run_start_utc)} to {_format_datetime_kyiv(run_end_utc)}"
     )
     print(interval_message)
 
@@ -527,8 +534,8 @@ def run_interval_sync() -> None:
     )
 
     sync_state["schema_version"] = RSS_STATE_SCHEMA_VERSION
-    sync_state["last_successful_run_at_utc"] = _format_datetime_utc(run_end_utc)
-    sync_state["updated_at_utc"] = _format_datetime_utc(datetime.now(timezone.utc))
+    sync_state["last_successful_run_at_utc"] = _format_datetime_kyiv(run_end_utc)
+    sync_state["updated_at_utc"] = _format_datetime_kyiv(datetime.now(KYIV_TIMEZONE))
     _prune_sent_fingerprints(sync_state)
     _save_sync_state(sync_state)
 
@@ -538,5 +545,6 @@ def run_interval_sync() -> None:
 def write_status_message(message: str) -> None:
     status_webhook = webhooks.get(WEBHOOK_KEY_STATUS_MESSAGES)
     if status_webhook is not None:
-        status_webhook.send(f"**{time.ctime()}**: *{message}*")
+        status_time = datetime.now(KYIV_TIMEZONE).strftime(STATUS_MESSAGE_DATETIME_FORMAT)
+        status_webhook.send(f"**{status_time}**: *{message}*")
     logger.info(message)
