@@ -1,8 +1,9 @@
 from discord import Embed
 from typing import List, Dict, Any, Union
 
-from datetime import datetime
+from datetime import datetime, timezone
 import dateutil.parser
+from dateutil.tz import gettz
 
 from .public_settings import (
     CUT_SUFFIX,
@@ -14,7 +15,13 @@ from .public_settings import (
     SUMMARY_TRUNCATION_SUFFIX,
     THUMBNAIL_URL,
     TIME_OUTPUT_FORMAT,
+    TIMEZONE_NAME,
 )
+
+KYIV_TIMEZONE = gettz(TIMEZONE_NAME) or gettz("Europe/Kiev")
+
+if KYIV_TIMEZONE is None:
+    raise RuntimeError(f"Could not resolve timezone: {TIMEZONE_NAME}")
 
 
 def cut_string(string: str, length: int) -> str:
@@ -36,7 +43,14 @@ def format_datetime(article_datetime: Union[datetime, str]) -> List[str]:
         except ValueError:
             return article_datetime.split(DATETIME_FALLBACK_SEPARATOR)
 
-    return [dt_object.strftime(DATE_OUTPUT_FORMAT), dt_object.strftime(TIME_OUTPUT_FORMAT)]
+    if dt_object.tzinfo is None:
+        dt_object = dt_object.replace(tzinfo=timezone.utc)
+
+    kyiv_datetime = dt_object.astimezone(KYIV_TIMEZONE)
+    return [
+        kyiv_datetime.strftime(DATE_OUTPUT_FORMAT),
+        kyiv_datetime.strftime(TIME_OUTPUT_FORMAT),
+    ]
 
 
 def format_single_article(article: Dict[str, Any]) -> Embed:
