@@ -30,8 +30,18 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Check state branch exists
+        id: check_state_branch
+        shell: bash
+        run: |
+          if git ls-remote --exit-code --heads origin "$STATE_BRANCH" > /dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout state branch (if exists)
-        continue-on-error: true
+        if: steps.check_state_branch.outputs.exists == 'true'
         uses: actions/checkout@v5
         with:
           ref: ${{ env.STATE_BRANCH }}
@@ -63,26 +73,26 @@ jobs:
         run: |
           if [ ! -f "$STATE_FILE" ]; then
             python - <<'PY'
-            import json
-            from datetime import datetime
-            from pathlib import Path
-            from dateutil.tz import gettz
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          from dateutil.tz import gettz
 
-            kyiv_timezone = gettz("Europe/Kyiv") or gettz("Europe/Kiev")
-            if kyiv_timezone is None:
-                raise RuntimeError("Could not resolve timezone: Europe/Kyiv")
+          kyiv_timezone = gettz("Europe/Kyiv") or gettz("Europe/Kiev")
+          if kyiv_timezone is None:
+            raise RuntimeError("Could not resolve timezone: Europe/Kyiv")
 
-            state_path = Path("state/rss_state.json")
-            state_path.parent.mkdir(parents=True, exist_ok=True)
-            state = {
-                "schema_version": 2,
-                "created_at_utc": datetime.now(kyiv_timezone)
-                .replace(microsecond=0)
-                .isoformat(),
-                "last_successful_run_at_utc": None,
-            }
-            state_path.write_text(json.dumps(state, ensure_ascii=True, indent=2), encoding="utf-8")
-            PY
+          state_path = Path("state/rss_state.json")
+          state_path.parent.mkdir(parents=True, exist_ok=True)
+          state = {
+            "schema_version": 2,
+            "created_at_utc": datetime.now(kyiv_timezone)
+            .replace(microsecond=0)
+            .isoformat(),
+            "last_successful_run_at_utc": None,
+          }
+          state_path.write_text(json.dumps(state, ensure_ascii=True, indent=2), encoding="utf-8")
+          PY
           fi
 
       - name: Run RSS interval collector
