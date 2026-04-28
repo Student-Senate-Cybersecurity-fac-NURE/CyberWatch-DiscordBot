@@ -71,18 +71,20 @@ jobs:
       - name: Initialize state file if missing
         shell: bash
         run: |
-          if [ ! -f "$STATE_FILE" ]; then
-            python - <<'PY'
+          python - <<'PY'
           import json
           from datetime import datetime
           from pathlib import Path
           from dateutil.tz import gettz
 
+          state_path = Path("state/rss_state.json")
+          if state_path.exists():
+            raise SystemExit(0)
+
           kyiv_timezone = gettz("Europe/Kyiv") or gettz("Europe/Kiev")
           if kyiv_timezone is None:
             raise RuntimeError("Could not resolve timezone: Europe/Kyiv")
 
-          state_path = Path("state/rss_state.json")
           state_path.parent.mkdir(parents=True, exist_ok=True)
           state = {
             "schema_version": 2,
@@ -93,7 +95,6 @@ jobs:
           }
           state_path.write_text(json.dumps(state, ensure_ascii=True, indent=2), encoding="utf-8")
           PY
-          fi
 
       - name: Run RSS interval collector
         shell: bash
