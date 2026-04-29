@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-04-29T07:05:21+03:00",
-  "last_successful_run_at_utc": "2026-04-29T07:05:22+03:00",
+  "updated_at_utc": "2026-04-29T09:40:49+03:00",
+  "last_successful_run_at_utc": "2026-04-29T09:40:50+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-04-26T23:34:00+03:00",
@@ -20,18 +20,18 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-04-28T21:36:31+03:00",
-      "last_seen_at_utc": "2026-04-29T00:20:20+03:00",
+      "last_seen_published_at_utc": "2026-04-29T09:32:14+03:00",
+      "last_seen_at_utc": "2026-04-29T09:39:07+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
-      "last_seen_published_at_utc": "2026-04-28T21:19:00+03:00",
-      "last_seen_at_utc": "2026-04-29T00:20:20+03:00",
+      "last_seen_published_at_utc": "2026-04-29T08:34:00+03:00",
+      "last_seen_at_utc": "2026-04-29T09:39:07+03:00",
       "source_name": "Hacker News"
     },
     "329e3adffaac2896ffc5ea19d0eda3e8c10c37eda8c4b8323ff7b22a36d6bf8b": {
-      "last_seen_published_at_utc": "2026-04-28T21:19:00+03:00",
-      "last_seen_at_utc": "2026-04-29T00:20:20+03:00",
+      "last_seen_published_at_utc": "2026-04-29T08:34:00+03:00",
+      "last_seen_at_utc": "2026-04-29T09:39:07+03:00",
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
@@ -95,8 +95,8 @@
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
-      "last_seen_published_at_utc": "2026-04-29T04:22:56+03:00",
-      "last_seen_at_utc": "2026-04-29T07:04:05+03:00",
+      "last_seen_published_at_utc": "2026-04-29T08:10:44+03:00",
+      "last_seen_at_utc": "2026-04-29T09:39:07+03:00",
       "source_name": "Business Insider"
     },
     "16b25a633f469ca3ef7c66a4b280e72ddec834d32c8aee68d41a0ffeb34e894f": {
@@ -481,7 +481,16 @@
     "120946b6c770bd7217b465653291ec92181807cc812d10e032c01f89f20ac1b1": "2026-04-29T07:04:05+03:00",
     "5ca5616a96118b3709753eb2f2567b3160c800a16add011b8613998cd9b04d71": "2026-04-29T07:04:05+03:00",
     "d52209855bec9d8136282d846af8216786bd88f3eee1623f4df77d1e5dd30d0e": "2026-04-29T07:04:05+03:00",
-    "237da7e1db5068733e8ce067e7f527eeb0fdf51472da801e8f3c2c3fdb504935": "2026-04-29T07:04:05+03:00"
+    "237da7e1db5068733e8ce067e7f527eeb0fdf51472da801e8f3c2c3fdb504935": "2026-04-29T07:04:05+03:00",
+    "e61d88a92a7e0de0c3f7c4ca8415911232485aa8996219aa98f2aec13a8d886f": "2026-04-29T09:39:07+03:00",
+    "3efcfacb80bf7b41a7370606b79802c397b12ec65df48a2d713bdda3b1b8f81b": "2026-04-29T09:39:07+03:00",
+    "62e251e6c49930f78791eef384c5ca0020232c966c5a4393ec32eb9d4e69ffac": "2026-04-29T09:39:07+03:00",
+    "5c9d4094c25b0e6f7aed1a24e760385f328c864388c99a4b5a30da0425144c24": "2026-04-29T09:39:07+03:00",
+    "3159707a89a08fffd1b2c861a6d42366792469809c045524c4e0e0aeaa4178da": "2026-04-29T09:39:07+03:00",
+    "d14f26221b91ed97cc21df48c43da562ce3d2e7cf1f4c3a33bb26f8ea168d245": "2026-04-29T09:39:07+03:00",
+    "7d5a1967001bfa02f3544fe3bcd30443075df387227b12a73c060b7292e6b4d5": "2026-04-29T09:39:07+03:00",
+    "df9ed676712c11f52bd088d1452770d06384f773b70b0515d065793a333f455f": "2026-04-29T09:39:07+03:00",
+    "939794f8e86264cbdd42fa57f45c7edd8ab40cfdae391879fefe7040f1e2e3a3": "2026-04-29T09:39:07+03:00"
   },
-  "updated_by_run_id": "25090294716"
+  "updated_by_run_id": "25094595198"
 }
