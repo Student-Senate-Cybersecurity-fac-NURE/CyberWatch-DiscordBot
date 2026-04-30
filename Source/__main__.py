@@ -21,7 +21,7 @@ def verify_required_webhooks(required_webhooks: List[str]) -> None:
 
     if len(missing_webhooks) > 0:
         sys.exit(
-            f"You havent't specified {', '.join(missing_webhooks)} in the .env file"
+            f"У файлі .env не вказано {', '.join(missing_webhooks)}"
         )
 
 
