@@ -149,10 +149,6 @@
       "Graham Cluley"
     ],
     [
-      "http://feeds.feedburner.com/TheHackersNews?format=xml",
-      "Hacker News"
-    ],
-    [
       "http://www.hboeck.de/feeds/index.rss2",
       "Hanno's blog"
     ],
@@ -389,7 +385,7 @@
       "The DFIR Report"
     ],
     [
-      "http://thehackernews.com/feeds/posts/default",
+      "https://feeds.feedburner.com/TheHackersNews",
       "The Hacker News"
     ],
     [
