@@ -13,7 +13,7 @@ SUMMARY_TRUNCATION_SUFFIX: Final[str] = ".."
 DATETIME_FALLBACK_SEPARATOR: Final[str] = "T"
 DATE_OUTPUT_FORMAT: Final[str] = "%d.%m.%Y"
 TIME_OUTPUT_FORMAT: Final[str] = "%H:%M:%S %Z"
-DETAILS_FIELD_NAME: Final[str] = "Details: "
+DETAILS_FIELD_NAME: Final[str] = "Деталі: "
 
 # Timezone settings
 TIMEZONE_NAME: Final[str] = "Europe/Kyiv"
@@ -23,7 +23,7 @@ STATUS_MESSAGE_DATETIME_FORMAT: Final[str] = "%d.%m.%Y %H:%M:%S %Z"
 LOGS_DIRECTORY: Final[str] = "logs"
 INFO_LOG_FILENAME_SUFFIX: Final[str] = ".info.log"
 ERROR_LOG_FILENAME_SUFFIX: Final[str] = ".error.log"
-LOGGER_FORMAT: Final[str] = "[%(asctime)s] %(levelname)s in %(module)s: %(message)s"
+LOGGER_FORMAT: Final[str] = "[%(asctime)s] %(levelname)s у %(module)s: %(message)s"
 
 # Environment and config keys
 CONFIG_SECTION_WEBHOOKS: Final[str] = "Webhooks"
@@ -37,11 +37,11 @@ WEBHOOK_ENV_BY_KEY: Final[Dict[str, str]] = {
 # CLI settings
 SUPPORTED_RSS_COMMANDS: Final[Tuple[str, str]] = ("rss", "rss-sync")
 CLI_UNKNOWN_COMMAND_MESSAGE: Final[str] = (
-    "Argument not recognized. The possible options are rss and rss-sync"
+    "Аргумент не розпізнано. Доступні варіанти: rss та rss-sync"
 )
 CLI_MISSING_COMMAND_MESSAGE: Final[str] = (
-    "Please provide an argument for what bot should be run. "
-    "The possible options are rss and rss-sync"
+    "Будь ласка, вкажіть аргумент, який бот запускати. "
+    "Доступні варіанти: rss та rss-sync"
 )
 REQUIRED_RSS_WEBHOOK_KEYS: Final[Tuple[str, str, str]] = (
     "PrivateSectorFeed",
