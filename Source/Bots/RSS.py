@@ -50,12 +50,12 @@ logger = logging.getLogger("rss")
 KYIV_TIMEZONE = gettz(TIMEZONE_NAME) or gettz("Europe/Kiev")
 
 if KYIV_TIMEZONE is None:
-    raise RuntimeError(f"Could not resolve timezone: {TIMEZONE_NAME}")
+    raise RuntimeError(f"Не вдалося визначити часовий пояс: {TIMEZONE_NAME}")
 
 
 def _normalize_feed_list(raw_feed_list: Any, list_name: str) -> List[List[str]]:
     if not isinstance(raw_feed_list, list):
-        logger.warning("%s in %s is not a list", list_name, RSS_FEEDS_CONFIG_FILE_PATH)
+        logger.warning("%s у %s не є списком", list_name, RSS_FEEDS_CONFIG_FILE_PATH)
         return []
 
     normalized_feed_list: List[List[str]] = []
@@ -69,17 +69,23 @@ def _normalize_feed_list(raw_feed_list: Any, list_name: str) -> List[List[str]]:
 
 def _load_feed_lists() -> Tuple[List[List[str]], List[List[str]]]:
     if not RSS_FEEDS_CONFIG_FILE_PATH.exists():
-        logger.warning("RSS feeds config file is missing: %s", RSS_FEEDS_CONFIG_FILE_PATH)
+        logger.warning("Файл конфігурації RSS стрічок відсутній: %s", RSS_FEEDS_CONFIG_FILE_PATH)
         return [], []
 
     try:
         raw_config = json.loads(RSS_FEEDS_CONFIG_FILE_PATH.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        logger.warning("Could not parse RSS feeds config file: %s", RSS_FEEDS_CONFIG_FILE_PATH)
+        logger.warning(
+            "Не вдалося прочитати файл конфігурації RSS стрічок: %s",
+            RSS_FEEDS_CONFIG_FILE_PATH,
+        )
         return [], []
 
     if not isinstance(raw_config, dict):
-        logger.warning("RSS feeds config file must contain a JSON object: %s", RSS_FEEDS_CONFIG_FILE_PATH)
+        logger.warning(
+            "Файл конфігурації RSS стрічок має містити JSON-об'єкт: %s",
+            RSS_FEEDS_CONFIG_FILE_PATH,
+        )
         return [], []
 
     private_feeds = _normalize_feed_list(
@@ -229,7 +235,7 @@ def _load_sync_state() -> Dict[str, Any]:
     try:
         loaded_state = json.loads(RSS_STATE_FILE_PATH.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        logger.warning("Could not parse rss state file, using defaults")
+        logger.warning("Не вдалося прочитати файл стану RSS, використано значення за замовчуванням")
         return _default_sync_state()
 
     if not isinstance(loaded_state, dict):
@@ -335,7 +341,7 @@ def _extract_publish_date_from_entry(rss_object: Any) -> str:
 
 
 def get_news_from_rss(rss_item: List[str]) -> List[Any]:
-    logger.debug(f"Querying RSS feed at {rss_item[0]}")
+    logger.debug(f"Запит RSS стрічки за адресою {rss_item[0]}")
     try:
         response = requests.get(
             rss_item[0],
@@ -344,7 +350,12 @@ def get_news_from_rss(rss_item: List[str]) -> List[Any]:
         )
         response.raise_for_status()
     except requests.RequestException as error:
-        logger.warning("Failed to fetch RSS feed %s (%s): %s", rss_item[1], rss_item[0], error)
+        logger.warning(
+            "Не вдалося отримати RSS стрічку %s (%s): %s",
+            rss_item[1],
+            rss_item[0],
+            error,
+        )
         return []
 
     feed_entries = feedparser.parse(response.content).entries
@@ -372,14 +383,14 @@ def _collect_interval_articles(
     articles_by_source: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
 
     for detail_name, details in source_details.items():
-        write_status_message(f"Checking {detail_name}")
+        write_status_message(f"Перевірка {detail_name}")
 
         if details["type"] == FeedTypes.RSS:
             total_rss_feeds = len(details["source"])
             for index, rss_feed in enumerate(details["source"], start=1):
                 if index == 1 or index % RSS_PROGRESS_NOTIFY_EVERY == 0 or index == total_rss_feeds:
                     write_status_message(
-                        f"{detail_name}: feed {index}/{total_rss_feeds} ({rss_feed[1]})"
+                        f"{detail_name}: стрічка {index}/{total_rss_feeds} ({rss_feed[1]})"
                     )
                 raw_articles = get_news_from_rss(rss_feed)
                 for raw_article in raw_articles:
@@ -410,7 +421,7 @@ def _collect_interval_articles(
     for detail_name, detail_articles in articles_by_source.items():
         detail_articles.sort(key=lambda article: article["publish_date"])
         logger.info(
-            "Collected %s unique articles for %s within interval",
+            "Зібрано %s унікальних статей для %s за інтервал",
             len(detail_articles),
             detail_name,
         )
@@ -494,8 +505,8 @@ def run_interval_sync() -> None:
     run_start_utc = _get_window_start(sync_state, run_end_utc)
 
     interval_message = (
-        "Starting RSS interval sync from "
-        f"{_format_datetime_kyiv(run_start_utc)} to {_format_datetime_kyiv(run_end_utc)}"
+        "Початок інтервальної синхронізації RSS з "
+        f"{_format_datetime_kyiv(run_start_utc)} до {_format_datetime_kyiv(run_end_utc)}"
     )
     print(interval_message)
 
@@ -509,10 +520,10 @@ def run_interval_sync() -> None:
         source_name: len(articles)
         for source_name, articles in interval_articles.items()
     }
-    logger.info("Collected %s candidate articles for dispatch", total_candidates)
-    print(f"Candidates total={total_candidates}; by_source={candidates_by_source}")
+    logger.info("Зібрано %s кандидатів статей для відправлення", total_candidates)
+    print(f"Усього кандидатів={total_candidates}; за джерелами={candidates_by_source}")
     write_status_message(
-        "Candidates collected: "
+        "Зібрано кандидатів: "
         + ", ".join(
             f"{source_name}={count}"
             for source_name, count in candidates_by_source.items()
@@ -522,10 +533,10 @@ def run_interval_sync() -> None:
     dispatched_count, dispatched_by_source = _dispatch_interval_articles(
         interval_articles, sync_state, run_end_utc
     )
-    logger.info("Dispatched %s articles", dispatched_count)
-    print(f"Dispatched total={dispatched_count}; by_source={dispatched_by_source}")
+    logger.info("Відправлено %s статей", dispatched_count)
+    print(f"Усього відправлено={dispatched_count}; за джерелами={dispatched_by_source}")
     write_status_message(
-        "Dispatched articles: "
+        "Відправлено статей: "
         + ", ".join(
             f"{source_name}={count}"
             for source_name, count in dispatched_by_source.items()
@@ -539,7 +550,7 @@ def run_interval_sync() -> None:
     _prune_sent_fingerprints(sync_state)
     _save_sync_state(sync_state)
 
-    write_status_message("RSS interval sync completed")
+    write_status_message("Інтервальну синхронізацію RSS завершено")
 
 
 def write_status_message(message: str) -> None:
