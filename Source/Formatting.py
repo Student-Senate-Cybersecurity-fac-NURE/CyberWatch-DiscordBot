@@ -21,7 +21,7 @@ from .public_settings import (
 KYIV_TIMEZONE = gettz(TIMEZONE_NAME) or gettz("Europe/Kiev")
 
 if KYIV_TIMEZONE is None:
-    raise RuntimeError(f"Could not resolve timezone: {TIMEZONE_NAME}")
+    raise RuntimeError(f"Не вдалося визначити часовий пояс: {TIMEZONE_NAME}")
 
 
 def cut_string(string: str, length: int) -> str:
@@ -64,9 +64,9 @@ def format_single_article(article: Dict[str, Any]) -> Embed:
                 description += SUMMARY_TRUNCATION_SUFFIX
                 break
 
-    source_text = f"**Source**: *{article['source']}*"
+    source_text = f"**Джерело**: *{article['source']}*"
     date_text = (
-        "**Date**: " + " | *".join(format_datetime(article["publish_date"])) + "*"
+        "**Дата**: " + " | *".join(format_datetime(article["publish_date"])) + "*"
     )
 
     if "link" in article:
