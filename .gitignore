@@ -147,8 +147,6 @@ ENV/
 env.bak/
 venv.bak/
 
-!.env.rss_feeds
-
 # Example environment configuration
 !.env.example
 
