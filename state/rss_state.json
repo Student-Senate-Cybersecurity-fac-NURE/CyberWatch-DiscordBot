@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-02T06:54:14+03:00",
-  "last_successful_run_at_utc": "2026-05-02T06:54:14+03:00",
+  "updated_at_utc": "2026-05-02T09:23:10+03:00",
+  "last_successful_run_at_utc": "2026-05-02T09:23:10+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-04-26T23:34:00+03:00",
@@ -155,8 +155,8 @@
       "source_name": "Cisco"
     },
     "484030fbcc9053ce4977637e90b6d3902adbcfde4071f9c66b7974a126944c0b": {
-      "last_seen_published_at_utc": "2026-04-30T19:00:00+03:00",
-      "last_seen_at_utc": "2026-04-30T20:46:47+03:00",
+      "last_seen_published_at_utc": "2026-05-02T06:06:08+03:00",
+      "last_seen_at_utc": "2026-05-02T09:21:09+03:00",
       "source_name": "Microsoft Security Blog"
     },
     "31734d9b3aef81d8b4aae547bb4912b13238de242ffdfeddaa2ca5e090d3ba62": {
@@ -960,7 +960,8 @@
     "6e7c16f757018a5dae6834fd6b4e93967f831454b5724d0f048af1edb033e168": "2026-05-02T06:52:39+03:00",
     "ba84e9fd12a522660662f8162dfb3be4e322c775d621db8a588625af3f2e99ac": "2026-05-02T06:52:39+03:00",
     "5224a8e94fb48c5d5b4de170019cac1cbd80cb6bcf582dcff67f664516a29d42": "2026-05-02T06:52:39+03:00",
-    "85361a51e72ed7d280a289732213f2fcd03f479dae6b0288b590faf97eea51f1": "2026-05-02T06:52:39+03:00"
+    "85361a51e72ed7d280a289732213f2fcd03f479dae6b0288b590faf97eea51f1": "2026-05-02T06:52:39+03:00",
+    "72ff8f271401b1845edc6f5f2e943a126759d14154e1ed0b1b0e18964a130109": "2026-05-02T09:21:09+03:00"
   },
-  "updated_by_run_id": "25243129605"
+  "updated_by_run_id": "25245678170"
 }
