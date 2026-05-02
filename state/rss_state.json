@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-02T12:35:42+03:00",
-  "last_successful_run_at_utc": "2026-05-02T12:35:43+03:00",
+  "updated_at_utc": "2026-05-02T16:52:07+03:00",
+  "last_successful_run_at_utc": "2026-05-02T16:52:07+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-04-26T23:34:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-02T11:22:39+03:00",
-      "last_seen_at_utc": "2026-05-02T12:34:26+03:00",
+      "last_seen_published_at_utc": "2026-05-02T15:55:38+03:00",
+      "last_seen_at_utc": "2026-05-02T16:50:18+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -60,8 +60,8 @@
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-05-01T20:00:05+03:00",
-      "last_seen_at_utc": "2026-05-01T20:14:52+03:00",
+      "last_seen_published_at_utc": "2026-05-02T14:00:10+03:00",
+      "last_seen_at_utc": "2026-05-02T16:50:18+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -966,7 +966,9 @@
     "592987f9b4c7aa7ca4e2ade7ca1ebcd6854273b3fa0f604b7615f770910d9a73": "2026-05-02T12:34:26+03:00",
     "e8c33e7d3197ecac6b840f4e9be241828864c57f9ad9b67fdccd709462dea56f": "2026-05-02T12:34:26+03:00",
     "9f10a806e16cf02f9468011c30b66d38bd1d5a16ef8181a0ee43d4bfb6d5c571": "2026-05-02T12:34:26+03:00",
-    "3099a247df9aea3c9af36fd7ff23af51c994c21ffa6f22fd24b6378f3179d72d": "2026-05-02T12:34:26+03:00"
+    "3099a247df9aea3c9af36fd7ff23af51c994c21ffa6f22fd24b6378f3179d72d": "2026-05-02T12:34:26+03:00",
+    "d9da64bf29c25fa5ab0c7dde66eb192c495b325a10d1149e4b7f657f06a5a165": "2026-05-02T16:50:18+03:00",
+    "a6e2ba2f4af15741561e3b0c53ed5e0d44664d7d1851d5e5ba3d517327580213": "2026-05-02T16:50:18+03:00"
   },
-  "updated_by_run_id": "25248994018"
+  "updated_by_run_id": "25253380216"
 }
