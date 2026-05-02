@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-02T00:10:31+03:00",
-  "last_successful_run_at_utc": "2026-05-02T00:10:31+03:00",
+  "updated_at_utc": "2026-05-02T06:54:14+03:00",
+  "last_successful_run_at_utc": "2026-05-02T06:54:14+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-04-26T23:34:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-01T18:48:46+03:00",
-      "last_seen_at_utc": "2026-05-01T20:14:52+03:00",
+      "last_seen_published_at_utc": "2026-05-02T02:30:46+03:00",
+      "last_seen_at_utc": "2026-05-02T06:52:39+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-01T20:52:06+03:00",
-      "last_seen_at_utc": "2026-05-02T00:09:17+03:00",
+      "last_seen_published_at_utc": "2026-05-02T03:18:05+03:00",
+      "last_seen_at_utc": "2026-05-02T06:52:39+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-01T23:35:46+03:00",
-      "last_seen_at_utc": "2026-05-02T00:09:17+03:00",
+      "last_seen_published_at_utc": "2026-05-02T00:14:29+03:00",
+      "last_seen_at_utc": "2026-05-02T06:52:39+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -235,8 +235,8 @@
       "source_name": "Rational Security"
     },
     "df4b3e16817f7694ef23349873bac8c67cecc34d2504a1cf1e93bb41c45a4a6b": {
-      "last_seen_published_at_utc": "2026-05-01T01:00:57+03:00",
-      "last_seen_at_utc": "2026-05-01T07:19:29+03:00",
+      "last_seen_published_at_utc": "2026-05-02T03:10:33+03:00",
+      "last_seen_at_utc": "2026-05-02T06:52:39+03:00",
       "source_name": "Unit 42"
     },
     "e5f73f26e22ff2d07d79d41264ba9871a3a07d8cc4c7760d36ab2405eb1c62ee": {
@@ -248,6 +248,11 @@
       "last_seen_published_at_utc": "2026-05-01T16:00:13+03:00",
       "last_seen_at_utc": "2026-05-01T16:55:21+03:00",
       "source_name": "SentinelOne"
+    },
+    "0e32c69bbaf17643f85e5591d4a574b5b06f7c774b1cd1e6354606485cc2cee5": {
+      "last_seen_published_at_utc": "2026-05-02T00:03:13+03:00",
+      "last_seen_at_utc": "2026-05-02T06:52:39+03:00",
+      "source_name": "Netflix TechBlog - Medium"
     }
   },
   "sent_fingerprints": {
@@ -947,7 +952,15 @@
     "36eef2977aae13c5113c9932a3483a9684386ea1986aa19743e24671410a7131": "2026-05-02T00:09:17+03:00",
     "b77a9b33883319257f56f71a4568548d1f8e45d3042b79e22326dfdd951e3741": "2026-05-02T00:09:17+03:00",
     "593fab5292a325cfabfdb3401af1533fd324adbcfd434efae8311e25fd363679": "2026-05-02T00:09:17+03:00",
-    "df3a39486863320cb232d454fee3afaa314e5c50488ff11be71e61a162a1c9d9": "2026-05-02T00:09:17+03:00"
+    "df3a39486863320cb232d454fee3afaa314e5c50488ff11be71e61a162a1c9d9": "2026-05-02T00:09:17+03:00",
+    "97fa5e7fdfd8065094202ed7ebc6ed2e8b4eeb7984ad7ed7dd4e4734e781f7f7": "2026-05-02T06:52:39+03:00",
+    "3adf6268eff288b28e58483c6a583dde78c53a4212e45602592e05ca72397c33": "2026-05-02T06:52:39+03:00",
+    "b848e521d6e4c469d9f2f630a9b57d63c376456163bba56a4081696c56430360": "2026-05-02T06:52:39+03:00",
+    "48009c3f5bd77795cf9b5fca71563b592b79b486f9fe46425e0f8cd92d69bf58": "2026-05-02T06:52:39+03:00",
+    "6e7c16f757018a5dae6834fd6b4e93967f831454b5724d0f048af1edb033e168": "2026-05-02T06:52:39+03:00",
+    "ba84e9fd12a522660662f8162dfb3be4e322c775d621db8a588625af3f2e99ac": "2026-05-02T06:52:39+03:00",
+    "5224a8e94fb48c5d5b4de170019cac1cbd80cb6bcf582dcff67f664516a29d42": "2026-05-02T06:52:39+03:00",
+    "85361a51e72ed7d280a289732213f2fcd03f479dae6b0288b590faf97eea51f1": "2026-05-02T06:52:39+03:00"
   },
-  "updated_by_run_id": "25233260357"
+  "updated_by_run_id": "25243129605"
 }
