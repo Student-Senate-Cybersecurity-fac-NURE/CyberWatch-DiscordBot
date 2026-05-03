@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-03T12:41:35+03:00",
-  "last_successful_run_at_utc": "2026-05-03T12:41:36+03:00",
+  "updated_at_utc": "2026-05-03T16:52:29+03:00",
+  "last_successful_run_at_utc": "2026-05-03T16:52:29+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-04-26T23:34:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-03T04:01:07+03:00",
-      "last_seen_at_utc": "2026-05-03T07:12:41+03:00",
+      "last_seen_published_at_utc": "2026-05-03T16:00:45+03:00",
+      "last_seen_at_utc": "2026-05-03T16:50:34+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -45,8 +45,8 @@
       "source_name": "www.crowdstrike.com/blog"
     },
     "1c944410f3c64db869c30b11957ea3b7d7f1db2a4ff30c78df28cee79c36c545": {
-      "last_seen_published_at_utc": "2026-05-01T13:48:19+03:00",
-      "last_seen_at_utc": "2026-05-01T16:55:21+03:00",
+      "last_seen_published_at_utc": "2026-05-03T13:33:26+03:00",
+      "last_seen_at_utc": "2026-05-03T16:50:34+03:00",
       "source_name": "Malwarebytes Unpacked"
     },
     "852650ccf6c37cf65dae8352f0d05d556cab5e31a6ccaf89fa3478fdd6263d73": {
@@ -55,13 +55,13 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-03T02:57:37+03:00",
-      "last_seen_at_utc": "2026-05-03T07:12:41+03:00",
+      "last_seen_published_at_utc": "2026-05-03T15:33:07+03:00",
+      "last_seen_at_utc": "2026-05-03T16:50:34+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-05-02T14:00:10+03:00",
-      "last_seen_at_utc": "2026-05-02T16:50:18+03:00",
+      "last_seen_published_at_utc": "2026-05-03T16:00:10+03:00",
+      "last_seen_at_utc": "2026-05-03T16:50:34+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -982,7 +982,11 @@
     "e1c3563a95c50357d6aa0d838c5544fa86602a7772415aa0b1fd6c882f93f674": "2026-05-03T07:12:41+03:00",
     "71a0ef7bd288e22fb1b9d52aea92240146e1baac1ffbe511915adc2ce2d8235d": "2026-05-03T12:40:21+03:00",
     "1765ca87fe2f2a4b88ad578e1debfdd6e626642538b5b847a129ebbf66b7abe8": "2026-05-03T12:40:21+03:00",
-    "6a73d9e2414650e1609f5b4c1045cdaf814db3df6fe3e7ed24f32667d7bbf821": "2026-05-03T12:40:21+03:00"
+    "6a73d9e2414650e1609f5b4c1045cdaf814db3df6fe3e7ed24f32667d7bbf821": "2026-05-03T12:40:21+03:00",
+    "a8aaf657d366151fa49d7704752468fea3ef1be86807159f5fdef4f93a831b24": "2026-05-03T16:50:34+03:00",
+    "f3b7cf6ff4154a2e0e12ac6950518813c8e276066345b2f74730b5c410a79543": "2026-05-03T16:50:34+03:00",
+    "61579b9e995342194d11dfcbff98e2b73d8e0632dd3a9a0ccc149b24e3a224c5": "2026-05-03T16:50:34+03:00",
+    "85b6fb7bb1a53017bdf1448e8a1038a28b04a3ce71b7f3041e6843bdd68fc9b8": "2026-05-03T16:50:34+03:00"
   },
-  "updated_by_run_id": "25275692396"
+  "updated_by_run_id": "25280934038"
 }
