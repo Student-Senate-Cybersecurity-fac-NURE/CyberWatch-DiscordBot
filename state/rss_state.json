@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-05T00:33:04+03:00",
-  "last_successful_run_at_utc": "2026-05-05T00:33:04+03:00",
+  "updated_at_utc": "2026-05-05T06:52:53+03:00",
+  "last_successful_run_at_utc": "2026-05-05T06:52:53+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-03T21:12:00+03:00",
@@ -10,18 +10,18 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-04T23:44:58+03:00",
-      "last_seen_at_utc": "2026-05-05T00:31:41+03:00",
+      "last_seen_published_at_utc": "2026-05-05T04:00:42+03:00",
+      "last_seen_at_utc": "2026-05-05T06:51:30+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
-      "last_seen_published_at_utc": "2026-05-04T06:43:06+03:00",
-      "last_seen_at_utc": "2026-05-04T10:25:58+03:00",
+      "last_seen_published_at_utc": "2026-05-05T05:08:50+03:00",
+      "last_seen_at_utc": "2026-05-05T06:51:30+03:00",
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-05-04T23:50:10+03:00",
-      "last_seen_at_utc": "2026-05-05T00:31:41+03:00",
+      "last_seen_published_at_utc": "2026-05-05T05:12:16+03:00",
+      "last_seen_at_utc": "2026-05-05T06:51:30+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-04T22:10:42+03:00",
-      "last_seen_at_utc": "2026-05-05T00:31:41+03:00",
+      "last_seen_published_at_utc": "2026-05-05T00:32:10+03:00",
+      "last_seen_at_utc": "2026-05-05T06:51:30+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-04T23:03:28+03:00",
-      "last_seen_at_utc": "2026-05-05T00:31:41+03:00",
+      "last_seen_published_at_utc": "2026-05-05T01:12:57+03:00",
+      "last_seen_at_utc": "2026-05-05T06:51:30+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -1092,7 +1092,12 @@
     "a6d58bd8d290b1a24756fd920182df00bf78d598c9facd213cd787033273ec9d": "2026-05-05T00:31:41+03:00",
     "1a0f05f16a56c7ff9f2f8eb220783aa544f34e6cf9ad9aabb9348c4f18cb9c97": "2026-05-05T00:31:41+03:00",
     "0bb5ad10dfb813fc22a079f731b3f862c0dcae73b24910e055351f4afc4c02c1": "2026-05-05T00:31:41+03:00",
-    "12827d6304b92f2a3881c4f01070fb58e4eb42bfdf08c6def3e73564d7b9273d": "2026-05-05T00:31:41+03:00"
+    "12827d6304b92f2a3881c4f01070fb58e4eb42bfdf08c6def3e73564d7b9273d": "2026-05-05T00:31:41+03:00",
+    "d84ef9e74b2c4a1b1f982956701531e4d7811cf70ad4dfe7b753fdd4341db7e4": "2026-05-05T06:51:30+03:00",
+    "9e638a33a91abbaf90635d0997baa6b8a1d831ac7d49f4a3256f5897c0a84ab3": "2026-05-05T06:51:30+03:00",
+    "3fd62ebaf3edfd1c6dc735c7034b385392b773a6671047315c5fbcd113fcc907": "2026-05-05T06:51:30+03:00",
+    "92feda787a52cbf4add8bdb33255905dd96dfd6fde4fc648a0b8aa35c38b8d5c": "2026-05-05T06:51:30+03:00",
+    "87536489f6914d9a99c1d19777fbacbdd960a2c5b235b5406d07d4ae765fa824": "2026-05-05T06:51:30+03:00"
   },
-  "updated_by_run_id": "25344641779"
+  "updated_by_run_id": "25356872028"
 }
