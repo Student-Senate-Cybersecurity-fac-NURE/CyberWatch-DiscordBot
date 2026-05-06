@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-06T07:08:14+03:00",
-  "last_successful_run_at_utc": "2026-05-06T07:08:14+03:00",
+  "updated_at_utc": "2026-05-06T09:48:35+03:00",
+  "last_successful_run_at_utc": "2026-05-06T09:48:36+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-05T23:03:00+03:00",
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-05-05T23:40:11+03:00",
-      "last_seen_at_utc": "2026-05-06T00:15:59+03:00",
+      "last_seen_published_at_utc": "2026-05-06T08:30:00+03:00",
+      "last_seen_at_utc": "2026-05-06T09:47:29+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -1191,7 +1191,8 @@
     "811bdf41ccdef5238f6a0928f32668adfdab37c8e95fea9a514748002be0f34f": "2026-05-06T07:07:05+03:00",
     "7f284123bb318ba5c512c5e4cb05f27c44fed94f9de2aedbcf59003d752df724": "2026-05-06T07:07:05+03:00",
     "59984ed454e260d33699dba37763b679aec1f6da8c5f7a7437782556eb171bb0": "2026-05-06T07:07:05+03:00",
-    "a7592730328ad38a6e5501b0d1527cef0f3dae186a0f61dc35878b7c85ff4499": "2026-05-06T07:07:05+03:00"
+    "a7592730328ad38a6e5501b0d1527cef0f3dae186a0f61dc35878b7c85ff4499": "2026-05-06T07:07:05+03:00",
+    "b3a42884fd1c32a64856fcafd904df9a5612fe667b2823cb5c85e40575b90bc6": "2026-05-06T09:47:29+03:00"
   },
-  "updated_by_run_id": "25415881875"
+  "updated_by_run_id": "25420633480"
 }
