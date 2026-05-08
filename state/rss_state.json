@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-08T06:56:34+03:00",
-  "last_successful_run_at_utc": "2026-05-08T06:56:35+03:00",
+  "updated_at_utc": "2026-05-08T09:12:28+03:00",
+  "last_successful_run_at_utc": "2026-05-08T09:12:29+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-05T23:03:00+03:00",
@@ -1376,5 +1376,5 @@
     "4730b8c84ac98574e022a2ba003fd89dec10bde74e339857108036446e1e875f": "2026-05-08T06:55:06+03:00",
     "f6f3ea1ba151b0d982acab34dcffc3b61cdcfbce2657a36c07439c7ca9084cba": "2026-05-08T06:55:06+03:00"
   },
-  "updated_by_run_id": "25535759767"
+  "updated_by_run_id": "25540065935"
 }
