@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-09T00:19:38+03:00",
-  "last_successful_run_at_utc": "2026-05-09T00:19:42+03:00",
+  "updated_at_utc": "2026-05-09T06:59:28+03:00",
+  "last_successful_run_at_utc": "2026-05-09T06:59:28+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-05T23:03:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-08T23:46:06+03:00",
-      "last_seen_at_utc": "2026-05-09T00:17:12+03:00",
+      "last_seen_published_at_utc": "2026-05-09T02:48:51+03:00",
+      "last_seen_at_utc": "2026-05-09T06:57:37+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-08T23:57:01+03:00",
-      "last_seen_at_utc": "2026-05-09T00:17:12+03:00",
+      "last_seen_published_at_utc": "2026-05-09T00:45:20+03:00",
+      "last_seen_at_utc": "2026-05-09T06:57:37+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -105,8 +105,8 @@
       "source_name": "The Record from Recorded Future News"
     },
     "23552ce9b4f7cd04d59844b37a066816ffc7e011ae5220c0e0a0d89ebe3fb453": {
-      "last_seen_published_at_utc": "2026-05-08T20:23:00+03:00",
-      "last_seen_at_utc": "2026-05-08T20:44:54+03:00",
+      "last_seen_published_at_utc": "2026-05-09T02:24:31+03:00",
+      "last_seen_at_utc": "2026-05-09T06:57:37+03:00",
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
@@ -1451,7 +1451,11 @@
     "bf1bc8f9126c0823dc6bfcac3f3f4fed7787c1a5807780c264fbdbe81950f707": "2026-05-09T00:17:12+03:00",
     "cc3f7a236b1d4b72714edbf59622cbc96736770953b11d3b060f918c952cac64": "2026-05-09T00:17:12+03:00",
     "4916c8f4a2cb55e9537ad3a86bef53cdfe97b75225d6f32710e9e08b8cc7730b": "2026-05-09T00:17:12+03:00",
-    "ae223c86119ad6089dde0b342b8b668d268c9beb776b5fa34318d617841bec22": "2026-05-09T00:17:12+03:00"
+    "ae223c86119ad6089dde0b342b8b668d268c9beb776b5fa34318d617841bec22": "2026-05-09T00:17:12+03:00",
+    "af6ed6322e2f2b5dddc605d90384dfb6dc2d0164a272c0351722ecc1d279ead9": "2026-05-09T06:57:37+03:00",
+    "dc45629eb764fba021ab2f07e63988444f6e1efd2bceff48f6881d2bd5c6c9f1": "2026-05-09T06:57:37+03:00",
+    "68bbf310e9cebc151d8b1a4abb359cdbec744d1ad3d7bc02a947540f510fc318": "2026-05-09T06:57:37+03:00",
+    "a12edfd4d9166ecb9514009a4aba6d68683d22f36a211c882198f1deec40bad2": "2026-05-09T06:57:37+03:00"
   },
-  "updated_by_run_id": "25579968678"
+  "updated_by_run_id": "25591064548"
 }
