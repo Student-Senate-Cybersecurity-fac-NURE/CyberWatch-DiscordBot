@@ -150,10 +150,6 @@ venv.bak/
 # Example environment configuration
 !.env.example
 
-# Examples of environment configurations for RSS and Telegram feeds
-!.env.rss_feeds.example
-!.env.telegram_feeds.example
-
 # Security: Secrets and credentials (NEVER commit these)
 *.pem
 *.key
@@ -246,4 +242,3 @@ logs/
 
 *session
 
-TelegramImages/*

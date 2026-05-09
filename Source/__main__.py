@@ -1,35 +1,40 @@
 import sys
+from typing import List
 
 from . import config
-from .Utils import get_missing_config_params, configure_logger
+from .Utils import configure_logger
+from .public_settings import (
+    CLI_MISSING_COMMAND_MESSAGE,
+    CLI_UNKNOWN_COMMAND_MESSAGE,
+    CONFIG_SECTION_WEBHOOKS,
+    REQUIRED_RSS_WEBHOOK_KEYS,
+    SUPPORTED_RSS_COMMANDS,
+)
 
 
-def verify_config(section_name: str) -> None:
-    missing_params = get_missing_config_params(config, section_name)
+def verify_required_webhooks(required_webhooks: List[str]) -> None:
+    missing_webhooks: List[str] = [
+        hook_name
+        for hook_name in required_webhooks
+        if not config[CONFIG_SECTION_WEBHOOKS].get(hook_name)
+    ]
 
-    if len(missing_params) > 0:
+    if len(missing_webhooks) > 0:
         sys.exit(
-            f"You havent't specified {', '.join(missing_params)} in the .env file"
+            f"У файлі .env не вказано {', '.join(missing_webhooks)}"
         )
 
 
 if __name__ == "__main__":
-    verify_config("Webhooks")
     if len(sys.argv) > 1:
         command: str = sys.argv[1].lower()
-        match command:
-            case "rss":
-                from .Bots import RSS as bot
-            case "telegram":
-                verify_config("Telegram")
-                from .Bots import Telegram as bot  # type: ignore[no-redef]
-            case _:
-                sys.exit(
-                    "Argument not recognized. The possible options are rss and telegram"
-                )
+        if command not in SUPPORTED_RSS_COMMANDS:
+            sys.exit(CLI_UNKNOWN_COMMAND_MESSAGE)
+
+        verify_required_webhooks(list(REQUIRED_RSS_WEBHOOK_KEYS))
+        from .Bots import RSS as bot
+
         configure_logger(command)
-        bot.main()
+        bot.run_interval_sync()
     else:
-        sys.exit(
-            "Please provide an argument for what bot should be run. The possible options are rss and telegram"
-        )
+        sys.exit(CLI_MISSING_COMMAND_MESSAGE)

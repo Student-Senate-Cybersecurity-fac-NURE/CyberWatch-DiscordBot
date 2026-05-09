@@ -1,16 +1,35 @@
 from discord import Embed
 from typing import List, Dict, Any, Union
 
-from datetime import datetime
+from datetime import datetime, timezone
 import dateutil.parser
+from dateutil.tz import gettz
 
+from .public_settings import (
+    CUT_SUFFIX,
+    DATE_OUTPUT_FORMAT,
+    DATETIME_FALLBACK_SEPARATOR,
+    DETAILS_FIELD_NAME,
+    MAIN_COLOR,
+    SUMMARY_MAX_DESCRIPTION_LENGTH,
+    SUMMARY_TRUNCATION_SUFFIX,
+    THUMBNAIL_URL,
+    TIME_OUTPUT_FORMAT,
+    TIMEZONE_NAME,
+)
 
-MAIN_COLOR = 0x000000
-THUMBNAIL_URL = "https://avatars.githubusercontent.com/u/87911852?s=280&v=4"
+KYIV_TIMEZONE = gettz(TIMEZONE_NAME) or gettz("Europe/Kiev")
+
+if KYIV_TIMEZONE is None:
+    raise RuntimeError(f"Не вдалося визначити часовий пояс: {TIMEZONE_NAME}")
 
 
 def cut_string(string: str, length: int) -> str:
-    return (string[: (length - 3)].strip() + "...") if len(string) > length else string
+    return (
+        string[: (length - len(CUT_SUFFIX))].strip() + CUT_SUFFIX
+        if len(string) > length
+        else string
+    )
 
 
 def format_datetime(article_datetime: Union[datetime, str]) -> List[str]:
@@ -22,9 +41,16 @@ def format_datetime(article_datetime: Union[datetime, str]) -> List[str]:
         try:
             dt_object = dateutil.parser.isoparse(article_datetime)
         except ValueError:
-            return article_datetime.split("T")
+            return article_datetime.split(DATETIME_FALLBACK_SEPARATOR)
 
-    return [dt_object.strftime("%d, %b %Y"), dt_object.strftime("%H:%M")]
+    if dt_object.tzinfo is None:
+        dt_object = dt_object.replace(tzinfo=timezone.utc)
+
+    kyiv_datetime = dt_object.astimezone(KYIV_TIMEZONE)
+    return [
+        kyiv_datetime.strftime(DATE_OUTPUT_FORMAT),
+        kyiv_datetime.strftime(TIME_OUTPUT_FORMAT),
+    ]
 
 
 def format_single_article(article: Dict[str, Any]) -> Embed:
@@ -32,15 +58,15 @@ def format_single_article(article: Dict[str, Any]) -> Embed:
 
     if "summary" in article:
         for text_part in article["summary"].split("."):
-            if not (len(description) + len(text_part)) > 250:
+            if not (len(description) + len(text_part)) > SUMMARY_MAX_DESCRIPTION_LENGTH:
                 description += text_part + "."
             else:
-                description += ".."
+                description += SUMMARY_TRUNCATION_SUFFIX
                 break
 
-    source_text = f"**Source**: *{article['source']}*"
+    source_text = f"**Джерело**: *{article['source']}*"
     date_text = (
-        "**Date**: " + " | *".join(format_datetime(article["publish_date"])) + "*"
+        "**Дата**: " + " | *".join(format_datetime(article["publish_date"])) + "*"
     )
 
     if "link" in article:
@@ -59,7 +85,7 @@ def format_single_article(article: Dict[str, Any]) -> Embed:
         message.add_field(name=description, value=article["link"], inline=False)
 
         message.add_field(
-            name="Details: ",
+            name=DETAILS_FIELD_NAME,
             value=source_text + "\n" + date_text,
             inline=False,
         )

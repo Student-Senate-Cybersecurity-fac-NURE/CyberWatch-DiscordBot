@@ -11,12 +11,8 @@ feedparser==6.0.12
 frozenlist==1.8.0
 idna==3.11
 multidict==6.7.0
-pyaes==1.6.1
-pyasn1==0.6.1
 requests==2.32.5
-rsa==4.9.1
 sgmllib3k==1.0.0
-Telethon==1.42.0
 typing-extensions==4.15.0
 python-dotenv==1.2.1
 urllib3==2.6.2

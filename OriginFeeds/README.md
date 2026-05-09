@@ -1,5 +1,5 @@
-# Acknowledgements
+# Подяка
 
-We would like to express our sincere gratitude to **David Longenecker** ([@dnlongen](https://x.com/dnlongen)) for publicly sharing his extensive list of security RSS feeds on GitHub.
+Висловлюємо щиру вдячність **David Longenecker** ([@dnlongen](https://x.com/dnlongen)) за публічне поширення його великого списку RSS-стрічок із безпеки на GitHub.
 
-His contribution has been invaluable, providing approximately 90% of the feeds included in our example configuration file: [.env.rss_feeds.example](.env.rss_feeds.example).
+Його внесок є безцінним і забезпечує приблизно 90% стрічок, включених до нашого публічного конфігураційного файлу: [rss_feeds.json](rss_feeds.json).
