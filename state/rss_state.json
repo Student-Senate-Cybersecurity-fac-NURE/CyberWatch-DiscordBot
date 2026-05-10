@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-10T12:49:08+03:00",
-  "last_successful_run_at_utc": "2026-05-10T12:49:08+03:00",
+  "updated_at_utc": "2026-05-10T16:55:29+03:00",
+  "last_successful_run_at_utc": "2026-05-10T16:55:29+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-05T23:03:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-10T12:01:05+03:00",
-      "last_seen_at_utc": "2026-05-10T12:47:19+03:00",
+      "last_seen_published_at_utc": "2026-05-10T14:01:41+03:00",
+      "last_seen_at_utc": "2026-05-10T16:53:57+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-10T11:20:42+03:00",
-      "last_seen_at_utc": "2026-05-10T12:47:19+03:00",
+      "last_seen_published_at_utc": "2026-05-10T15:33:57+03:00",
+      "last_seen_at_utc": "2026-05-10T16:53:57+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -55,13 +55,13 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-10T12:46:46+03:00",
-      "last_seen_at_utc": "2026-05-10T12:47:19+03:00",
+      "last_seen_published_at_utc": "2026-05-10T15:29:59+03:00",
+      "last_seen_at_utc": "2026-05-10T16:53:57+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-05-09T14:00:07+03:00",
-      "last_seen_at_utc": "2026-05-09T16:54:05+03:00",
+      "last_seen_published_at_utc": "2026-05-10T16:00:06+03:00",
+      "last_seen_at_utc": "2026-05-10T16:53:57+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-05-09T10:16:00+03:00",
-      "last_seen_at_utc": "2026-05-09T12:44:26+03:00",
+      "last_seen_published_at_utc": "2026-05-10T15:41:00+03:00",
+      "last_seen_at_utc": "2026-05-10T16:53:57+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -1482,7 +1482,13 @@
     "8a941010914024f91625a29544c9a6b3091320b04c6a569a47c0b6ee4e52ccfe": "2026-05-10T12:47:19+03:00",
     "4c00dff5b67324978ebd9b995b7372be645d7ecb23403c264d214a4998794a3a": "2026-05-10T12:47:19+03:00",
     "b8a51d127e6241bdad79c2cad7d47487c05791280ad5c30f7e39fd78636e7e4d": "2026-05-10T12:47:19+03:00",
-    "b2c30e4d1297964890e3150a8e5f2a12f947564527fb072f819c8949036bd34f": "2026-05-10T12:47:19+03:00"
+    "b2c30e4d1297964890e3150a8e5f2a12f947564527fb072f819c8949036bd34f": "2026-05-10T12:47:19+03:00",
+    "08d21e54035afde9b30f3620fad1d6c25e8c38914e8bcec34ea321abbdb8f2ce": "2026-05-10T16:53:57+03:00",
+    "a5d83ebb40890b75e59ef634c7f9ac15332c9dc388f4bb4fd9b19c870feb6801": "2026-05-10T16:53:57+03:00",
+    "7f427f80d98283f91324f32c49ce0087ecdfe85137431e78c6c51ccdfa82f566": "2026-05-10T16:53:57+03:00",
+    "a77ca58f8dc594a385f9159e9797ab25da51d01535c67c40f1f605acc5dc0ae5": "2026-05-10T16:53:57+03:00",
+    "12c8d45976a3d27d436538482d4d0c1009c2d5fc27b2e621c0e8a7b5befc9ba5": "2026-05-10T16:53:57+03:00",
+    "b68a94d88fc3080bb93296ccc9c65cdb2c6aae46ee8e2d163dee70abda80a9cc": "2026-05-10T16:53:57+03:00"
   },
-  "updated_by_run_id": "25625573391"
+  "updated_by_run_id": "25630500668"
 }
