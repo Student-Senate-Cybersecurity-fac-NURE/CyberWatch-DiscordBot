@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-09T23:30:20+03:00",
-  "last_successful_run_at_utc": "2026-05-09T23:30:20+03:00",
+  "updated_at_utc": "2026-05-10T07:14:00+03:00",
+  "last_successful_run_at_utc": "2026-05-10T07:14:01+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-05T23:03:00+03:00",
@@ -115,8 +115,8 @@
       "source_name": "Yubico"
     },
     "ae5b5707f27d1f3c404ba652bc11f47fe0d2d498938b6e444bcb7076820520b3": {
-      "last_seen_published_at_utc": "2026-05-07T19:49:00+03:00",
-      "last_seen_at_utc": "2026-05-08T00:15:41+03:00",
+      "last_seen_published_at_utc": "2026-05-10T01:00:00+03:00",
+      "last_seen_at_utc": "2026-05-10T07:12:38+03:00",
       "source_name": "SearchSecurity"
     },
     "ca833678fc37f02e44f45092ffb670edaa3e354978729f09792656aded213db8": {
@@ -273,6 +273,11 @@
       "last_seen_published_at_utc": "2026-05-08T22:23:16+03:00",
       "last_seen_at_utc": "2026-05-09T00:17:12+03:00",
       "source_name": "CERT Recently Published Vulnerability Notes"
+    },
+    "66884778451a2aa2d8008c8da200e1a467336e2426b38004be38456bd41c5276": {
+      "last_seen_published_at_utc": "2026-05-09T22:19:16+03:00",
+      "last_seen_at_utc": "2026-05-10T07:12:38+03:00",
+      "source_name": "Adam Chester"
     }
   },
   "sent_fingerprints": {
@@ -1470,7 +1475,9 @@
     "4194f8a0aef97fcfcbf422b518e5f6a2515f492e03335e23c7345efdc3aeff52": "2026-05-09T23:28:50+03:00",
     "ce50f040a4a935dd20a0c55838f83a7603169fb988514b0635d000c45eab41fb": "2026-05-09T23:28:50+03:00",
     "3603705b40fb315cfad3ab3872bc61bd8c2e57c85cf2e28babfe809298ebcd6b": "2026-05-09T23:28:50+03:00",
-    "87dc3c7cebf1be1a6deaed5a430a7f7ce2e4078e8dd9055fcebecc49d6f5bc2d": "2026-05-09T23:28:50+03:00"
+    "87dc3c7cebf1be1a6deaed5a430a7f7ce2e4078e8dd9055fcebecc49d6f5bc2d": "2026-05-09T23:28:50+03:00",
+    "18bbdb64a77454ab02cdd365b924bc40593a49022bd0b9f362affcc0eb14dd25": "2026-05-10T07:12:38+03:00",
+    "caf3fc601319086775ed57d6dc03fc549b9b75ee1c9d39ea157a5b819a5c12f1": "2026-05-10T07:12:38+03:00"
   },
-  "updated_by_run_id": "25606940974"
+  "updated_by_run_id": "25619512921"
 }
