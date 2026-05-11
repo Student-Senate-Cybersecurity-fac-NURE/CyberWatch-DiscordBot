@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-11T00:05:49+03:00",
-  "last_successful_run_at_utc": "2026-05-11T00:05:49+03:00",
+  "updated_at_utc": "2026-05-11T07:24:24+03:00",
+  "last_successful_run_at_utc": "2026-05-11T07:24:24+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
-      "last_seen_published_at_utc": "2026-05-05T23:03:00+03:00",
-      "last_seen_at_utc": "2026-05-06T00:15:59+03:00",
+      "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
+      "last_seen_at_utc": "2026-05-11T07:23:05+03:00",
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-10T21:14:50+03:00",
-      "last_seen_at_utc": "2026-05-11T00:04:26+03:00",
+      "last_seen_published_at_utc": "2026-05-11T02:13:22+03:00",
+      "last_seen_at_utc": "2026-05-11T07:23:05+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-05-06T03:14:13+03:00",
-      "last_seen_at_utc": "2026-05-06T07:07:05+03:00",
+      "last_seen_published_at_utc": "2026-05-11T03:24:17+03:00",
+      "last_seen_at_utc": "2026-05-11T07:23:05+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -1493,7 +1493,12 @@
     "c894c55aaa9e9871dcf009d1fdfc5b489028818868614988232dd49114037b6e": "2026-05-10T20:11:06+03:00",
     "dce3f0bb76c45592ff4914e907c4071cd9b665558170d764abbfa33ed595a0c7": "2026-05-11T00:04:26+03:00",
     "cacd8242dbc93649a2bafbf68c11c130f4238d5cbd1b37b9438c39d3781fd87e": "2026-05-11T00:04:26+03:00",
-    "d6bf4d64e859445e92b34fa7f6cf73b6732beeed3be41d0f0f2db1b6cfad6dc6": "2026-05-11T00:04:26+03:00"
+    "d6bf4d64e859445e92b34fa7f6cf73b6732beeed3be41d0f0f2db1b6cfad6dc6": "2026-05-11T00:04:26+03:00",
+    "91ade0e297d3b027418d4bc516013c9f924d86693495224fe486c26d6d4ce587": "2026-05-11T07:23:05+03:00",
+    "8ce2fefbff4797e2d4ecf08504bf256b4fd50af05dd7d06ba6e86daf7ae4e088": "2026-05-11T07:23:05+03:00",
+    "c48dc2011966e55114b267746dc56e924e34a1181e5936b46a9e1e2648db245d": "2026-05-11T07:23:05+03:00",
+    "c9cafe2e24d663f046bbaf3740c1d9b495e0b97e368003bbc1f3978438fe6c1a": "2026-05-11T07:23:05+03:00",
+    "b52c70a3572f36a6a7566da8d011bbfaec364a4c03be707e7f45976c5ed82b1c": "2026-05-11T07:23:05+03:00"
   },
-  "updated_by_run_id": "25639740821"
+  "updated_by_run_id": "25650149780"
 }
