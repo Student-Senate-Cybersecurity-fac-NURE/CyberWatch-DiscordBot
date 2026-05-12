@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-12T00:41:59+03:00",
-  "last_successful_run_at_utc": "2026-05-12T00:41:59+03:00",
+  "updated_at_utc": "2026-05-12T07:04:41+03:00",
+  "last_successful_run_at_utc": "2026-05-12T07:04:41+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-12T00:25:24+03:00",
-      "last_seen_at_utc": "2026-05-12T00:40:26+03:00",
+      "last_seen_published_at_utc": "2026-05-12T05:00:41+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-05-11T23:21:09+03:00",
-      "last_seen_at_utc": "2026-05-12T00:40:26+03:00",
+      "last_seen_published_at_utc": "2026-05-12T02:16:25+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-11T19:49:51+03:00",
-      "last_seen_at_utc": "2026-05-11T21:04:02+03:00",
+      "last_seen_published_at_utc": "2026-05-12T05:30:50+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-11T18:26:26+03:00",
-      "last_seen_at_utc": "2026-05-11T18:34:45+03:00",
+      "last_seen_published_at_utc": "2026-05-12T01:40:34+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-11T20:15:18+03:00",
-      "last_seen_at_utc": "2026-05-11T21:04:02+03:00",
+      "last_seen_published_at_utc": "2026-05-12T01:21:02+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -120,13 +120,13 @@
       "source_name": "SearchSecurity"
     },
     "ca833678fc37f02e44f45092ffb670edaa3e354978729f09792656aded213db8": {
-      "last_seen_published_at_utc": "2026-05-08T03:00:00+03:00",
-      "last_seen_at_utc": "2026-05-08T06:55:06+03:00",
+      "last_seen_published_at_utc": "2026-05-12T03:00:00+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-05-11T03:24:17+03:00",
-      "last_seen_at_utc": "2026-05-11T07:23:05+03:00",
+      "last_seen_published_at_utc": "2026-05-12T01:27:32+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -235,8 +235,8 @@
       "source_name": "Rational Security"
     },
     "df4b3e16817f7694ef23349873bac8c67cecc34d2504a1cf1e93bb41c45a4a6b": {
-      "last_seen_published_at_utc": "2026-05-07T03:00:53+03:00",
-      "last_seen_at_utc": "2026-05-07T07:06:58+03:00",
+      "last_seen_published_at_utc": "2026-05-12T01:00:43+03:00",
+      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
       "source_name": "Unit 42"
     },
     "e5f73f26e22ff2d07d79d41264ba9871a3a07d8cc4c7760d36ab2405eb1c62ee": {
@@ -1578,7 +1578,19 @@
     "f0b0ebb2e650aa8522b5d3435f218b591ae3203ebd400262a50606672af924a0": "2026-05-12T00:40:26+03:00",
     "94ec2af85056e437675a3d4489ea750eab115025c151e04ed0d9e813dadc46df": "2026-05-12T00:40:26+03:00",
     "db6d7edc394125e842c8b7ff13ed6a0bc84dc25abedc21e80717dd16a5567d2d": "2026-05-12T00:40:26+03:00",
-    "9ce213c988c845a1020986229cce6a4119db94711623558d78fc4c40f07735c2": "2026-05-12T00:40:26+03:00"
+    "9ce213c988c845a1020986229cce6a4119db94711623558d78fc4c40f07735c2": "2026-05-12T00:40:26+03:00",
+    "e8ef99692b6c8f291462589f0db96a10d7130fa484c7e38cf49f00fbdc718e0e": "2026-05-12T07:03:25+03:00",
+    "97447f0e97cfb61ce7a98eab3eb4a2d78f4895d2f28a18b019ff031c242e3264": "2026-05-12T07:03:25+03:00",
+    "ecc72d7b01ba00b62df696fa6b4b7ebfe941d721f2de44a5a634b97f2a6a362b": "2026-05-12T07:03:25+03:00",
+    "49a72f58b03ee20a69f56a32ad06920061f8c7eb2c2ccbef8e0e710d1df69909": "2026-05-12T07:03:25+03:00",
+    "84974bbec9aacec7d01088072aa2284d37aa1114f5285153bf0164c5bc191594": "2026-05-12T07:03:25+03:00",
+    "990568355939d834b3e20d45496e6527c39a23b885c4b79686d6a5c32fd7dce0": "2026-05-12T07:03:25+03:00",
+    "f02e1bc10628ee32e7fd7f620e4b7e3713f0594a70f592f05806c1ad595b9cf1": "2026-05-12T07:03:25+03:00",
+    "989a5e3536e66f0c23abaf726a26d7a79ffe00eba0b69244afac6a47e47b110c": "2026-05-12T07:03:25+03:00",
+    "a7c89e7478fc15df5f5dfed0d48c4658a6020fdb997f8c31cc3bab9e02cc00ea": "2026-05-12T07:03:25+03:00",
+    "16677ad1c9efbf3301092418cc82012446c48e7c91f519edbe12f5fd66629a46": "2026-05-12T07:03:25+03:00",
+    "fef5560a3702bb8a444c1a94a1f4bf1ac15beb21321daf36be136d7503358c62": "2026-05-12T07:03:25+03:00",
+    "b53a8a1c6f82cd200f23a02f160d8698818cf8100feae246317318faad2fc943": "2026-05-12T07:03:25+03:00"
   },
-  "updated_by_run_id": "25698927326"
+  "updated_by_run_id": "25712591021"
 }
