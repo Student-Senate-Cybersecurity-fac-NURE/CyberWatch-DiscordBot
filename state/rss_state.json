@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-12T07:04:41+03:00",
-  "last_successful_run_at_utc": "2026-05-12T07:04:41+03:00",
+  "updated_at_utc": "2026-05-12T09:48:09+03:00",
+  "last_successful_run_at_utc": "2026-05-12T09:48:09+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-05-12T02:16:25+03:00",
-      "last_seen_at_utc": "2026-05-12T07:03:25+03:00",
+      "last_seen_published_at_utc": "2026-05-12T08:40:37+03:00",
+      "last_seen_at_utc": "2026-05-12T09:47:07+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-05-11T21:30:00+03:00",
-      "last_seen_at_utc": "2026-05-12T00:40:26+03:00",
+      "last_seen_published_at_utc": "2026-05-12T08:18:00+03:00",
+      "last_seen_at_utc": "2026-05-12T09:47:07+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -1590,7 +1590,9 @@
     "a7c89e7478fc15df5f5dfed0d48c4658a6020fdb997f8c31cc3bab9e02cc00ea": "2026-05-12T07:03:25+03:00",
     "16677ad1c9efbf3301092418cc82012446c48e7c91f519edbe12f5fd66629a46": "2026-05-12T07:03:25+03:00",
     "fef5560a3702bb8a444c1a94a1f4bf1ac15beb21321daf36be136d7503358c62": "2026-05-12T07:03:25+03:00",
-    "b53a8a1c6f82cd200f23a02f160d8698818cf8100feae246317318faad2fc943": "2026-05-12T07:03:25+03:00"
+    "b53a8a1c6f82cd200f23a02f160d8698818cf8100feae246317318faad2fc943": "2026-05-12T07:03:25+03:00",
+    "e1d804e409acbcd662a49b084ad1b7051732418ea0d166c4d9682862f63fcb1a": "2026-05-12T09:47:07+03:00",
+    "1a851f332c5f0ecc2821beb00ea62356afeb4f8aacc6026523e78f2b1fafea04": "2026-05-12T09:47:07+03:00"
   },
-  "updated_by_run_id": "25712591021"
+  "updated_by_run_id": "25718281235"
 }
