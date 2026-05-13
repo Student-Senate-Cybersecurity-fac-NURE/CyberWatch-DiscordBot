@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-13T10:26:35+03:00",
-  "last_successful_run_at_utc": "2026-05-13T10:26:35+03:00",
+  "updated_at_utc": "2026-05-13T13:43:04+03:00",
+  "last_successful_run_at_utc": "2026-05-13T13:43:04+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -15,8 +15,8 @@
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
-      "last_seen_published_at_utc": "2026-05-12T09:58:16+03:00",
-      "last_seen_at_utc": "2026-05-12T13:41:34+03:00",
+      "last_seen_published_at_utc": "2026-05-13T09:51:17+03:00",
+      "last_seen_at_utc": "2026-05-13T13:41:53+03:00",
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
@@ -50,13 +50,13 @@
       "source_name": "Malwarebytes Unpacked"
     },
     "852650ccf6c37cf65dae8352f0d05d556cab5e31a6ccaf89fa3478fdd6263d73": {
-      "last_seen_published_at_utc": "2026-05-12T18:15:00+03:00",
-      "last_seen_at_utc": "2026-05-12T18:18:26+03:00",
+      "last_seen_published_at_utc": "2026-05-13T12:05:00+03:00",
+      "last_seen_at_utc": "2026-05-13T13:41:53+03:00",
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-12T20:41:33+03:00",
-      "last_seen_at_utc": "2026-05-12T21:17:09+03:00",
+      "last_seen_published_at_utc": "2026-05-13T12:09:46+03:00",
+      "last_seen_at_utc": "2026-05-13T13:41:53+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-05-12T19:44:00+03:00",
-      "last_seen_at_utc": "2026-05-12T21:17:09+03:00",
+      "last_seen_published_at_utc": "2026-05-13T11:08:54+03:00",
+      "last_seen_at_utc": "2026-05-13T13:41:53+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -1700,7 +1700,13 @@
     "05d2cca3267347dab3117df3fcbe095b9235aee135f5758a604e38142b74ac66": "2026-05-13T07:11:03+03:00",
     "7e459630a3b448f1504221f24948692e86f9016114376a145079cf3fdcbcba8d": "2026-05-13T07:11:03+03:00",
     "de0ff24ad3ddae8519de2d2585dac574b8791a51a0bc7a8c954d16d288d382e5": "2026-05-13T10:25:21+03:00",
-    "a17bb56ca2e5a2f574471829d3e7d7ec39aaf468574d7fa195d1c674c7db0867": "2026-05-13T10:25:21+03:00"
+    "a17bb56ca2e5a2f574471829d3e7d7ec39aaf468574d7fa195d1c674c7db0867": "2026-05-13T10:25:21+03:00",
+    "7d470a92b5d67ac16481f6de5423275205fc45b8eaea2c2b2d24e0fa52aeb73a": "2026-05-13T13:41:53+03:00",
+    "1a2810eafbc6525de77b88f75522676620136a367723e62d9f05378b959df208": "2026-05-13T13:41:53+03:00",
+    "f22916207f6b47209cf90d629b70bfcf9c9e3501f053b99eceecfc77716a7d43": "2026-05-13T13:41:53+03:00",
+    "0bbab71466f7632f60ea79f133e945ba0edecf1d7027cd5b52d99c8ebbef103a": "2026-05-13T13:41:53+03:00",
+    "0e1f40f99e056f2e057864a7b5716e3306dc412edc002147b522d76044f62739": "2026-05-13T13:41:53+03:00",
+    "64738f9e831dd6bede78bedd6e3f7a6aee9407f356ebb82121b56ac4debbde4c": "2026-05-13T13:41:53+03:00"
   },
-  "updated_by_run_id": "25784741933"
+  "updated_by_run_id": "25794046915"
 }
