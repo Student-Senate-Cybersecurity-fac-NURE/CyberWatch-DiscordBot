@@ -1,8 +1,8 @@
-# Discord-бот Threat Intelligence
+# Cyber Watch Discord-бот
 
-Discord-бот Threat Intelligence від vx-underground отримує оновлення з різних clearnet доменів через RSS-стрічки.
+Discord-бот Cyber Watch (форк Threat Intelligence від vx-underground) отримує оновлення з різних clearnet доменів через RSS-стрічки.
 
-* Не хочете налаштовувати? [Цей бот Threat Intelligence уже працює у Discord.](https://discord.com/invite/cYWSUM7vYK)
+* Не хочете налаштовувати? [Цей бот Cyber Watch уже працює у Discord.](https://discord.com/invite/cYWSUM7vYK)
 * Написано на Python 3.13
 * Працює на Windows або Linux
 * Потрібен вебхук Discord
