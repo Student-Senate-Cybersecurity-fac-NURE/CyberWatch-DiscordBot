@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-16T12:52:20+03:00",
-  "last_successful_run_at_utc": "2026-05-16T12:52:21+03:00",
+  "updated_at_utc": "2026-05-16T16:59:17+03:00",
+  "last_successful_run_at_utc": "2026-05-16T16:59:17+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-16T12:00:40+03:00",
-      "last_seen_at_utc": "2026-05-16T12:51:13+03:00",
+      "last_seen_published_at_utc": "2026-05-16T13:00:39+03:00",
+      "last_seen_at_utc": "2026-05-16T16:57:46+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-16T00:53:56+03:00",
-      "last_seen_at_utc": "2026-05-16T06:58:43+03:00",
+      "last_seen_published_at_utc": "2026-05-16T12:31:49+03:00",
+      "last_seen_at_utc": "2026-05-16T16:57:46+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -60,8 +60,8 @@
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-05-15T21:01:10+03:00",
-      "last_seen_at_utc": "2026-05-16T00:17:28+03:00",
+      "last_seen_published_at_utc": "2026-05-16T14:00:08+03:00",
+      "last_seen_at_utc": "2026-05-16T16:57:46+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -285,8 +285,8 @@
       "source_name": "The DFIR Report"
     },
     "9dc4abd27ee7cf7609c6d6766578927c8871d87f9359ea7527268a7a3f75a189": {
-      "last_seen_published_at_utc": "2026-05-12T13:00:00+03:00",
-      "last_seen_at_utc": "2026-05-12T13:41:34+03:00",
+      "last_seen_published_at_utc": "2026-05-16T15:59:00+03:00",
+      "last_seen_at_utc": "2026-05-16T16:57:46+03:00",
       "source_name": "Broadcom Software Blogs"
     },
     "da45ebcf0c59a5f114a36f752509dbbe2b7359bdbddac9f305f2a6dc130a2017": {
@@ -1966,7 +1966,11 @@
     "b10d70aa21fb285427cdbc63ce79f47443324f0d0d9d8bdbca9ca83cf9ca1a4e": "2026-05-16T00:17:28+03:00",
     "5d81c8ae09685fe5ade94ab99d5ca4e7081a7477747d1cf9b11d8c0383dacb3f": "2026-05-16T06:58:43+03:00",
     "77ff82b4f3726cbb07e540c41a8f686345e8ea96dc0290004472feadeec83c96": "2026-05-16T06:58:43+03:00",
-    "96800c952c306435a3de92178678340993a30d3298f5c23932782c2d05d2b165": "2026-05-16T12:51:13+03:00"
+    "96800c952c306435a3de92178678340993a30d3298f5c23932782c2d05d2b165": "2026-05-16T12:51:13+03:00",
+    "11f5a2793cb42cfb59c63c8a75185aa5ff25a27c4e6baf5f6c2f2174999f617c": "2026-05-16T16:57:46+03:00",
+    "f222f981ad849160edfa6e48892416f591cb7f41c66784609ddf032a070636e4": "2026-05-16T16:57:46+03:00",
+    "2516c8d7ecd9390a59075954676fb4d343175db2684686ed2d07ef727548ba1c": "2026-05-16T16:57:46+03:00",
+    "9f7822a105d6db1a10c2bbd703a16cc7d3b8a0d90c77ba9a05dc915ff11260e9": "2026-05-16T16:57:46+03:00"
   },
-  "updated_by_run_id": "25958890851"
+  "updated_by_run_id": "25963755746"
 }
