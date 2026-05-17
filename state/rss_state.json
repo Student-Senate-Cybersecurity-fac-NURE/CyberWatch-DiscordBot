@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-17T13:00:19+03:00",
-  "last_successful_run_at_utc": "2026-05-17T13:00:19+03:00",
+  "updated_at_utc": "2026-05-17T16:56:41+03:00",
+  "last_successful_run_at_utc": "2026-05-17T16:56:41+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-17T12:00:47+03:00",
-      "last_seen_at_utc": "2026-05-17T12:59:11+03:00",
+      "last_seen_published_at_utc": "2026-05-17T15:00:46+03:00",
+      "last_seen_at_utc": "2026-05-17T16:55:13+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-17T03:41:06+03:00",
-      "last_seen_at_utc": "2026-05-17T07:19:15+03:00",
+      "last_seen_published_at_utc": "2026-05-17T15:59:38+03:00",
+      "last_seen_at_utc": "2026-05-17T16:55:13+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -60,8 +60,8 @@
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-05-16T14:00:08+03:00",
-      "last_seen_at_utc": "2026-05-16T16:57:46+03:00",
+      "last_seen_published_at_utc": "2026-05-17T16:00:04+03:00",
+      "last_seen_at_utc": "2026-05-17T16:55:13+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -1980,7 +1980,11 @@
     "67d8235d0129b48f1c31ce24ef6bb8034fc62c6f6ad80581032a4b599449ea4d": "2026-05-17T07:19:15+03:00",
     "c39cb4768bd8373858376a6bae1e5cebe14997b1e7996db2066772979715f773": "2026-05-17T07:19:15+03:00",
     "fef6c218c95e24bb318cee3acad89cd17c12459eeecb8dc8a864619899d39f7c": "2026-05-17T12:59:11+03:00",
-    "9eb2ec9bab365c86b7a78b7d6f8205056ce4e0322aad41b4d871160e5ffd7ab7": "2026-05-17T12:59:11+03:00"
+    "9eb2ec9bab365c86b7a78b7d6f8205056ce4e0322aad41b4d871160e5ffd7ab7": "2026-05-17T12:59:11+03:00",
+    "5430571302a01979a25efcc166e63c811a8066a5a2622a8400c667e416baf157": "2026-05-17T16:55:13+03:00",
+    "04122158dc4d402527e4ee7dcea7999384ae8bf20a209da88f426be71b72adee": "2026-05-17T16:55:13+03:00",
+    "2293145b0aa62468edb29ba2e0657fbe91816a2d835f2b0016e962e2a29534c7": "2026-05-17T16:55:13+03:00",
+    "e0ebcb33b47a858d1f354c27e001f70549a9e9de2ddd3cdbf9ba25a673f1ac70": "2026-05-17T16:55:13+03:00"
   },
-  "updated_by_run_id": "25987727428"
+  "updated_by_run_id": "25992796499"
 }
