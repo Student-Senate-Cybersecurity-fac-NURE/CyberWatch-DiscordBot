@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-17T20:14:19+03:00",
-  "last_successful_run_at_utc": "2026-05-17T20:14:19+03:00",
+  "updated_at_utc": "2026-05-18T00:09:18+03:00",
+  "last_successful_run_at_utc": "2026-05-18T00:09:18+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-17T00:05:53+03:00",
-      "last_seen_at_utc": "2026-05-17T07:19:15+03:00",
+      "last_seen_published_at_utc": "2026-05-17T21:00:23+03:00",
+      "last_seen_at_utc": "2026-05-18T00:07:54+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -1988,7 +1988,8 @@
     "afbe3b6fd161662a0aecec96cf3b0e089b2892e8aebde1d742d99e404b44006b": "2026-05-17T20:12:29+03:00",
     "97f608963730bd170d435342ca1cf6aabe814f5dbc4d11fc9c7bf8530724d196": "2026-05-17T20:12:29+03:00",
     "3c733c68b32eb7d8038a09f51758affb23ad60b4cca82f01a2c86543176b4502": "2026-05-17T20:12:29+03:00",
-    "064008e3a5da4decedf1af13cb6df20419d3bcd6ec527e7c2a839c23c3ee7179": "2026-05-17T20:12:29+03:00"
+    "064008e3a5da4decedf1af13cb6df20419d3bcd6ec527e7c2a839c23c3ee7179": "2026-05-17T20:12:29+03:00",
+    "aec7ddb08b23a9b0f383319043e240cb92819ffd586cd2a7316bcb677bcb679d": "2026-05-18T00:07:54+03:00"
   },
-  "updated_by_run_id": "25997376087"
+  "updated_by_run_id": "26002748583"
 }
