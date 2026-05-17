@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-17T16:56:41+03:00",
-  "last_successful_run_at_utc": "2026-05-17T16:56:41+03:00",
+  "updated_at_utc": "2026-05-17T20:14:19+03:00",
+  "last_successful_run_at_utc": "2026-05-17T20:14:19+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-17T15:59:38+03:00",
-      "last_seen_at_utc": "2026-05-17T16:55:13+03:00",
+      "last_seen_published_at_utc": "2026-05-17T16:54:22+03:00",
+      "last_seen_at_utc": "2026-05-17T20:12:29+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-16T17:36:16+03:00",
-      "last_seen_at_utc": "2026-05-16T20:13:18+03:00",
+      "last_seen_published_at_utc": "2026-05-17T19:43:34+03:00",
+      "last_seen_at_utc": "2026-05-17T20:12:29+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-16T23:55:44+03:00",
-      "last_seen_at_utc": "2026-05-17T00:02:24+03:00",
+      "last_seen_published_at_utc": "2026-05-17T17:43:10+03:00",
+      "last_seen_at_utc": "2026-05-17T20:12:29+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-05-17T10:13:33+03:00",
-      "last_seen_at_utc": "2026-05-17T12:59:11+03:00",
+      "last_seen_published_at_utc": "2026-05-17T14:57:53+03:00",
+      "last_seen_at_utc": "2026-05-17T20:12:29+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -1984,7 +1984,11 @@
     "5430571302a01979a25efcc166e63c811a8066a5a2622a8400c667e416baf157": "2026-05-17T16:55:13+03:00",
     "04122158dc4d402527e4ee7dcea7999384ae8bf20a209da88f426be71b72adee": "2026-05-17T16:55:13+03:00",
     "2293145b0aa62468edb29ba2e0657fbe91816a2d835f2b0016e962e2a29534c7": "2026-05-17T16:55:13+03:00",
-    "e0ebcb33b47a858d1f354c27e001f70549a9e9de2ddd3cdbf9ba25a673f1ac70": "2026-05-17T16:55:13+03:00"
+    "e0ebcb33b47a858d1f354c27e001f70549a9e9de2ddd3cdbf9ba25a673f1ac70": "2026-05-17T16:55:13+03:00",
+    "afbe3b6fd161662a0aecec96cf3b0e089b2892e8aebde1d742d99e404b44006b": "2026-05-17T20:12:29+03:00",
+    "97f608963730bd170d435342ca1cf6aabe814f5dbc4d11fc9c7bf8530724d196": "2026-05-17T20:12:29+03:00",
+    "3c733c68b32eb7d8038a09f51758affb23ad60b4cca82f01a2c86543176b4502": "2026-05-17T20:12:29+03:00",
+    "064008e3a5da4decedf1af13cb6df20419d3bcd6ec527e7c2a839c23c3ee7179": "2026-05-17T20:12:29+03:00"
   },
-  "updated_by_run_id": "25992796499"
+  "updated_by_run_id": "25997376087"
 }
