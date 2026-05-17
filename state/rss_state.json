@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-17T07:20:59+03:00",
-  "last_successful_run_at_utc": "2026-05-17T07:21:00+03:00",
+  "updated_at_utc": "2026-05-17T13:00:19+03:00",
+  "last_successful_run_at_utc": "2026-05-17T13:00:19+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-16T13:00:39+03:00",
-      "last_seen_at_utc": "2026-05-16T16:57:46+03:00",
+      "last_seen_published_at_utc": "2026-05-17T12:00:47+03:00",
+      "last_seen_at_utc": "2026-05-17T12:59:11+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-05-16T18:20:48+03:00",
-      "last_seen_at_utc": "2026-05-16T20:13:18+03:00",
+      "last_seen_published_at_utc": "2026-05-17T10:13:33+03:00",
+      "last_seen_at_utc": "2026-05-17T12:59:11+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -1978,7 +1978,9 @@
     "50e8d923e79ee7c0d338a36ba92e8e75d018ff8ebc88b7b096b9edd942ea42b8": "2026-05-17T00:02:24+03:00",
     "96e706d5eaa55eb6a54e105ace7cd7c6d46e42d0c57181b07759ab98b70b4acf": "2026-05-17T00:02:24+03:00",
     "67d8235d0129b48f1c31ce24ef6bb8034fc62c6f6ad80581032a4b599449ea4d": "2026-05-17T07:19:15+03:00",
-    "c39cb4768bd8373858376a6bae1e5cebe14997b1e7996db2066772979715f773": "2026-05-17T07:19:15+03:00"
+    "c39cb4768bd8373858376a6bae1e5cebe14997b1e7996db2066772979715f773": "2026-05-17T07:19:15+03:00",
+    "fef6c218c95e24bb318cee3acad89cd17c12459eeecb8dc8a864619899d39f7c": "2026-05-17T12:59:11+03:00",
+    "9eb2ec9bab365c86b7a78b7d6f8205056ce4e0322aad41b4d871160e5ffd7ab7": "2026-05-17T12:59:11+03:00"
   },
-  "updated_by_run_id": "25981146052"
+  "updated_by_run_id": "25987727428"
 }
