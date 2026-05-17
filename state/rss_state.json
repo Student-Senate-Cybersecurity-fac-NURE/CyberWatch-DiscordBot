@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-17T00:03:53+03:00",
-  "last_successful_run_at_utc": "2026-05-17T00:03:53+03:00",
+  "updated_at_utc": "2026-05-17T07:20:59+03:00",
+  "last_successful_run_at_utc": "2026-05-17T07:21:00+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-11T03:36:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-16T20:30:29+03:00",
-      "last_seen_at_utc": "2026-05-17T00:02:24+03:00",
+      "last_seen_published_at_utc": "2026-05-17T03:41:06+03:00",
+      "last_seen_at_utc": "2026-05-17T07:19:15+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-16T00:06:09+03:00",
-      "last_seen_at_utc": "2026-05-16T00:17:28+03:00",
+      "last_seen_published_at_utc": "2026-05-17T00:05:53+03:00",
+      "last_seen_at_utc": "2026-05-17T07:19:15+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -1976,7 +1976,9 @@
     "f44f97432e7dfeb1099160f52d5cc5a38f1441b64d3f3886293192922a9b16a8": "2026-05-16T20:13:18+03:00",
     "b567889ff45cced5768dad13dbb2a69b7ed07e66e85a155e15bfece3cd8f17c6": "2026-05-16T20:13:18+03:00",
     "50e8d923e79ee7c0d338a36ba92e8e75d018ff8ebc88b7b096b9edd942ea42b8": "2026-05-17T00:02:24+03:00",
-    "96e706d5eaa55eb6a54e105ace7cd7c6d46e42d0c57181b07759ab98b70b4acf": "2026-05-17T00:02:24+03:00"
+    "96e706d5eaa55eb6a54e105ace7cd7c6d46e42d0c57181b07759ab98b70b4acf": "2026-05-17T00:02:24+03:00",
+    "67d8235d0129b48f1c31ce24ef6bb8034fc62c6f6ad80581032a4b599449ea4d": "2026-05-17T07:19:15+03:00",
+    "c39cb4768bd8373858376a6bae1e5cebe14997b1e7996db2066772979715f773": "2026-05-17T07:19:15+03:00"
   },
-  "updated_by_run_id": "25972860104"
+  "updated_by_run_id": "25981146052"
 }
