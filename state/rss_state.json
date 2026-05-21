@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-21T01:05:07+03:00",
-  "last_successful_run_at_utc": "2026-05-21T01:05:07+03:00",
+  "updated_at_utc": "2026-05-21T07:43:04+03:00",
+  "last_successful_run_at_utc": "2026-05-21T07:43:05+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-21T00:16:00+03:00",
-      "last_seen_at_utc": "2026-05-21T01:03:22+03:00",
+      "last_seen_published_at_utc": "2026-05-21T01:26:11+03:00",
+      "last_seen_at_utc": "2026-05-21T07:41:57+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-05-20T11:28:36+03:00",
-      "last_seen_at_utc": "2026-05-20T14:19:33+03:00",
+      "last_seen_published_at_utc": "2026-05-21T02:04:42+03:00",
+      "last_seen_at_utc": "2026-05-21T07:41:57+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-05-20T11:28:36+03:00",
-      "last_seen_at_utc": "2026-05-20T14:19:33+03:00",
+      "last_seen_published_at_utc": "2026-05-21T02:04:42+03:00",
+      "last_seen_at_utc": "2026-05-21T07:41:57+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-05-20T17:29:45+03:00",
-      "last_seen_at_utc": "2026-05-20T18:54:27+03:00",
+      "last_seen_published_at_utc": "2026-05-21T07:00:35+03:00",
+      "last_seen_at_utc": "2026-05-21T07:41:57+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -2321,7 +2321,11 @@
     "e49506922cceda5f7bb50fff6d459857abb698731121c3c6edf2fd843822e049": "2026-05-21T01:03:22+03:00",
     "e7fce35f6031460acb1a06202b043a0502da5003e2eaf8598c57bcc4953cd724": "2026-05-21T01:03:22+03:00",
     "d8f22daed5c46bff94fda8b2c173dc78e3629cd4d308f415d8ab94e72234f3db": "2026-05-21T01:03:22+03:00",
-    "82eefeed79017cad54c98ef696053f535d9b94cb005cd5f6eda7f2c0d7c85650": "2026-05-21T01:03:22+03:00"
+    "82eefeed79017cad54c98ef696053f535d9b94cb005cd5f6eda7f2c0d7c85650": "2026-05-21T01:03:22+03:00",
+    "8fec98edf3d34485fe6ea4c9a86307867fd6f3d74eccebe31c736b401c9b6675": "2026-05-21T07:41:57+03:00",
+    "c06727a0a93d18024b2cc6cf11dbfb050555825d20f1c12ce400e7df4e423756": "2026-05-21T07:41:57+03:00",
+    "df9990a40f5ef78e6247fc77809b48bf3debee393164ae18e36f4cb8eef4ee43": "2026-05-21T07:41:57+03:00",
+    "08be8c90e13fe690708872b0e113e40fa13884a3a0bfbcb72f27d260c226a61a": "2026-05-21T07:41:57+03:00"
   },
-  "updated_by_run_id": "26192601286"
+  "updated_by_run_id": "26205859639"
 }
