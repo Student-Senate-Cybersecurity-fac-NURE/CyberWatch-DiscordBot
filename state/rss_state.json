@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-22T00:48:36+03:00",
-  "last_successful_run_at_utc": "2026-05-22T00:48:37+03:00",
+  "updated_at_utc": "2026-05-22T07:35:24+03:00",
+  "last_successful_run_at_utc": "2026-05-22T07:35:24+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-05-21T23:23:00+03:00",
-      "last_seen_at_utc": "2026-05-22T00:47:06+03:00",
+      "last_seen_published_at_utc": "2026-05-22T02:03:16+03:00",
+      "last_seen_at_utc": "2026-05-22T07:34:05+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-21T22:00:22+03:00",
-      "last_seen_at_utc": "2026-05-22T00:47:06+03:00",
+      "last_seen_published_at_utc": "2026-05-22T02:53:17+03:00",
+      "last_seen_at_utc": "2026-05-22T07:34:05+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -210,8 +210,8 @@
       "source_name": "Palo Alto Networks Blog"
     },
     "4ac7a16df315ff636d9b99034c9ad965fbfac3fb307f4bf57a43ce3332334bc0": {
-      "last_seen_published_at_utc": "2026-05-18T23:48:21+03:00",
-      "last_seen_at_utc": "2026-05-19T00:36:35+03:00",
+      "last_seen_published_at_utc": "2026-05-22T00:50:25+03:00",
+      "last_seen_at_utc": "2026-05-22T07:34:05+03:00",
       "source_name": "Krebs on Security"
     },
     "aeef726f8751bc64afb51b4f55d68afea204d504e24c734a9e65dcf041557a02": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-05-21T19:10:58+03:00",
-      "last_seen_at_utc": "2026-05-21T21:10:39+03:00",
+      "last_seen_published_at_utc": "2026-05-22T07:00:53+03:00",
+      "last_seen_at_utc": "2026-05-22T07:34:05+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -2432,7 +2432,11 @@
     "6b10ae3a39320047974ec0bfe3b7f3588612a391692a93d66d700af4c77d84c8": "2026-05-22T00:47:06+03:00",
     "ca88c5dbcfda26c58ee3855b55581e6e9bc6acab4ce33f52289a285e92a4b2f7": "2026-05-22T00:47:06+03:00",
     "46c29c5701b2ff5d784ba696af9fabd66f913d5b89db5dd4f64b44125059b327": "2026-05-22T00:47:06+03:00",
-    "57e11620d4889b467073ae39e13525d9ecf7cf2f778a30c27cac7cef1f92aacc": "2026-05-22T00:47:06+03:00"
+    "57e11620d4889b467073ae39e13525d9ecf7cf2f778a30c27cac7cef1f92aacc": "2026-05-22T00:47:06+03:00",
+    "95b8ae92db4ffd486ef517e3178f845b13ec5e6de2d2d36edd45a97a93d4105c": "2026-05-22T07:34:05+03:00",
+    "feed7fc41900f4558815f02c8a6d93b1736835a330e81152bd98b80a498c3f82": "2026-05-22T07:34:05+03:00",
+    "7f54bae62faf502b3aa09158a6b067be5e7991ff296c1fbcaabd7c8aa7cd2a44": "2026-05-22T07:34:05+03:00",
+    "fd60ecee57786e8f04c2f815061b235eced02965e548f77b0562df9e55dacb45": "2026-05-22T07:34:05+03:00"
   },
-  "updated_by_run_id": "26255029425"
+  "updated_by_run_id": "26268586595"
 }
