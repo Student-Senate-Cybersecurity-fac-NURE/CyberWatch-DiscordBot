@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-23T00:24:05+03:00",
-  "last_successful_run_at_utc": "2026-05-23T00:24:05+03:00",
+  "updated_at_utc": "2026-05-23T07:07:55+03:00",
+  "last_successful_run_at_utc": "2026-05-23T07:07:55+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-23T00:20:00+03:00",
-      "last_seen_at_utc": "2026-05-23T00:22:43+03:00",
+      "last_seen_published_at_utc": "2026-05-23T05:11:00+03:00",
+      "last_seen_at_utc": "2026-05-23T07:06:23+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-23T00:05:07+03:00",
-      "last_seen_at_utc": "2026-05-23T00:22:43+03:00",
+      "last_seen_published_at_utc": "2026-05-23T01:21:34+03:00",
+      "last_seen_at_utc": "2026-05-23T07:06:23+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -100,8 +100,8 @@
       "source_name": "Business Insider"
     },
     "16b25a633f469ca3ef7c66a4b280e72ddec834d32c8aee68d41a0ffeb34e894f": {
-      "last_seen_published_at_utc": "2026-05-22T23:01:00+03:00",
-      "last_seen_at_utc": "2026-05-23T00:22:43+03:00",
+      "last_seen_published_at_utc": "2026-05-23T04:11:00+03:00",
+      "last_seen_at_utc": "2026-05-23T07:06:23+03:00",
       "source_name": "The Record from Recorded Future News"
     },
     "23552ce9b4f7cd04d59844b37a066816ffc7e011ae5220c0e0a0d89ebe3fb453": {
@@ -2521,7 +2521,10 @@
     "9778d7fe667f4d809dbe5268c2016160d39a3c6ecc63252be800d69d09c12ab6": "2026-05-23T00:22:43+03:00",
     "4524bfd3c634384b73f271895783221f55878816bdb0fefee774c2fe770aa39b": "2026-05-23T00:22:43+03:00",
     "a4c002f58b319ddd89f861512b2597226b3c09be096a2251515721bcd7d08336": "2026-05-23T00:22:43+03:00",
-    "9413270e15a6959dd957d9c1854f85e17227c94f296f45a66e37d0aa4459f2f5": "2026-05-23T00:22:43+03:00"
+    "9413270e15a6959dd957d9c1854f85e17227c94f296f45a66e37d0aa4459f2f5": "2026-05-23T00:22:43+03:00",
+    "aec3df4048f817df479ddaea1319f9f0f3b01a78e323fa9d2b39cb12c0113892": "2026-05-23T07:06:23+03:00",
+    "6520cf398d121f9ceb334738df633904ee5073820b42be438045c8331835d9c7": "2026-05-23T07:06:23+03:00",
+    "eacb74b0040080ed414f21b48f2419707b42344cb01c647ce13083ddb0a9673e": "2026-05-23T07:06:23+03:00"
   },
-  "updated_by_run_id": "26312609418"
+  "updated_by_run_id": "26323024429"
 }
