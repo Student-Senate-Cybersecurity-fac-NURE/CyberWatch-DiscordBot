@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-24T07:38:36+03:00",
-  "last_successful_run_at_utc": "2026-05-24T07:38:36+03:00",
+  "updated_at_utc": "2026-05-24T13:08:19+03:00",
+  "last_successful_run_at_utc": "2026-05-24T13:08:20+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -15,8 +15,8 @@
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
-      "last_seen_published_at_utc": "2026-05-21T07:41:32+03:00",
-      "last_seen_at_utc": "2026-05-21T14:36:19+03:00",
+      "last_seen_published_at_utc": "2026-05-24T08:15:22+03:00",
+      "last_seen_at_utc": "2026-05-24T13:06:56+03:00",
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-23T19:17:07+03:00",
-      "last_seen_at_utc": "2026-05-23T20:15:39+03:00",
+      "last_seen_published_at_utc": "2026-05-24T12:07:55+03:00",
+      "last_seen_at_utc": "2026-05-24T13:06:56+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -2546,7 +2546,10 @@
     "2c7184518d5355a462a3a1e2932f65c5a5727d780aea5af303082860a4cb7371": "2026-05-24T00:07:07+03:00",
     "18d4191e76c9bdde8b041103553fdb42c3c90f0153bb3a0da65d2dcffd9f0b67": "2026-05-24T00:07:07+03:00",
     "8dc78ba69ee0a2395f0d3aac35a49428c81384cfac90722addd6f5956c1dee53": "2026-05-24T07:37:11+03:00",
-    "25ffcfcc0134ce57094b1c91749efe03ca062cf709a5633495bd8e073a1653c6": "2026-05-24T07:37:11+03:00"
+    "25ffcfcc0134ce57094b1c91749efe03ca062cf709a5633495bd8e073a1653c6": "2026-05-24T07:37:11+03:00",
+    "cdeb890d671e88131cf0b5616ae0116afce05511c94b0033a966824cfb8e2e31": "2026-05-24T13:06:56+03:00",
+    "cfc7dfe39dcc1475f03a014fd8f8f47e4365e0b5da0686f64cbbe158f825c125": "2026-05-24T13:06:56+03:00",
+    "feb25f64b497744728cd145c817309d7483550bb7bff9e375ea326d983a13d13": "2026-05-24T13:06:56+03:00"
   },
-  "updated_by_run_id": "26352028528"
+  "updated_by_run_id": "26358343846"
 }
