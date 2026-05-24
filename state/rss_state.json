@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-24T00:08:29+03:00",
-  "last_successful_run_at_utc": "2026-05-24T00:08:29+03:00",
+  "updated_at_utc": "2026-05-24T07:38:36+03:00",
+  "last_successful_run_at_utc": "2026-05-24T07:38:36+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-23T21:13:16+03:00",
-      "last_seen_at_utc": "2026-05-24T00:07:07+03:00",
+      "last_seen_published_at_utc": "2026-05-24T04:55:00+03:00",
+      "last_seen_at_utc": "2026-05-24T07:37:11+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-05-18T06:46:55+03:00",
-      "last_seen_at_utc": "2026-05-18T07:39:54+03:00",
+      "last_seen_published_at_utc": "2026-05-24T04:34:54+03:00",
+      "last_seen_at_utc": "2026-05-24T07:37:11+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -2544,7 +2544,9 @@
     "53dc309514f6f4adb45c9b46981483755349a66ad4cb524a21c218f3d43a6fc0": "2026-05-23T20:15:39+03:00",
     "184ae95b6f54b9408a5b8395fb3aa08a2dd916087a668bebe8d5a2a6311b03ea": "2026-05-23T20:15:39+03:00",
     "2c7184518d5355a462a3a1e2932f65c5a5727d780aea5af303082860a4cb7371": "2026-05-24T00:07:07+03:00",
-    "18d4191e76c9bdde8b041103553fdb42c3c90f0153bb3a0da65d2dcffd9f0b67": "2026-05-24T00:07:07+03:00"
+    "18d4191e76c9bdde8b041103553fdb42c3c90f0153bb3a0da65d2dcffd9f0b67": "2026-05-24T00:07:07+03:00",
+    "8dc78ba69ee0a2395f0d3aac35a49428c81384cfac90722addd6f5956c1dee53": "2026-05-24T07:37:11+03:00",
+    "25ffcfcc0134ce57094b1c91749efe03ca062cf709a5633495bd8e073a1653c6": "2026-05-24T07:37:11+03:00"
   },
-  "updated_by_run_id": "26343567759"
+  "updated_by_run_id": "26352028528"
 }
