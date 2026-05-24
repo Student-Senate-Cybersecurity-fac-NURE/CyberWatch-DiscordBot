@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-24T16:58:25+03:00",
-  "last_successful_run_at_utc": "2026-05-24T16:58:25+03:00",
+  "updated_at_utc": "2026-05-24T20:16:30+03:00",
+  "last_successful_run_at_utc": "2026-05-24T20:16:30+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-24T14:00:27+03:00",
-      "last_seen_at_utc": "2026-05-24T16:57:17+03:00",
+      "last_seen_published_at_utc": "2026-05-24T17:48:12+03:00",
+      "last_seen_at_utc": "2026-05-24T20:15:09+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-23T23:48:23+03:00",
-      "last_seen_at_utc": "2026-05-24T00:07:07+03:00",
+      "last_seen_published_at_utc": "2026-05-24T17:12:32+03:00",
+      "last_seen_at_utc": "2026-05-24T20:15:09+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-23T01:21:34+03:00",
-      "last_seen_at_utc": "2026-05-23T07:06:23+03:00",
+      "last_seen_published_at_utc": "2026-05-24T20:00:17+03:00",
+      "last_seen_at_utc": "2026-05-24T20:15:09+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -2553,7 +2553,10 @@
     "f821c751d38af61264eb0903b56757faebdd8f2e7ebd63b50978ec8e1889e43f": "2026-05-24T16:57:17+03:00",
     "25d7618205d3f68fde73a378f24c18b1477fbb280bd6dba5b5ef2589b338c2a7": "2026-05-24T16:57:17+03:00",
     "afaf2847dff3ba49dcb270ea339a20408db1f28aa290726b3cb9a9fb85012b06": "2026-05-24T16:57:17+03:00",
-    "fbbfbcead4627ac02a08c01e32b3eed026facbe0d595415217311f8d0ad3f799": "2026-05-24T16:57:17+03:00"
+    "fbbfbcead4627ac02a08c01e32b3eed026facbe0d595415217311f8d0ad3f799": "2026-05-24T16:57:17+03:00",
+    "0886b4176641efb94975986f27c376d68f2eb7ee551a16d36508cbd01b9ed373": "2026-05-24T20:15:09+03:00",
+    "6f317ac1cd77ce5c6ab6db9529cb58cd8baca6a1becd82cc612d19efbf73c4f1": "2026-05-24T20:15:09+03:00",
+    "e69ea97af7c0fe82884d001c0df260184f2a2d7acdb8e25edd9fde9ecea5726a": "2026-05-24T20:15:09+03:00"
   },
-  "updated_by_run_id": "26363203768"
+  "updated_by_run_id": "26367661702"
 }
