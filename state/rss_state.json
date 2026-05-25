@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-25T18:28:49+03:00",
-  "last_successful_run_at_utc": "2026-05-25T18:28:49+03:00",
+  "updated_at_utc": "2026-05-25T20:55:13+03:00",
+  "last_successful_run_at_utc": "2026-05-25T20:55:13+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-25T14:01:37+03:00",
-      "last_seen_at_utc": "2026-05-25T14:59:20+03:00",
+      "last_seen_published_at_utc": "2026-05-25T19:47:00+03:00",
+      "last_seen_at_utc": "2026-05-25T20:53:58+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-25T13:29:54+03:00",
-      "last_seen_at_utc": "2026-05-25T14:59:20+03:00",
+      "last_seen_published_at_utc": "2026-05-25T20:10:45+03:00",
+      "last_seen_at_utc": "2026-05-25T20:53:58+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-25T15:45:54+03:00",
-      "last_seen_at_utc": "2026-05-25T18:27:42+03:00",
+      "last_seen_published_at_utc": "2026-05-25T20:07:33+03:00",
+      "last_seen_at_utc": "2026-05-25T20:53:58+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-05-25T15:02:46+03:00",
-      "last_seen_at_utc": "2026-05-25T18:27:42+03:00",
+      "last_seen_published_at_utc": "2026-05-25T17:13:27+03:00",
+      "last_seen_at_utc": "2026-05-25T20:53:58+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-05-25T16:05:14+03:00",
-      "last_seen_at_utc": "2026-05-25T18:27:42+03:00",
+      "last_seen_published_at_utc": "2026-05-25T18:11:18+03:00",
+      "last_seen_at_utc": "2026-05-25T20:53:58+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -2583,7 +2583,12 @@
     "34ab03b6bf9c0f2a29ad49aa0775553dc47abac9c9b1968503a25b863bdf04ae": "2026-05-25T18:27:42+03:00",
     "b9906cb71b9f70cccca9e4d2dfcdc97dd2ed4ace10c503f4a08a5045d1fb7c29": "2026-05-25T18:27:42+03:00",
     "f4bfb131489957acf3aebae44a2fc425ab8608043302669ad33bc28a66ca87b4": "2026-05-25T18:27:42+03:00",
-    "e1042a2dc6ea2c6bf87a5608e2a548da469f16d530ee2713d0b6c5db533d0311": "2026-05-25T18:27:42+03:00"
+    "e1042a2dc6ea2c6bf87a5608e2a548da469f16d530ee2713d0b6c5db533d0311": "2026-05-25T18:27:42+03:00",
+    "b48a52ced3d9ee8ddf5165940eeeec7e1de3e4ae15bdfb05cdb911b75184a71e": "2026-05-25T20:53:58+03:00",
+    "83b7b62b3445044e44a9ce014d5e44e5434d0d88512267d34e04f5e07e25719f": "2026-05-25T20:53:58+03:00",
+    "f8ef32d5ef0eb6bdea54588c1a5eeda0e13794f63fe844dd3b9de263d4d0fc38": "2026-05-25T20:53:58+03:00",
+    "b52d52009f334ab1c7b1630c181a2393da37725946d7f20583ce1505fa3cd03c": "2026-05-25T20:53:58+03:00",
+    "76528f160d86fd4b2777d0b13486b33cf7a6d62b3ca4c7248805b1171d02f6b6": "2026-05-25T20:53:58+03:00"
   },
-  "updated_by_run_id": "26407928917"
+  "updated_by_run_id": "26413254059"
 }
