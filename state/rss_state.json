@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-25T00:11:25+03:00",
-  "last_successful_run_at_utc": "2026-05-25T00:11:25+03:00",
+  "updated_at_utc": "2026-05-25T07:49:57+03:00",
+  "last_successful_run_at_utc": "2026-05-25T07:49:57+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-24T04:55:00+03:00",
-      "last_seen_at_utc": "2026-05-24T07:37:11+03:00",
+      "last_seen_published_at_utc": "2026-05-25T05:37:24+03:00",
+      "last_seen_at_utc": "2026-05-25T07:48:49+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-24T17:48:12+03:00",
-      "last_seen_at_utc": "2026-05-24T20:15:09+03:00",
+      "last_seen_published_at_utc": "2026-05-25T03:50:48+03:00",
+      "last_seen_at_utc": "2026-05-25T07:48:49+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -2556,7 +2556,10 @@
     "fbbfbcead4627ac02a08c01e32b3eed026facbe0d595415217311f8d0ad3f799": "2026-05-24T16:57:17+03:00",
     "0886b4176641efb94975986f27c376d68f2eb7ee551a16d36508cbd01b9ed373": "2026-05-24T20:15:09+03:00",
     "6f317ac1cd77ce5c6ab6db9529cb58cd8baca6a1becd82cc612d19efbf73c4f1": "2026-05-24T20:15:09+03:00",
-    "e69ea97af7c0fe82884d001c0df260184f2a2d7acdb8e25edd9fde9ecea5726a": "2026-05-24T20:15:09+03:00"
+    "e69ea97af7c0fe82884d001c0df260184f2a2d7acdb8e25edd9fde9ecea5726a": "2026-05-24T20:15:09+03:00",
+    "4efd795c05cb1f6020839b8baee0461ad2f2a8c91ec5a36efd5f11fe4b75e44d": "2026-05-25T07:48:49+03:00",
+    "428c43073e4a9dcc319ff2a4251e974192f60d0df264038fe05afc9f940cd48c": "2026-05-25T07:48:49+03:00",
+    "adef11c52bdda199f59eb8000c40d5ab871885b4aa9f292aee7ae5d8960421a1": "2026-05-25T07:48:49+03:00"
   },
-  "updated_by_run_id": "26372844723"
+  "updated_by_run_id": "26383760414"
 }
