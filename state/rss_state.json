@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-26T19:08:40+03:00",
-  "last_successful_run_at_utc": "2026-05-26T19:08:41+03:00",
+  "updated_at_utc": "2026-05-26T21:37:28+03:00",
+  "last_successful_run_at_utc": "2026-05-26T21:37:28+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-26T19:05:21+03:00",
-      "last_seen_at_utc": "2026-05-26T19:06:51+03:00",
+      "last_seen_published_at_utc": "2026-05-26T21:27:00+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-05-26T15:12:51+03:00",
-      "last_seen_at_utc": "2026-05-26T19:06:51+03:00",
+      "last_seen_published_at_utc": "2026-05-26T21:02:48+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-26T14:20:11+03:00",
-      "last_seen_at_utc": "2026-05-26T19:06:51+03:00",
+      "last_seen_published_at_utc": "2026-05-26T20:57:22+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-26T18:16:40+03:00",
-      "last_seen_at_utc": "2026-05-26T19:06:51+03:00",
+      "last_seen_published_at_utc": "2026-05-26T19:35:54+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -110,8 +110,8 @@
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
-      "last_seen_published_at_utc": "2026-05-21T18:00:00+03:00",
-      "last_seen_at_utc": "2026-05-21T18:50:21+03:00",
+      "last_seen_published_at_utc": "2026-05-26T20:00:00+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "Yubico"
     },
     "ae5b5707f27d1f3c404ba652bc11f47fe0d2d498938b6e444bcb7076820520b3": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-05-21T20:13:28+03:00",
-      "last_seen_at_utc": "2026-05-21T21:10:39+03:00",
+      "last_seen_published_at_utc": "2026-05-26T19:24:02+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-05-21T20:13:28+03:00",
-      "last_seen_at_utc": "2026-05-21T21:10:39+03:00",
+      "last_seen_published_at_utc": "2026-05-26T19:24:02+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-05-26T14:58:00+03:00",
-      "last_seen_at_utc": "2026-05-26T19:06:51+03:00",
+      "last_seen_published_at_utc": "2026-05-26T18:48:41+03:00",
+      "last_seen_at_utc": "2026-05-26T21:35:55+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -2663,7 +2663,15 @@
     "25c55a539457595407adf4c8c71673c048c92111069203ff0c6ba9f60d979a12": "2026-05-26T19:06:51+03:00",
     "c2f138ca9a6d14540bf913de7bc16feba4e84844976f91ac7d8c9500f0fef9f7": "2026-05-26T19:06:51+03:00",
     "18d8a67d833067bd530ed593649c05536ab3cedd40e68da8a463153a82d0a4b2": "2026-05-26T19:06:51+03:00",
-    "890fc6b194678f5cf427b4556736234d8422238acac9dde34107e41cb237542a": "2026-05-26T19:06:51+03:00"
+    "890fc6b194678f5cf427b4556736234d8422238acac9dde34107e41cb237542a": "2026-05-26T19:06:51+03:00",
+    "a0badacf561a64d500906a2c8bb6e4ae77dd337cd3b1e84a49b720c43dbd9839": "2026-05-26T21:35:55+03:00",
+    "91f3f444a548baa67e9d73f9ecfa0c35e6a58c29f75e4ed0c14b96e9cff9954c": "2026-05-26T21:35:55+03:00",
+    "3dc6a84ee364a2d661b7206fdc7a215e38d262195a4683108cb6fd412012f771": "2026-05-26T21:35:55+03:00",
+    "e644b25d9dc953eca37f28156a5b76a00d789bb56ca2fefaa949a37a19f3d235": "2026-05-26T21:35:55+03:00",
+    "1e089f01b57cc5114ee331056b52bbdbd120a522ae124d449047f79c5934a81a": "2026-05-26T21:35:55+03:00",
+    "b3c5e82ebe0a72502b5db2c7f8621642ada1fbd6fd83822392dbb2ed124bd206": "2026-05-26T21:35:55+03:00",
+    "5aa568c81b57f74fe2a0821de4c435ef4933d276ca6f911c0905b0c512a1415c": "2026-05-26T21:35:55+03:00",
+    "e97fefb8be06391527544e4be46b64a4a4b44efa8f05bb115d5bb8bbdf3595ed": "2026-05-26T21:35:55+03:00"
   },
-  "updated_by_run_id": "26460053087"
+  "updated_by_run_id": "26467640499"
 }
