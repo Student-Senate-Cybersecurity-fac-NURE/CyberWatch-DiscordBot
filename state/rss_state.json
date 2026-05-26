@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-26T00:22:53+03:00",
-  "last_successful_run_at_utc": "2026-05-26T00:22:53+03:00",
+  "updated_at_utc": "2026-05-26T07:34:08+03:00",
+  "last_successful_run_at_utc": "2026-05-26T07:34:08+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-25T21:50:24+03:00",
-      "last_seen_at_utc": "2026-05-26T00:21:44+03:00",
+      "last_seen_published_at_utc": "2026-05-26T04:22:00+03:00",
+      "last_seen_at_utc": "2026-05-26T07:32:51+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-25T18:09:45+03:00",
-      "last_seen_at_utc": "2026-05-25T18:27:42+03:00",
+      "last_seen_published_at_utc": "2026-05-26T02:18:43+03:00",
+      "last_seen_at_utc": "2026-05-26T07:32:51+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-05-24T04:34:54+03:00",
-      "last_seen_at_utc": "2026-05-24T07:37:11+03:00",
+      "last_seen_published_at_utc": "2026-05-26T01:52:15+03:00",
+      "last_seen_at_utc": "2026-05-26T07:32:51+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -195,8 +195,8 @@
       "source_name": "The Red Canary Blog: Information Security Insights"
     },
     "e828994a2eb3265e0504ddec0c6356e4bbe1bd04e04e39f101e0e8c9f1e75f09": {
-      "last_seen_published_at_utc": "2026-05-18T00:16:34+03:00",
-      "last_seen_at_utc": "2026-05-18T07:39:54+03:00",
+      "last_seen_published_at_utc": "2026-05-26T04:45:24+03:00",
+      "last_seen_at_utc": "2026-05-26T07:32:51+03:00",
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
@@ -2593,7 +2593,20 @@
     "f20826364abff1646db29b7373da9f8f70e642b5537199453058fc41867214d9": "2026-05-26T00:21:44+03:00",
     "eb25797aaef6183c87a576ca8ae577c74f9912d6ba8d63c87fb12f547ab0e6de": "2026-05-26T00:21:44+03:00",
     "79209812e534cd116698721912800cf6252e90dbf7e8e9c80e2ecddf936e1213": "2026-05-26T00:21:44+03:00",
-    "9c72716937b40184c72e6c5adc4544879bd2cca023bc766424ec426467fde773": "2026-05-26T00:21:44+03:00"
+    "9c72716937b40184c72e6c5adc4544879bd2cca023bc766424ec426467fde773": "2026-05-26T00:21:44+03:00",
+    "6ba5a64bdc4ff5ab453d239717addf17dd2879e1c68ce37da42e5949895fb44e": "2026-05-26T07:32:51+03:00",
+    "fa031e861bae32842ebdc9814ccc8601f4f4eb361b3298542e0becb783994363": "2026-05-26T07:32:51+03:00",
+    "7709bb19e312089f71630d8052fb6cbc0d0771ee9d7a8ae0e605cfa796f55674": "2026-05-26T07:32:51+03:00",
+    "ae3e1285a1cd0d0c215a601194c7a4c93d7c70a08bf6b2b12fdb675f319b8620": "2026-05-26T07:32:51+03:00",
+    "85df02a16e99eefa5f4db4c6c3fa5ea4a1ea3e12c04c3e36f998e865f96fd402": "2026-05-26T07:32:51+03:00",
+    "ec7d74f56f273eb22eaba317fbf90819f02563d44d7d4334403751a120efccac": "2026-05-26T07:32:51+03:00",
+    "093814a723f659470447d4e655a3576c23d84935922f02cbbaeb3d393fc1b96d": "2026-05-26T07:32:51+03:00",
+    "8a462b013571d5e6e77fade8baaa2e914335528721c0f9306b70dfd40de6b62c": "2026-05-26T07:32:51+03:00",
+    "c1ad0fe99649a17c00747bdc1723d3e39a27953111bc99f1a2b29a920bf455cb": "2026-05-26T07:32:51+03:00",
+    "c3e15dcac1ccf6ae765bf98ce99459dd07666c00f1b4f1b16fd3a5b519c46b9b": "2026-05-26T07:32:51+03:00",
+    "16cd9b2ca682e89e01f3304bd56f2f19db3d826fdcb2e59092ee5b3c340a9af4": "2026-05-26T07:32:51+03:00",
+    "08a4ec7373b6cffe6c6a248decda73c2becf7a25d3fbe1ed0b8723d3c16d115c": "2026-05-26T07:32:51+03:00",
+    "c1799118e958fd0502a21585d0d3889727fbf090e4ef60b9f8db08a8825f4882": "2026-05-26T07:32:51+03:00"
   },
-  "updated_by_run_id": "26420255285"
+  "updated_by_run_id": "26432407148"
 }
