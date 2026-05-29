@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-29T01:07:19+03:00",
-  "last_successful_run_at_utc": "2026-05-29T01:07:19+03:00",
+  "updated_at_utc": "2026-05-29T07:41:33+03:00",
+  "last_successful_run_at_utc": "2026-05-29T07:41:33+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-28T22:30:22+03:00",
-      "last_seen_at_utc": "2026-05-29T01:05:19+03:00",
+      "last_seen_published_at_utc": "2026-05-29T07:00:25+03:00",
+      "last_seen_at_utc": "2026-05-29T07:40:21+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-29T00:10:11+03:00",
-      "last_seen_at_utc": "2026-05-29T01:05:19+03:00",
+      "last_seen_published_at_utc": "2026-05-29T03:21:03+03:00",
+      "last_seen_at_utc": "2026-05-29T07:40:21+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -155,8 +155,8 @@
       "source_name": "Cisco"
     },
     "484030fbcc9053ce4977637e90b6d3902adbcfde4071f9c66b7974a126944c0b": {
-      "last_seen_published_at_utc": "2026-05-28T18:00:00+03:00",
-      "last_seen_at_utc": "2026-05-29T01:05:19+03:00",
+      "last_seen_published_at_utc": "2026-05-29T06:04:52+03:00",
+      "last_seen_at_utc": "2026-05-29T07:40:21+03:00",
       "source_name": "Microsoft Security Blog"
     },
     "31734d9b3aef81d8b4aae547bb4912b13238de242ffdfeddaa2ca5e090d3ba62": {
@@ -303,6 +303,11 @@
       "last_seen_published_at_utc": "2026-05-22T17:55:58+03:00",
       "last_seen_at_utc": "2026-05-22T18:20:02+03:00",
       "source_name": "Fox-IT International blog"
+    },
+    "968d6ab02784cb4806758bb365c9d59e3c06f03439e1a26aba94422758c2f853": {
+      "last_seen_published_at_utc": "2026-05-29T06:52:19+03:00",
+      "last_seen_at_utc": "2026-05-29T07:40:21+03:00",
+      "source_name": "A Few Thoughts on Cryptographic Engineering"
     }
   },
   "sent_fingerprints": {
@@ -2901,7 +2906,14 @@
     "b79c95346e042c795129024e98056bdd5e735aba5a50f6206611ba14b63eec85": "2026-05-29T01:05:19+03:00",
     "0ef72683f92888fb629afac211c6b10d2ab1f6ad1de5cfee1ac3ed27daa36c3c": "2026-05-29T01:05:19+03:00",
     "3aa8473c525ecb4ab5d4bec6843c020931d16a7c5d1a68ed40fb01c88952c5da": "2026-05-29T01:05:19+03:00",
-    "c541c1108207bcc8ff52df73f53490caa53c9bb8f7c32fea5cf62394e7acdb9d": "2026-05-29T01:05:19+03:00"
+    "c541c1108207bcc8ff52df73f53490caa53c9bb8f7c32fea5cf62394e7acdb9d": "2026-05-29T01:05:19+03:00",
+    "27821cd0e5aefad3b645c0438f839db22c96a444da89458c07983c59b61fe633": "2026-05-29T07:40:21+03:00",
+    "9b3507274acd01124bfaaf1581dc0dc33f1005a1d8dd4c48a806b04e5e34afc3": "2026-05-29T07:40:21+03:00",
+    "0027614a307a352dfcebc6d7d37960ca650516e894dc628e60ea3150a63e3260": "2026-05-29T07:40:21+03:00",
+    "3c9c95698aaf34268be6e83717439c23bfef88e598ab5f0a5885861be2915b8c": "2026-05-29T07:40:21+03:00",
+    "16baa7713fb0a6759f5e79c1b024162eb7f9eab1a1cc68c28a353f3bdca6d18a": "2026-05-29T07:40:21+03:00",
+    "99b9a7d97ca77ba2e9a873457ff5021a05ceef17fe475b9dc6ad2b082a5a6f0e": "2026-05-29T07:40:21+03:00",
+    "5f0dc1f0e36dc75774505987859276d420fa8c3fcf5d2cf5adcc76398dc64219": "2026-05-29T07:40:21+03:00"
   },
-  "updated_by_run_id": "26605014258"
+  "updated_by_run_id": "26618345176"
 }
