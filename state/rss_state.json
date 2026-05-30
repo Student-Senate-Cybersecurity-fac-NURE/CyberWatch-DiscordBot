@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-30T17:04:07+03:00",
-  "last_successful_run_at_utc": "2026-05-30T17:04:07+03:00",
+  "updated_at_utc": "2026-05-30T20:20:38+03:00",
+  "last_successful_run_at_utc": "2026-05-30T20:20:38+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-30T12:25:45+03:00",
-      "last_seen_at_utc": "2026-05-30T17:03:00+03:00",
+      "last_seen_published_at_utc": "2026-05-30T19:33:14+03:00",
+      "last_seen_at_utc": "2026-05-30T20:19:33+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-29T21:21:36+03:00",
-      "last_seen_at_utc": "2026-05-29T21:42:15+03:00",
+      "last_seen_published_at_utc": "2026-05-30T17:16:08+03:00",
+      "last_seen_at_utc": "2026-05-30T20:19:33+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -3009,7 +3009,9 @@
     "7ecd6ec9bc2e3181f1540471ebacca7734fe7329524736748fa34a3b75ef2659": "2026-05-30T17:03:00+03:00",
     "25f84c24368796ac0738beb7bd82e9ffadb153561babb0ae51554a7108705b62": "2026-05-30T17:03:00+03:00",
     "3e278c583413cc9181323411ec4e9bf624117a9167a232ee97815f098479e058": "2026-05-30T17:03:00+03:00",
-    "b980d5ec0458307c2e59084d4a2e6692df70139ea73e4721a486db51c845af44": "2026-05-30T17:03:00+03:00"
+    "b980d5ec0458307c2e59084d4a2e6692df70139ea73e4721a486db51c845af44": "2026-05-30T17:03:00+03:00",
+    "ff1a380d5f09b4de1179575bc258d25cfb3e24e9066a0d92d8598b9016c2707b": "2026-05-30T20:19:33+03:00",
+    "a96fef54486e6739ab5a468b59cc399a265541198bddddb1b5e0a57f307ff628": "2026-05-30T20:19:33+03:00"
   },
-  "updated_by_run_id": "26685751539"
+  "updated_by_run_id": "26690099577"
 }
