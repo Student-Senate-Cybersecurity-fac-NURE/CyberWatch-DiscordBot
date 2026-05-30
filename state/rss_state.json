@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-30T01:05:11+03:00",
-  "last_successful_run_at_utc": "2026-05-30T01:05:12+03:00",
+  "updated_at_utc": "2026-05-30T07:16:49+03:00",
+  "last_successful_run_at_utc": "2026-05-30T07:16:49+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-29T22:28:17+03:00",
-      "last_seen_at_utc": "2026-05-30T01:03:37+03:00",
+      "last_seen_published_at_utc": "2026-05-30T01:27:49+03:00",
+      "last_seen_at_utc": "2026-05-30T07:15:34+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -155,8 +155,8 @@
       "source_name": "Cisco"
     },
     "484030fbcc9053ce4977637e90b6d3902adbcfde4071f9c66b7974a126944c0b": {
-      "last_seen_published_at_utc": "2026-05-29T19:00:00+03:00",
-      "last_seen_at_utc": "2026-05-29T21:42:15+03:00",
+      "last_seen_published_at_utc": "2026-05-30T03:06:20+03:00",
+      "last_seen_at_utc": "2026-05-30T07:15:34+03:00",
       "source_name": "Microsoft Security Blog"
     },
     "31734d9b3aef81d8b4aae547bb4912b13238de242ffdfeddaa2ca5e090d3ba62": {
@@ -2998,7 +2998,9 @@
     "87a6322725aa232836beed16680fd8c65ccab76607488fb99dc951a8c3f26956": "2026-05-30T01:03:37+03:00",
     "054ad0536b3d1ef1fb0250e9a778ee9456c009cd656e040c4472b46d83907fd0": "2026-05-30T01:03:37+03:00",
     "856f2127ddc008b8e37991141e5acd8c7aee59ef4de96ece66249671fe5f51c3": "2026-05-30T01:03:37+03:00",
-    "a5d2aa7171e38ab44740e83cd83ea2542c18bb8ce6602dd143a5dc86739a3528": "2026-05-30T01:03:37+03:00"
+    "a5d2aa7171e38ab44740e83cd83ea2542c18bb8ce6602dd143a5dc86739a3528": "2026-05-30T01:03:37+03:00",
+    "f824385eaad97aedd462b3ee800f57ad5abb94fe1a4c66411813b43fda0252ad": "2026-05-30T07:15:34+03:00",
+    "d03e39008128017421b22daeb54812e60443f60688e705436d793861473845d3": "2026-05-30T07:15:34+03:00"
   },
-  "updated_by_run_id": "26664525712"
+  "updated_by_run_id": "26674222121"
 }
