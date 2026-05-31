@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-31T07:50:13+03:00",
-  "last_successful_run_at_utc": "2026-05-31T07:50:14+03:00",
+  "updated_at_utc": "2026-05-31T13:24:59+03:00",
+  "last_successful_run_at_utc": "2026-05-31T13:24:59+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-30T15:00:46+03:00",
-      "last_seen_at_utc": "2026-05-30T17:03:00+03:00",
+      "last_seen_published_at_utc": "2026-05-31T13:00:49+03:00",
+      "last_seen_at_utc": "2026-05-31T13:23:29+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-05-29T17:26:20+03:00",
-      "last_seen_at_utc": "2026-05-29T19:07:45+03:00",
+      "last_seen_published_at_utc": "2026-05-31T11:00:26+03:00",
+      "last_seen_at_utc": "2026-05-31T13:23:29+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3014,7 +3014,10 @@
     "a96fef54486e6739ab5a468b59cc399a265541198bddddb1b5e0a57f307ff628": "2026-05-30T20:19:33+03:00",
     "74b8f7677b87d3af81cce0dd591b1da27416bcc9ff77c85b19190ab948bb6fb3": "2026-05-31T00:13:38+03:00",
     "57cd6d7a5216a0bb1a7f03ec92cf38ccc200494ba5ff1bd86d93cb50bffbd87f": "2026-05-31T07:48:38+03:00",
-    "f79f6888eb946a8309aae1a8fdbdd88fc84f29e589cb87cc6d8a90c8ae628dc5": "2026-05-31T07:48:38+03:00"
+    "f79f6888eb946a8309aae1a8fdbdd88fc84f29e589cb87cc6d8a90c8ae628dc5": "2026-05-31T07:48:38+03:00",
+    "474ea120dfa6b1149e1a3d120e24e0009db51b97af109b1864ba3c7878c38e23": "2026-05-31T13:23:29+03:00",
+    "736af00a7c32df88f16289f52baffab714a9ceceb5c76cc67e38cf84edbd26da": "2026-05-31T13:23:29+03:00",
+    "6ef681d2ffbdc8a019124b6d31e1aa2a294f100232551eea53c0b3e7cb390cf8": "2026-05-31T13:23:29+03:00"
   },
-  "updated_by_run_id": "26703561311"
+  "updated_by_run_id": "26710009003"
 }
