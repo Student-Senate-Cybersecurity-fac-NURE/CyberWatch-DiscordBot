@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-31T00:14:51+03:00",
-  "last_successful_run_at_utc": "2026-05-31T00:14:51+03:00",
+  "updated_at_utc": "2026-05-31T07:50:13+03:00",
+  "last_successful_run_at_utc": "2026-05-31T07:50:14+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -15,8 +15,8 @@
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
-      "last_seen_published_at_utc": "2026-05-28T23:00:34+03:00",
-      "last_seen_at_utc": "2026-05-29T01:05:19+03:00",
+      "last_seen_published_at_utc": "2026-05-31T02:35:29+03:00",
+      "last_seen_at_utc": "2026-05-31T07:48:38+03:00",
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-30T16:44:08+03:00",
-      "last_seen_at_utc": "2026-05-30T17:03:00+03:00",
+      "last_seen_published_at_utc": "2026-05-31T06:42:57+03:00",
+      "last_seen_at_utc": "2026-05-31T07:48:38+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -3012,7 +3012,9 @@
     "b980d5ec0458307c2e59084d4a2e6692df70139ea73e4721a486db51c845af44": "2026-05-30T17:03:00+03:00",
     "ff1a380d5f09b4de1179575bc258d25cfb3e24e9066a0d92d8598b9016c2707b": "2026-05-30T20:19:33+03:00",
     "a96fef54486e6739ab5a468b59cc399a265541198bddddb1b5e0a57f307ff628": "2026-05-30T20:19:33+03:00",
-    "74b8f7677b87d3af81cce0dd591b1da27416bcc9ff77c85b19190ab948bb6fb3": "2026-05-31T00:13:38+03:00"
+    "74b8f7677b87d3af81cce0dd591b1da27416bcc9ff77c85b19190ab948bb6fb3": "2026-05-31T00:13:38+03:00",
+    "57cd6d7a5216a0bb1a7f03ec92cf38ccc200494ba5ff1bd86d93cb50bffbd87f": "2026-05-31T07:48:38+03:00",
+    "f79f6888eb946a8309aae1a8fdbdd88fc84f29e589cb87cc6d8a90c8ae628dc5": "2026-05-31T07:48:38+03:00"
   },
-  "updated_by_run_id": "26695071346"
+  "updated_by_run_id": "26703561311"
 }
