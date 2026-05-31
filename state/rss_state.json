@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-05-31T17:10:46+03:00",
-  "last_successful_run_at_utc": "2026-05-31T17:10:47+03:00",
+  "updated_at_utc": "2026-05-31T20:22:02+03:00",
+  "last_successful_run_at_utc": "2026-05-31T20:22:02+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-05-30T19:33:14+03:00",
-      "last_seen_at_utc": "2026-05-30T20:19:33+03:00",
+      "last_seen_published_at_utc": "2026-05-31T17:53:47+03:00",
+      "last_seen_at_utc": "2026-05-31T20:20:41+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-05-31T06:42:57+03:00",
-      "last_seen_at_utc": "2026-05-31T07:48:38+03:00",
+      "last_seen_published_at_utc": "2026-05-31T18:21:13+03:00",
+      "last_seen_at_utc": "2026-05-31T20:20:41+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-05-30T21:02:51+03:00",
-      "last_seen_at_utc": "2026-05-31T00:13:38+03:00",
+      "last_seen_published_at_utc": "2026-05-31T17:06:42+03:00",
+      "last_seen_at_utc": "2026-05-31T20:20:41+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-05-30T01:27:49+03:00",
-      "last_seen_at_utc": "2026-05-30T07:15:34+03:00",
+      "last_seen_published_at_utc": "2026-05-31T19:30:23+03:00",
+      "last_seen_at_utc": "2026-05-31T20:20:41+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -3020,7 +3020,12 @@
     "6ef681d2ffbdc8a019124b6d31e1aa2a294f100232551eea53c0b3e7cb390cf8": "2026-05-31T13:23:29+03:00",
     "cf223a652edd6b20b9e6c8c7b4522a86769656910c066115aaf64649bdd14987": "2026-05-31T17:09:28+03:00",
     "8871b9cf9532d918ad5d90ebd20b08e5479612fc7779f95861cab97d1cf53e4b": "2026-05-31T17:09:28+03:00",
-    "25ca724614beaffbbee4081a45ca5734718aec8d2ebebb8c3716f95164f6f971": "2026-05-31T17:09:28+03:00"
+    "25ca724614beaffbbee4081a45ca5734718aec8d2ebebb8c3716f95164f6f971": "2026-05-31T17:09:28+03:00",
+    "5164ee65e3f1ce6dfc755bc75ab2215f364d9c54d566bcf307596256760434ea": "2026-05-31T20:20:41+03:00",
+    "7c6ef368fb67a0d1216ce555293caeaaedddb35c9c0b5348cab23ef1707461ca": "2026-05-31T20:20:41+03:00",
+    "26e371e426556356396b8e14fa4a49e71694044326f81140c4f50bb2b6b390c5": "2026-05-31T20:20:41+03:00",
+    "8aff7796d7f555d615275c21e761cd80734b46601cfdc7df565a7b252ff79f8e": "2026-05-31T20:20:41+03:00",
+    "45b37b80a4a86ccb5a125edffc0765cf68352a43083183d9a60189aae84aeb17": "2026-05-31T20:20:41+03:00"
   },
-  "updated_by_run_id": "26714860036"
+  "updated_by_run_id": "26719271596"
 }
