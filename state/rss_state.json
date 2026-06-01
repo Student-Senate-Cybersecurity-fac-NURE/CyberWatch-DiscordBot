@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-01T00:15:41+03:00",
-  "last_successful_run_at_utc": "2026-06-01T00:15:42+03:00",
+  "updated_at_utc": "2026-06-01T08:15:41+03:00",
+  "last_successful_run_at_utc": "2026-06-01T08:15:42+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-05-31T16:00:37+03:00",
-      "last_seen_at_utc": "2026-05-31T17:09:28+03:00",
+      "last_seen_published_at_utc": "2026-06-01T02:01:08+03:00",
+      "last_seen_at_utc": "2026-06-01T08:14:24+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -45,8 +45,8 @@
       "source_name": "www.crowdstrike.com/blog"
     },
     "1c944410f3c64db869c30b11957ea3b7d7f1db2a4ff30c78df28cee79c36c545": {
-      "last_seen_published_at_utc": "2026-05-29T15:07:24+03:00",
-      "last_seen_at_utc": "2026-05-29T19:07:45+03:00",
+      "last_seen_published_at_utc": "2026-06-01T04:52:57+03:00",
+      "last_seen_at_utc": "2026-06-01T08:14:24+03:00",
       "source_name": "Malwarebytes Unpacked"
     },
     "852650ccf6c37cf65dae8352f0d05d556cab5e31a6ccaf89fa3478fdd6263d73": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-05-26T01:52:15+03:00",
-      "last_seen_at_utc": "2026-05-26T07:32:51+03:00",
+      "last_seen_published_at_utc": "2026-06-01T06:32:33+03:00",
+      "last_seen_at_utc": "2026-06-01T08:14:24+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-05-31T11:00:26+03:00",
-      "last_seen_at_utc": "2026-05-31T13:23:29+03:00",
+      "last_seen_published_at_utc": "2026-06-01T08:00:44+03:00",
+      "last_seen_at_utc": "2026-06-01T08:14:24+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3026,7 +3026,15 @@
     "26e371e426556356396b8e14fa4a49e71694044326f81140c4f50bb2b6b390c5": "2026-05-31T20:20:41+03:00",
     "8aff7796d7f555d615275c21e761cd80734b46601cfdc7df565a7b252ff79f8e": "2026-05-31T20:20:41+03:00",
     "45b37b80a4a86ccb5a125edffc0765cf68352a43083183d9a60189aae84aeb17": "2026-05-31T20:20:41+03:00",
-    "793058abe20e0136b41202d9231a6fa6f286b6332c83d2d87802f27730ef35bb": "2026-06-01T00:14:09+03:00"
+    "793058abe20e0136b41202d9231a6fa6f286b6332c83d2d87802f27730ef35bb": "2026-06-01T00:14:09+03:00",
+    "a9607e5057340e0aab3840b12655ca40fa4f178c9985daa9531858a55fc8e83d": "2026-06-01T08:14:24+03:00",
+    "ebb826cda76f8168f4d8364f8607080906271d2603776c84a63f9f45c6c73f89": "2026-06-01T08:14:24+03:00",
+    "76f4d965e31149d7116ce16bbf05a570212fc464dbf8c39fcac40d6d2463efbe": "2026-06-01T08:14:24+03:00",
+    "afcee813b44d2ef83b42228a067c2c1ee2c6d591b1ea215bc9054d1706885011": "2026-06-01T08:14:24+03:00",
+    "809e03a40bd5d2858efed1add5ff7793ff84140a2c74a46837f01c664f37c180": "2026-06-01T08:14:24+03:00",
+    "1b8c07a003084a867b13e34801fe013ca57ae904db191e31ac3ad7b550f34d33": "2026-06-01T08:14:24+03:00",
+    "d9e020ab21b624fd965738eb3c76889c3760e44629f1bdf66e21716dd1fe7a66": "2026-06-01T08:14:24+03:00",
+    "a2251554a54d8182bcb38753f9e39bcd191b714ac36577ed1dff29d87a9dea07": "2026-06-01T08:14:24+03:00"
   },
-  "updated_by_run_id": "26724652783"
+  "updated_by_run_id": "26736517449"
 }
