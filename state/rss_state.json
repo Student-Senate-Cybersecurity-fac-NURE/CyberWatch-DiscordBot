@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-03T01:28:30+03:00",
-  "last_successful_run_at_utc": "2026-06-03T01:28:30+03:00",
+  "updated_at_utc": "2026-06-03T08:15:51+03:00",
+  "last_successful_run_at_utc": "2026-06-03T08:15:51+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-06-03T01:12:57+03:00",
-      "last_seen_at_utc": "2026-06-03T01:27:07+03:00",
+      "last_seen_published_at_utc": "2026-06-03T01:52:40+03:00",
+      "last_seen_at_utc": "2026-06-03T08:14:00+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-06-02T22:08:17+03:00",
-      "last_seen_at_utc": "2026-06-03T01:27:07+03:00",
+      "last_seen_published_at_utc": "2026-06-03T01:40:00+03:00",
+      "last_seen_at_utc": "2026-06-03T08:14:00+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-06-01T11:22:52+03:00",
-      "last_seen_at_utc": "2026-06-01T16:47:02+03:00",
+      "last_seen_published_at_utc": "2026-06-03T06:40:17+03:00",
+      "last_seen_at_utc": "2026-06-03T08:14:00+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -250,8 +250,8 @@
       "source_name": "SentinelOne"
     },
     "0e32c69bbaf17643f85e5591d4a574b5b06f7c774b1cd1e6354606485cc2cee5": {
-      "last_seen_published_at_utc": "2026-05-29T21:49:13+03:00",
-      "last_seen_at_utc": "2026-05-30T01:03:37+03:00",
+      "last_seen_published_at_utc": "2026-06-03T05:05:05+03:00",
+      "last_seen_at_utc": "2026-06-03T08:14:00+03:00",
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
@@ -3252,7 +3252,13 @@
     "0d01759d54cc1bfe748ace8cbae50d844ebbe4514bf2333dcef6fddcc22202dc": "2026-06-03T01:27:07+03:00",
     "ae0dc17c225fe9bbc1238a882ae08f8bc629b22f57e3e328a1444524e57351b1": "2026-06-03T01:27:07+03:00",
     "61b5c047da04a3bf6e38dafd40cf41cd8b7f898cd5a3fc2f421c73211ea37261": "2026-06-03T01:27:07+03:00",
-    "6bfd576b436d86306f55e5135a825f5b6d14674b22529d14bde1e543b3565944": "2026-06-03T01:27:07+03:00"
+    "6bfd576b436d86306f55e5135a825f5b6d14674b22529d14bde1e543b3565944": "2026-06-03T01:27:07+03:00",
+    "e211195f6ccbb26b250412970ee706fbd7b80d7be72701cf4e1f1078eece96cc": "2026-06-03T08:14:00+03:00",
+    "7d2f44398eb4e670fd08142f0d8e376aefade951f5d1d226dfdd20a565504a95": "2026-06-03T08:14:00+03:00",
+    "96531cab247a4c44800ff5c5f1a45cd3c55dfd39b40ef03ca8e7b07dc0db5b08": "2026-06-03T08:14:00+03:00",
+    "f001080ea55aef59f49a98d8a3acd8ebfb1a20344b8c80d6c3a6fac13a46eb23": "2026-06-03T08:14:00+03:00",
+    "1d4806a7bd54ab3fa4c8388fefc1e7886fbc8ce938ff4ef987fd9dcfe759cad5": "2026-06-03T08:14:00+03:00",
+    "585db5e772735a467d307f1bd2208d0dd20da9b83fa2b8fa0d2bbbb200e6eb31": "2026-06-03T08:14:00+03:00"
   },
-  "updated_by_run_id": "26851704233"
+  "updated_by_run_id": "26865146567"
 }
