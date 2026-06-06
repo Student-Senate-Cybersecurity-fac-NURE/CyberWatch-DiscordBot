@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-06T00:44:48+03:00",
-  "last_successful_run_at_utc": "2026-06-06T00:44:49+03:00",
+  "updated_at_utc": "2026-06-06T07:19:34+03:00",
+  "last_successful_run_at_utc": "2026-06-06T07:19:34+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-06-05T22:15:30+03:00",
-      "last_seen_at_utc": "2026-06-06T00:43:11+03:00",
+      "last_seen_published_at_utc": "2026-06-06T00:54:42+03:00",
+      "last_seen_at_utc": "2026-06-06T07:18:29+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-06-05T22:31:00+03:00",
-      "last_seen_at_utc": "2026-06-06T00:43:11+03:00",
+      "last_seen_published_at_utc": "2026-06-06T01:55:38+03:00",
+      "last_seen_at_utc": "2026-06-06T07:18:29+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -115,8 +115,8 @@
       "source_name": "Yubico"
     },
     "ae5b5707f27d1f3c404ba652bc11f47fe0d2d498938b6e444bcb7076820520b3": {
-      "last_seen_published_at_utc": "2026-06-02T14:43:00+03:00",
-      "last_seen_at_utc": "2026-06-02T19:55:27+03:00",
+      "last_seen_published_at_utc": "2026-06-06T02:27:00+03:00",
+      "last_seen_at_utc": "2026-06-06T07:18:29+03:00",
       "source_name": "SearchSecurity"
     },
     "ca833678fc37f02e44f45092ffb670edaa3e354978729f09792656aded213db8": {
@@ -3537,7 +3537,10 @@
     "c880cdf7931b7440d2a14d42223be73da0b4d094942615e73c2f89bbeceaf7ef": "2026-06-06T00:43:11+03:00",
     "bb835472382e73f71003a321b23eb853f198ae3c27c2ef5c9e9cb4816cad3995": "2026-06-06T00:43:11+03:00",
     "71f1d869ed7a192edbe7055259f62b54673932da858654b581e0f8678fb45e08": "2026-06-06T00:43:11+03:00",
-    "895c58cbb357a12cee6b841c1f8ba57707ae0537867acb74b133e608ed033c64": "2026-06-06T00:43:11+03:00"
+    "895c58cbb357a12cee6b841c1f8ba57707ae0537867acb74b133e608ed033c64": "2026-06-06T00:43:11+03:00",
+    "181b6192446018eae6d52243c2ce78cd991d934e8b6d9e1e288b3675cc982add": "2026-06-06T07:18:29+03:00",
+    "e8017b11489b26fb024999a583232a372438dadcf98c0a8469e75b752ba5d307": "2026-06-06T07:18:29+03:00",
+    "f8b22c2d875cc6a5f78078c61c4656c830fd1ec28fdf4cdfc14fd5a2bd958ba6": "2026-06-06T07:18:29+03:00"
   },
-  "updated_by_run_id": "27041650932"
+  "updated_by_run_id": "27052357795"
 }
