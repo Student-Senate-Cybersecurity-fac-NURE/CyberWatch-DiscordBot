@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-07T07:56:05+03:00",
-  "last_successful_run_at_utc": "2026-06-07T07:56:05+03:00",
+  "updated_at_utc": "2026-06-07T13:36:38+03:00",
+  "last_successful_run_at_utc": "2026-06-07T13:36:38+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,13 +10,13 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-06-07T04:00:51+03:00",
-      "last_seen_at_utc": "2026-06-07T07:54:32+03:00",
+      "last_seen_published_at_utc": "2026-06-07T13:30:38+03:00",
+      "last_seen_at_utc": "2026-06-07T13:35:32+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
-      "last_seen_published_at_utc": "2026-06-05T09:53:15+03:00",
-      "last_seen_at_utc": "2026-06-05T14:35:34+03:00",
+      "last_seen_published_at_utc": "2026-06-07T09:16:36+03:00",
+      "last_seen_at_utc": "2026-06-07T13:35:32+03:00",
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-06-07T04:32:08+03:00",
-      "last_seen_at_utc": "2026-06-07T07:54:32+03:00",
+      "last_seen_published_at_utc": "2026-06-07T13:00:34+03:00",
+      "last_seen_at_utc": "2026-06-07T13:35:32+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-06-05T14:34:19+03:00",
-      "last_seen_at_utc": "2026-06-05T18:27:11+03:00",
+      "last_seen_published_at_utc": "2026-06-07T11:00:37+03:00",
+      "last_seen_at_utc": "2026-06-07T13:35:32+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3556,7 +3556,12 @@
     "9c3903206ba6159b6d44c96265bd412b36cac79cb09bf69e4a7a5ddac3649d18": "2026-06-06T20:33:31+03:00",
     "2def5283bf698fb3b338022706ebf2584c04cff0db3c914428592b656ad865f5": "2026-06-07T07:54:32+03:00",
     "7e6f3b83c5a25f3d2751e77ffa63fa968830c5a992835293ca995ccf6bdd94fe": "2026-06-07T07:54:32+03:00",
-    "a7005f197954c82ea4a5911f5c9b87efde4ee35bb920b35a122127201ca27bbc": "2026-06-07T07:54:32+03:00"
+    "a7005f197954c82ea4a5911f5c9b87efde4ee35bb920b35a122127201ca27bbc": "2026-06-07T07:54:32+03:00",
+    "f3845eb212d8fbbf05d4713163e90173507fc554588803fba37fc0d6017f9082": "2026-06-07T13:35:32+03:00",
+    "905bb517d5351794259747ebdb3203a939d7bb64111a914f10e1c733470d46f6": "2026-06-07T13:35:32+03:00",
+    "15d9817b02e43b84c174bbc90cb56863795ceadbb033d0dde18e229f542e10c4": "2026-06-07T13:35:32+03:00",
+    "ab7f923af94c87a7c9e940e166acdf31d10a76edc37587fbdc6a413f0b487de2": "2026-06-07T13:35:32+03:00",
+    "0185d3d8ddcf80977bb7372f7369de9f728fef0bbee38439c7449f4b0156baa6": "2026-06-07T13:35:32+03:00"
   },
-  "updated_by_run_id": "27083145411"
+  "updated_by_run_id": "27090061094"
 }
