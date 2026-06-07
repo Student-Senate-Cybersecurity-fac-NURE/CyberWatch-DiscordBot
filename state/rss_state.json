@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-07T13:36:38+03:00",
-  "last_successful_run_at_utc": "2026-06-07T13:36:38+03:00",
+  "updated_at_utc": "2026-06-07T17:19:57+03:00",
+  "last_successful_run_at_utc": "2026-06-07T17:19:58+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -60,8 +60,8 @@
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-06-06T14:00:08+03:00",
-      "last_seen_at_utc": "2026-06-06T17:06:18+03:00",
+      "last_seen_published_at_utc": "2026-06-07T16:00:09+03:00",
+      "last_seen_at_utc": "2026-06-07T17:18:29+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -3561,7 +3561,8 @@
     "905bb517d5351794259747ebdb3203a939d7bb64111a914f10e1c733470d46f6": "2026-06-07T13:35:32+03:00",
     "15d9817b02e43b84c174bbc90cb56863795ceadbb033d0dde18e229f542e10c4": "2026-06-07T13:35:32+03:00",
     "ab7f923af94c87a7c9e940e166acdf31d10a76edc37587fbdc6a413f0b487de2": "2026-06-07T13:35:32+03:00",
-    "0185d3d8ddcf80977bb7372f7369de9f728fef0bbee38439c7449f4b0156baa6": "2026-06-07T13:35:32+03:00"
+    "0185d3d8ddcf80977bb7372f7369de9f728fef0bbee38439c7449f4b0156baa6": "2026-06-07T13:35:32+03:00",
+    "adab6cab12a8886473bae0e03140e5d360b6471a3e9338f609fe767226bfe632": "2026-06-07T17:18:29+03:00"
   },
-  "updated_by_run_id": "27090061094"
+  "updated_by_run_id": "27095087454"
 }
