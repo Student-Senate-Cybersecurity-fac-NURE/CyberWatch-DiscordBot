@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-09T07:23:38+03:00",
-  "last_successful_run_at_utc": "2026-06-09T07:23:38+03:00",
+  "updated_at_utc": "2026-06-09T14:32:11+03:00",
+  "last_successful_run_at_utc": "2026-06-09T14:32:12+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-05-19T21:28:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-06-09T04:24:00+03:00",
-      "last_seen_at_utc": "2026-06-09T07:22:15+03:00",
+      "last_seen_published_at_utc": "2026-06-09T13:01:23+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-06-09T01:13:20+03:00",
-      "last_seen_at_utc": "2026-06-09T07:22:15+03:00",
+      "last_seen_published_at_utc": "2026-06-09T14:27:55+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-06-08T23:42:49+03:00",
-      "last_seen_at_utc": "2026-06-09T01:00:29+03:00",
+      "last_seen_published_at_utc": "2026-06-09T13:38:32+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -45,23 +45,23 @@
       "source_name": "www.crowdstrike.com/blog"
     },
     "1c944410f3c64db869c30b11957ea3b7d7f1db2a4ff30c78df28cee79c36c545": {
-      "last_seen_published_at_utc": "2026-06-08T18:02:13+03:00",
-      "last_seen_at_utc": "2026-06-08T21:34:14+03:00",
+      "last_seen_published_at_utc": "2026-06-09T13:50:16+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Malwarebytes Unpacked"
     },
     "852650ccf6c37cf65dae8352f0d05d556cab5e31a6ccaf89fa3478fdd6263d73": {
-      "last_seen_published_at_utc": "2026-06-08T18:00:00+03:00",
-      "last_seen_at_utc": "2026-06-08T21:34:14+03:00",
+      "last_seen_published_at_utc": "2026-06-09T13:15:00+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-06-07T13:00:34+03:00",
-      "last_seen_at_utc": "2026-06-07T13:35:32+03:00",
+      "last_seen_published_at_utc": "2026-06-09T12:50:47+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-06-08T21:30:00+03:00",
-      "last_seen_at_utc": "2026-06-08T21:34:14+03:00",
+      "last_seen_published_at_utc": "2026-06-09T14:00:06+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-06-09T01:11:58+03:00",
-      "last_seen_at_utc": "2026-06-09T07:22:15+03:00",
+      "last_seen_published_at_utc": "2026-06-09T13:53:00+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -195,13 +195,13 @@
       "source_name": "The Red Canary Blog: Information Security Insights"
     },
     "e828994a2eb3265e0504ddec0c6356e4bbe1bd04e04e39f101e0e8c9f1e75f09": {
-      "last_seen_published_at_utc": "2026-06-05T03:16:01+03:00",
-      "last_seen_at_utc": "2026-06-05T07:44:49+03:00",
+      "last_seen_published_at_utc": "2026-06-09T08:32:32+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-06-08T23:17:39+03:00",
-      "last_seen_at_utc": "2026-06-09T01:00:29+03:00",
+      "last_seen_published_at_utc": "2026-06-09T12:50:41+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-06-08T21:10:30+03:00",
-      "last_seen_at_utc": "2026-06-09T01:00:29+03:00",
+      "last_seen_published_at_utc": "2026-06-09T12:55:59+03:00",
+      "last_seen_at_utc": "2026-06-09T14:29:52+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3674,7 +3674,39 @@
     "691a610fe2b7cba6edf9ae7a3e9eac7219b68c152d7cb4ab22cceddeb5d7e39c": "2026-06-09T07:22:15+03:00",
     "b7c946191db2d8121c0c7b1b344c47de999e41584b4821f94903c15f6ad49d73": "2026-06-09T07:22:15+03:00",
     "41074578866e5050903e033d8f421126db79472de54f9a9b1ad4860689f17199": "2026-06-09T07:22:15+03:00",
-    "2dbeaa284fbd4f8da87d7760f4fcb5fe6434862d594f94323b23497cd3f1c1c0": "2026-06-09T07:22:15+03:00"
+    "2dbeaa284fbd4f8da87d7760f4fcb5fe6434862d594f94323b23497cd3f1c1c0": "2026-06-09T07:22:15+03:00",
+    "b41e6628ed98b1ae748e8d9a31ba31cd132098b5120b68c424d3dd9aebc06755": "2026-06-09T14:29:52+03:00",
+    "243359a1f7dda3b102f90a8e5c18d7a4a04377e1003ccb5e2e0949e69f5bb848": "2026-06-09T14:29:52+03:00",
+    "39c8d489bcf7045edc02fc6d5e154a17f7f202d2c937212de9b8c559aa7a18f1": "2026-06-09T14:29:52+03:00",
+    "614ed732d83e48413992814bc478f63cca783187d4cc13e1444dd72310c2127a": "2026-06-09T14:29:52+03:00",
+    "907dca6211407f4e498c85412f3b2d13f8a9150152aeffea0563569ecb5a6ee3": "2026-06-09T14:29:52+03:00",
+    "b355560b7af74b98ad8eab7cb2319ad6de1dd56b2a1264656339c71154a7d5ba": "2026-06-09T14:29:52+03:00",
+    "f6be484885cdb1afc4e0df17718cdb6259de1dabea2d364ad2b7be60d826b034": "2026-06-09T14:29:52+03:00",
+    "aa0664aede1442ba65add4f209d6efe34316c0954b8700af267a5d612fb2f824": "2026-06-09T14:29:52+03:00",
+    "70c41c0b9508431bbc67cd8d1f6673979f0c797e2dfc145c1ae12119e98aa7ea": "2026-06-09T14:29:52+03:00",
+    "866abf995f49f4076d879f5f6b47e80dfe058e0db73dcbd4c86c7c6375cde388": "2026-06-09T14:29:52+03:00",
+    "a75741682fd2286f4cef488782b86ce1d10d1e1f5d099ca520a62592d8667d3d": "2026-06-09T14:29:52+03:00",
+    "017019376b0308da746f274ec69a44126b22cc4a616764eafc8b1879428b670c": "2026-06-09T14:29:52+03:00",
+    "de13a601659227bd1c3093b07f653cf66bfdb0b617de7e346745d5d3d0ad7738": "2026-06-09T14:29:52+03:00",
+    "52eb7c2671e55acd1b37e923afeb7bdb05c75919f8d7b2ee7a126d735e5b79d6": "2026-06-09T14:29:52+03:00",
+    "9fdd8b46f006432faa597d4b98f7fcd97b7288844d973fc963117c21dd7cb394": "2026-06-09T14:29:52+03:00",
+    "2931b4ed82a5c8e86428d8d964dbc986e12d329d50cecdd500319342ebe9fd77": "2026-06-09T14:29:52+03:00",
+    "2cf0775b39d448bb50e8848b4feec902a734ba8e0f5ff92f26cbc24d1ea8b361": "2026-06-09T14:29:52+03:00",
+    "c7cf329983595b4e04c70a72aab2ff8f56797c92d000ceec2d356e1077cf16b0": "2026-06-09T14:29:52+03:00",
+    "3da139454da2f9a8828d4ab9cbfcb0a78def91d8c3786151990f30236b98dfa1": "2026-06-09T14:29:52+03:00",
+    "53b6630037abb94a2b8d0b45d380bd6b331e57b4dcb435f44256fadd97701c90": "2026-06-09T14:29:52+03:00",
+    "01961ce56e6ea8c6a8ff5a1504ed7f28683bfb1e22ebcda136ba726696e85443": "2026-06-09T14:29:52+03:00",
+    "8bb308942d18a6d9ef4e6015dbac14ffc417ae1717c8fa567f8b4461b9721315": "2026-06-09T14:29:52+03:00",
+    "e4c1065701db6bf6bd418a9e3b8286d6ac779e41bff697ddff145400d2adb93e": "2026-06-09T14:29:52+03:00",
+    "f7b8e01fdaa08747e3e7d514a260c5e11175c4cc00660bd262d52dae2a25ff0d": "2026-06-09T14:29:52+03:00",
+    "ed6ee6102a5cb71e5582a041ad32be8498e545589d647c24f3948ea27b8c4956": "2026-06-09T14:29:52+03:00",
+    "3f5aa8f22567afe5d20a44800f60ee4830ed4ab0da0e0c61cdcc0985d0831299": "2026-06-09T14:29:52+03:00",
+    "21b157258b3bd09f793bd17ed730dd5d381d4bd5da4df06e7dcf69173fd37e4e": "2026-06-09T14:29:52+03:00",
+    "8c131a325c972ff6ce5f150e03038f9eff62eba8729806ec6127e1ea0b52d4b7": "2026-06-09T14:29:52+03:00",
+    "b1723839843cea23549bca824861e21230c6cf3933e4671a8dff262df3d412a6": "2026-06-09T14:29:52+03:00",
+    "a2900bfbd43227721118ead4703c6be8a5f5ecb456743173961db95399038145": "2026-06-09T14:29:52+03:00",
+    "28e5cc33eeb2ed5c5b9c8e01ed566168088534e6a710596b671502883697620b": "2026-06-09T14:29:52+03:00",
+    "701e7ffe5379a006ac831510f7bde87b005fd33cc2b3325a2757a361755ae53f": "2026-06-09T14:29:52+03:00"
   },
-  "updated_by_run_id": "27183659877"
+  "updated_by_run_id": "27203109566"
 }
