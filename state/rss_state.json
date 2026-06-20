@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-20T13:41:41+03:00",
-  "last_successful_run_at_utc": "2026-06-20T13:41:41+03:00",
+  "updated_at_utc": "2026-06-20T17:29:13+03:00",
+  "last_successful_run_at_utc": "2026-06-20T17:29:13+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-06-18T22:57:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-06-19T19:02:00+03:00",
-      "last_seen_at_utc": "2026-06-19T21:06:08+03:00",
+      "last_seen_published_at_utc": "2026-06-20T17:25:00+03:00",
+      "last_seen_at_utc": "2026-06-20T17:27:45+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -60,8 +60,8 @@
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-06-19T17:00:08+03:00",
-      "last_seen_at_utc": "2026-06-19T21:06:08+03:00",
+      "last_seen_published_at_utc": "2026-06-20T14:00:09+03:00",
+      "last_seen_at_utc": "2026-06-20T17:27:45+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-06-20T01:31:04+03:00",
-      "last_seen_at_utc": "2026-06-20T07:39:09+03:00",
+      "last_seen_published_at_utc": "2026-06-20T17:09:19+03:00",
+      "last_seen_at_utc": "2026-06-20T17:27:45+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -3707,7 +3707,10 @@
     "67e02bb1679bc028854f06b0f4fea6747f610662f671b775cfb7a2f5c90062b3": "2026-06-20T07:39:09+03:00",
     "bb4e6d5294d127433db509525b412e43b6d587786e52252ac74941a608f9c688": "2026-06-20T13:40:29+03:00",
     "40e42ccab6443301524c302804d8024ee8374e3a883c14a4c66e49311726ea24": "2026-06-20T13:40:29+03:00",
-    "15bda3132305ad7d5995992e9812b16a4944aa1461ebdcc25ad6290ecc2d38ee": "2026-06-20T13:40:29+03:00"
+    "15bda3132305ad7d5995992e9812b16a4944aa1461ebdcc25ad6290ecc2d38ee": "2026-06-20T13:40:29+03:00",
+    "66497663ccb75a5513b6e255c9410a792405c4873959c88611054d5d8a967af2": "2026-06-20T17:27:45+03:00",
+    "3672927a3baa8d742a19dbcaccbe998d2ac0b15a52b4147fde768c3e8ee02fb8": "2026-06-20T17:27:45+03:00",
+    "fa9b05a4c814c3661c7fdd11f46ab974c007a62fb716a8b05b4697d7c9c44e85": "2026-06-20T17:27:45+03:00"
   },
-  "updated_by_run_id": "27868667125"
+  "updated_by_run_id": "27874017114"
 }
