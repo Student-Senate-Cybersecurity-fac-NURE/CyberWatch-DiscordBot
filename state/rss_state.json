@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-27T07:15:54+03:00",
-  "last_successful_run_at_utc": "2026-06-27T07:15:54+03:00",
+  "updated_at_utc": "2026-06-27T10:29:01+03:00",
+  "last_successful_run_at_utc": "2026-06-27T10:29:01+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-06-18T22:57:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-06-27T00:50:47+03:00",
-      "last_seen_at_utc": "2026-06-27T07:14:16+03:00",
+      "last_seen_published_at_utc": "2026-06-27T09:59:00+03:00",
+      "last_seen_at_utc": "2026-06-27T10:27:25+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -326,8 +326,6 @@
     }
   },
   "sent_fingerprints": {
-    "de0ff24ad3ddae8519de2d2585dac574b8791a51a0bc7a8c954d16d288d382e5": "2026-05-13T10:25:21+03:00",
-    "a17bb56ca2e5a2f574471829d3e7d7ec39aaf468574d7fa195d1c674c7db0867": "2026-05-13T10:25:21+03:00",
     "7d470a92b5d67ac16481f6de5423275205fc45b8eaea2c2b2d24e0fa52aeb73a": "2026-05-13T13:41:53+03:00",
     "1a2810eafbc6525de77b88f75522676620136a367723e62d9f05378b959df208": "2026-05-13T13:41:53+03:00",
     "f22916207f6b47209cf90d629b70bfcf9c9e3501f053b99eceecfc77716a7d43": "2026-05-13T13:41:53+03:00",
@@ -3821,7 +3819,8 @@
     "b2a02c20b3978ec75565b513ef62ac7ffa273023e77d6b1ddfa6e51c09ad06db": "2026-06-27T07:14:16+03:00",
     "330689a5c44b968b1918988b4862975698f2f09e39797462d634e181fb7f2c1c": "2026-06-27T07:14:16+03:00",
     "b8474e35a12457847f7b720264876e5ed2dbcf74572ef006bd0a73675909f4f5": "2026-06-27T07:14:16+03:00",
-    "2e6c4939ccc88f95a970616a9a240dc7b2b8317c3790943f3a477093a9e59b8f": "2026-06-27T07:14:16+03:00"
+    "2e6c4939ccc88f95a970616a9a240dc7b2b8317c3790943f3a477093a9e59b8f": "2026-06-27T07:14:16+03:00",
+    "571ea47723d0d0299e3f6cf737d9c110031e4e7f5a5cbf152741ed444d5f2148": "2026-06-27T10:27:25+03:00"
   },
-  "updated_by_run_id": "28278268371"
+  "updated_by_run_id": "28282501306"
 }
