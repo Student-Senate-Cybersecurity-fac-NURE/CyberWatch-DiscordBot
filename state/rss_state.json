@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-06-27T13:22:22+03:00",
-  "last_successful_run_at_utc": "2026-06-27T13:22:22+03:00",
+  "updated_at_utc": "2026-06-27T17:05:49+03:00",
+  "last_successful_run_at_utc": "2026-06-27T17:05:49+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-06-18T22:57:00+03:00",
@@ -55,13 +55,13 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-06-26T11:48:05+03:00",
-      "last_seen_at_utc": "2026-06-26T14:13:44+03:00",
+      "last_seen_published_at_utc": "2026-06-27T14:16:55+03:00",
+      "last_seen_at_utc": "2026-06-27T17:04:41+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
-      "last_seen_published_at_utc": "2026-06-26T19:30:09+03:00",
-      "last_seen_at_utc": "2026-06-26T21:02:47+03:00",
+      "last_seen_published_at_utc": "2026-06-27T14:01:01+03:00",
+      "last_seen_at_utc": "2026-06-27T17:04:41+03:00",
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-06-26T22:38:29+03:00",
-      "last_seen_at_utc": "2026-06-27T00:38:58+03:00",
+      "last_seen_published_at_utc": "2026-06-27T15:19:37+03:00",
+      "last_seen_at_utc": "2026-06-27T17:04:41+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -320,18 +320,12 @@
       "source_name": "Add / Xor / Rol"
     },
     "a423b471535a77dedfed446dcda271a7d8f6db743daca3a09eb0747720ffb82f": {
-      "last_seen_published_at_utc": "2026-06-19T17:51:36+03:00",
-      "last_seen_at_utc": "2026-06-19T21:06:08+03:00",
+      "last_seen_published_at_utc": "2026-06-27T16:07:22+03:00",
+      "last_seen_at_utc": "2026-06-27T17:04:41+03:00",
       "source_name": "Windows Incident Response"
     }
   },
   "sent_fingerprints": {
-    "7d470a92b5d67ac16481f6de5423275205fc45b8eaea2c2b2d24e0fa52aeb73a": "2026-05-13T13:41:53+03:00",
-    "1a2810eafbc6525de77b88f75522676620136a367723e62d9f05378b959df208": "2026-05-13T13:41:53+03:00",
-    "f22916207f6b47209cf90d629b70bfcf9c9e3501f053b99eceecfc77716a7d43": "2026-05-13T13:41:53+03:00",
-    "0bbab71466f7632f60ea79f133e945ba0edecf1d7027cd5b52d99c8ebbef103a": "2026-05-13T13:41:53+03:00",
-    "0e1f40f99e056f2e057864a7b5716e3306dc412edc002147b522d76044f62739": "2026-05-13T13:41:53+03:00",
-    "64738f9e831dd6bede78bedd6e3f7a6aee9407f356ebb82121b56ac4debbde4c": "2026-05-13T13:41:53+03:00",
     "2fe1f51fca481dccb48fe28afcc96ff71a83f7c892be9ee2a7daf4bd523fe899": "2026-05-13T18:13:26+03:00",
     "a8957d92a0383c6c26cf96f0813d21e0ed666bb3a97805a7174a1da350d6abc2": "2026-05-13T18:13:26+03:00",
     "49da839cfe64930c8d1bbfd6681ece770018a088851896842c98a7abc9cf2c2c": "2026-05-13T18:13:26+03:00",
@@ -3824,7 +3818,11 @@
     "a5eaef0ff2136601f0a365d2b8500943ff5fbe6ea814aa06767ea43816d9f37c": "2026-06-27T13:21:05+03:00",
     "f17742e28dd24071dc8e1d3d0284e6de701b66276811832c4cb4777ebe6c0a0c": "2026-06-27T13:21:05+03:00",
     "c14021f5e73907668d4ff2884411cffae39d4ed6b58854142b9859007828fd2f": "2026-06-27T13:21:05+03:00",
-    "5a91cbdcfcb0c26ef047a05b3de3f18551653663716a5ff3ccc587dbc86ae024": "2026-06-27T13:21:05+03:00"
+    "5a91cbdcfcb0c26ef047a05b3de3f18551653663716a5ff3ccc587dbc86ae024": "2026-06-27T13:21:05+03:00",
+    "6447714f2d23115f21aed9fa3f7caad0f0a9d97983dec8c43f6920946d268574": "2026-06-27T17:04:41+03:00",
+    "f3a3a837d5d56b8f73623fbace38b2b49bdc4d6553ba4ae99e2612c5e48489e7": "2026-06-27T17:04:41+03:00",
+    "4bf56e74e23862aae7b1afee764d03db9b43bf9ce66a3fc374178c77f95c0e3c": "2026-06-27T17:04:41+03:00",
+    "0186b9b494672dfd48940f586cbd4d17794f761f69c2994c45fac0d778d66b75": "2026-06-27T17:04:41+03:00"
   },
-  "updated_by_run_id": "28286371655"
+  "updated_by_run_id": "28291473901"
 }
