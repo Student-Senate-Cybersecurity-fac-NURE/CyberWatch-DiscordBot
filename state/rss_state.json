@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-02T00:46:45+03:00",
-  "last_successful_run_at_utc": "2026-07-02T00:46:45+03:00",
+  "updated_at_utc": "2026-07-02T07:20:39+03:00",
+  "last_successful_run_at_utc": "2026-07-02T07:20:39+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-06-18T22:57:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-07-02T00:33:44+03:00",
-      "last_seen_at_utc": "2026-07-02T00:45:00+03:00",
+      "last_seen_published_at_utc": "2026-07-02T00:50:25+03:00",
+      "last_seen_at_utc": "2026-07-02T07:19:28+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-07-01T18:51:00+03:00",
-      "last_seen_at_utc": "2026-07-01T21:14:54+03:00",
+      "last_seen_published_at_utc": "2026-07-02T00:50:00+03:00",
+      "last_seen_at_utc": "2026-07-02T07:19:28+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-07-01T00:04:35+03:00",
-      "last_seen_at_utc": "2026-07-01T00:44:44+03:00",
+      "last_seen_published_at_utc": "2026-07-02T02:12:11+03:00",
+      "last_seen_at_utc": "2026-07-02T07:19:28+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-07-01T00:04:35+03:00",
-      "last_seen_at_utc": "2026-07-01T00:44:44+03:00",
+      "last_seen_published_at_utc": "2026-07-02T02:12:11+03:00",
+      "last_seen_at_utc": "2026-07-02T07:19:28+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -3867,7 +3867,11 @@
     "b235aad0e69c5c392dcd356c4933266e7da412428c09944803b523bc5ad56d5b": "2026-07-02T00:45:00+03:00",
     "9f2aa597d97b746f0bf1f0803ad5a5fe82abc846b0bf1ca4c612a156ae6c33b4": "2026-07-02T00:45:00+03:00",
     "3df66f1944b8ef8a381f104322c7a8eefb18586e789b5f49cb815e4785a32e63": "2026-07-02T00:45:00+03:00",
-    "4ab085ba65bad31c997d717bf5230e69f2ac730a3e851ea8b53a335693330aff": "2026-07-02T00:45:00+03:00"
+    "4ab085ba65bad31c997d717bf5230e69f2ac730a3e851ea8b53a335693330aff": "2026-07-02T00:45:00+03:00",
+    "6893285c6615a081f54e0e598261ad794b4fd346b5dbdd207d871af72d3fdbf4": "2026-07-02T07:19:28+03:00",
+    "6c06e779827748f24f1c896e0ef76e76a0ae162ddb1bae8bb38c40f9205ac74b": "2026-07-02T07:19:28+03:00",
+    "3616092a2edac674cbdc3ff14d3719f76401fdfcfce292b9d1301938f8da9c35": "2026-07-02T07:19:28+03:00",
+    "c5a979ddaa158ba0cb181934957247c643fd0565b235695ffb4d8f89366e59e1": "2026-07-02T07:19:28+03:00"
   },
-  "updated_by_run_id": "28549767816"
+  "updated_by_run_id": "28565091454"
 }
