@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-04T10:13:28+03:00",
-  "last_successful_run_at_utc": "2026-07-04T10:13:29+03:00",
+  "updated_at_utc": "2026-07-04T13:25:02+03:00",
+  "last_successful_run_at_utc": "2026-07-04T13:25:03+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-06-18T22:57:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-07-03T21:00:44+03:00",
-      "last_seen_at_utc": "2026-07-04T00:21:49+03:00",
+      "last_seen_published_at_utc": "2026-07-04T13:00:44+03:00",
+      "last_seen_at_utc": "2026-07-04T13:23:11+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-07-03T17:29:00+03:00",
-      "last_seen_at_utc": "2026-07-03T17:30:02+03:00",
+      "last_seen_published_at_utc": "2026-07-04T13:03:00+03:00",
+      "last_seen_at_utc": "2026-07-04T13:23:11+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-07-03T23:18:32+03:00",
-      "last_seen_at_utc": "2026-07-04T00:21:49+03:00",
+      "last_seen_published_at_utc": "2026-07-04T10:55:14+03:00",
+      "last_seen_at_utc": "2026-07-04T13:23:11+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -3794,7 +3794,10 @@
     "5055cc732c0861ed513e52cb04b8c6abfe67de6807d2aee3e190d59bfcc9383f": "2026-07-04T00:21:49+03:00",
     "b2b22a06ac3bd2fc8a7ba7bf3c446894fe08f17bd23380f5934071dbc1c95c10": "2026-07-04T00:21:49+03:00",
     "43b83b976c75d965b877a82d811d30c70408d846c620b3a00ff5351fd03169b5": "2026-07-04T06:58:44+03:00",
-    "4902b4052ca7e767414611b29caca39920d5096747bd533cefdb8bac8c7a5a4b": "2026-07-04T06:58:44+03:00"
+    "4902b4052ca7e767414611b29caca39920d5096747bd533cefdb8bac8c7a5a4b": "2026-07-04T06:58:44+03:00",
+    "04a1105cfc3ae14ada921fc7ce349eb04d579149daf445e16d02f65ad692bff1": "2026-07-04T13:23:11+03:00",
+    "11a34225e0860bb9fdc53db825825a0c2a26d04b24528b22d37f3e2c67744287": "2026-07-04T13:23:11+03:00",
+    "f89e42911ce24f3ba6595e6583e8013f5d4e007b4ceb65b1f40afbb2839c3d34": "2026-07-04T13:23:11+03:00"
   },
-  "updated_by_run_id": "28698754096"
+  "updated_by_run_id": "28703208565"
 }
