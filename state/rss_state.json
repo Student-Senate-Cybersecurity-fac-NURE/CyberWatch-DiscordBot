@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-07T00:46:31+03:00",
-  "last_successful_run_at_utc": "2026-07-07T00:46:31+03:00",
+  "updated_at_utc": "2026-07-07T07:16:03+03:00",
+  "last_successful_run_at_utc": "2026-07-07T07:16:03+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-06-18T22:57:00+03:00",
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-07-07T00:17:42+03:00",
-      "last_seen_at_utc": "2026-07-07T00:45:22+03:00",
+      "last_seen_published_at_utc": "2026-07-07T00:37:56+03:00",
+      "last_seen_at_utc": "2026-07-07T07:14:57+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-07-06T19:38:27+03:00",
-      "last_seen_at_utc": "2026-07-06T21:19:58+03:00",
+      "last_seen_published_at_utc": "2026-07-07T00:00:00+03:00",
+      "last_seen_at_utc": "2026-07-07T07:14:57+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -326,9 +326,6 @@
     }
   },
   "sent_fingerprints": {
-    "aec3df4048f817df479ddaea1319f9f0f3b01a78e323fa9d2b39cb12c0113892": "2026-05-23T07:06:23+03:00",
-    "6520cf398d121f9ceb334738df633904ee5073820b42be438045c8331835d9c7": "2026-05-23T07:06:23+03:00",
-    "eacb74b0040080ed414f21b48f2419707b42344cb01c647ce13083ddb0a9673e": "2026-05-23T07:06:23+03:00",
     "725f757c28cc1269fab248d6c624b14ad8092a273cbde07cbdc10db096699414": "2026-05-23T13:03:59+03:00",
     "d6ac4a006c94155f6cdc29ee2cf5c89d05d02e3cf402faca0b60dda8ef243dae": "2026-05-23T13:03:59+03:00",
     "48eb0c6369aea686bedb31ced8f57e894c01d3ceed03c9f46c6d8ceabb26da7b": "2026-05-23T13:03:59+03:00",
@@ -3583,7 +3580,9 @@
     "991960165de1e817b332ce0f3cf8eac19405d9ab87022f0a3ad1703d4a308e7d": "2026-07-07T00:45:22+03:00",
     "ea08ff7a46c975537a967bfa258ded56056bf7c072ddde869b5d24dab48ade2b": "2026-07-07T00:45:22+03:00",
     "10dde3dda0f35de490869781b17c9f3fc733f65fdee54cfcfde55685ab4ea89e": "2026-07-07T00:45:22+03:00",
-    "5051673cc2bebdf89a3716b6b188e4d9a2d40fa5e7fd1f545b4f981b9a932be0": "2026-07-07T00:45:22+03:00"
+    "5051673cc2bebdf89a3716b6b188e4d9a2d40fa5e7fd1f545b4f981b9a932be0": "2026-07-07T00:45:22+03:00",
+    "ded0181ebf2927c40215decc5bff85b4ab2b31179609dcb2c3fb935fd5d63a45": "2026-07-07T07:14:57+03:00",
+    "a545060d5d1f89fd9381c79275528eac74a8311f575f9f09cd3c5dc4c0fba2c1": "2026-07-07T07:14:57+03:00"
   },
-  "updated_by_run_id": "28825383769"
+  "updated_by_run_id": "28841055599"
 }
