@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-09T00:22:59+03:00",
-  "last_successful_run_at_utc": "2026-07-09T00:22:59+03:00",
+  "updated_at_utc": "2026-07-09T07:11:42+03:00",
+  "last_successful_run_at_utc": "2026-07-09T07:11:42+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-07-08T22:19:35+03:00",
-      "last_seen_at_utc": "2026-07-09T00:21:42+03:00",
+      "last_seen_published_at_utc": "2026-07-09T00:35:13+03:00",
+      "last_seen_at_utc": "2026-07-09T07:10:38+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-07-08T22:54:59+03:00",
-      "last_seen_at_utc": "2026-07-09T00:21:42+03:00",
+      "last_seen_published_at_utc": "2026-07-09T00:26:59+03:00",
+      "last_seen_at_utc": "2026-07-09T07:10:38+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-07-08T23:32:22+03:00",
-      "last_seen_at_utc": "2026-07-09T00:21:42+03:00",
+      "last_seen_published_at_utc": "2026-07-09T00:34:21+03:00",
+      "last_seen_at_utc": "2026-07-09T07:10:38+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-07-08T21:49:06+03:00",
-      "last_seen_at_utc": "2026-07-09T00:21:42+03:00",
+      "last_seen_published_at_utc": "2026-07-09T01:00:00+03:00",
+      "last_seen_at_utc": "2026-07-09T07:10:38+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-07-07T15:56:01+03:00",
-      "last_seen_at_utc": "2026-07-07T18:11:21+03:00",
+      "last_seen_published_at_utc": "2026-07-09T02:19:18+03:00",
+      "last_seen_at_utc": "2026-07-09T07:10:38+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-07-07T15:56:01+03:00",
-      "last_seen_at_utc": "2026-07-07T18:11:21+03:00",
+      "last_seen_published_at_utc": "2026-07-09T02:19:18+03:00",
+      "last_seen_at_utc": "2026-07-09T07:10:38+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -3760,7 +3760,13 @@
     "6242715927899d8758cf21f5b219977c7bbd5733295fc11c983a6f577d26f704": "2026-07-09T00:21:42+03:00",
     "92655425839d006c0aeaa45f6f213e4ae42b421e148c6315eaa2a34deffea84e": "2026-07-09T00:21:42+03:00",
     "d3dedabf5b7c7b546242d5029a6927b88e36c99657b37ea1b82025bbbca57a28": "2026-07-09T00:21:42+03:00",
-    "121110521b2600a95cc9fac5c1e8a4c1fc9d1e3b12738ca94a78ccfd7cdfe48e": "2026-07-09T00:21:42+03:00"
+    "121110521b2600a95cc9fac5c1e8a4c1fc9d1e3b12738ca94a78ccfd7cdfe48e": "2026-07-09T00:21:42+03:00",
+    "ca771cead55ae2149f8c5cb06e94eb10b4133038f0751311540fba8a649f03ab": "2026-07-09T07:10:38+03:00",
+    "54bc70cb760386107d1850d422d6429361eae957dfd8af99c9aef94d1c9a5657": "2026-07-09T07:10:38+03:00",
+    "ca9cdd6743b3eef020016302483054fc509820b04f90b9f79a9f3621298b6e52": "2026-07-09T07:10:38+03:00",
+    "898d92a9f837d3e03eca922b1f39afef419c5d3442962b4b3ef15635544630bb": "2026-07-09T07:10:38+03:00",
+    "f3ed32d4183589529fce53bfe7eaa5afe97e15835e0b35e4d23e1c552b947a93": "2026-07-09T07:10:38+03:00",
+    "4525e2754c06ab1bd97097e98fc80724c144184f407fb176196dc065a84f5b5d": "2026-07-09T07:10:38+03:00"
   },
-  "updated_by_run_id": "28976599267"
+  "updated_by_run_id": "28993415049"
 }
