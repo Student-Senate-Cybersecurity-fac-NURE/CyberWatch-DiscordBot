@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-10T00:42:21+03:00",
-  "last_successful_run_at_utc": "2026-07-10T00:42:22+03:00",
+  "updated_at_utc": "2026-07-10T07:13:05+03:00",
+  "last_successful_run_at_utc": "2026-07-10T07:13:05+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-07-09T23:26:06+03:00",
-      "last_seen_at_utc": "2026-07-10T00:41:14+03:00",
+      "last_seen_published_at_utc": "2026-07-10T04:00:41+03:00",
+      "last_seen_at_utc": "2026-07-10T07:11:12+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-07-09T18:51:59+03:00",
-      "last_seen_at_utc": "2026-07-09T21:06:56+03:00",
+      "last_seen_published_at_utc": "2026-07-10T04:56:29+03:00",
+      "last_seen_at_utc": "2026-07-10T07:11:12+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-07-09T21:11:37+03:00",
-      "last_seen_at_utc": "2026-07-10T00:41:14+03:00",
+      "last_seen_published_at_utc": "2026-07-10T00:29:15+03:00",
+      "last_seen_at_utc": "2026-07-10T07:11:12+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-07-09T23:10:00+03:00",
-      "last_seen_at_utc": "2026-07-10T00:41:14+03:00",
+      "last_seen_published_at_utc": "2026-07-10T01:14:13+03:00",
+      "last_seen_at_utc": "2026-07-10T07:11:12+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -110,8 +110,8 @@
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
-      "last_seen_published_at_utc": "2026-07-07T18:00:00+03:00",
-      "last_seen_at_utc": "2026-07-07T18:11:21+03:00",
+      "last_seen_published_at_utc": "2026-07-10T00:45:00+03:00",
+      "last_seen_at_utc": "2026-07-10T07:11:12+03:00",
       "source_name": "Yubico"
     },
     "ae5b5707f27d1f3c404ba652bc11f47fe0d2d498938b6e444bcb7076820520b3": {
@@ -3845,7 +3845,13 @@
     "7b9ace75341ccc2af9aaf850e510175da41ba33fcd164d3d730190dff6ec6fdf": "2026-07-10T00:41:14+03:00",
     "f13ceaee19289a501d59d233cbd7c23d7774d63a8db18e25a15557f1fa971df9": "2026-07-10T00:41:14+03:00",
     "d0a9936355e41174fdd7ec15a52cc2f8b16bb3c63244f5d15b620a11749a0ea1": "2026-07-10T00:41:14+03:00",
-    "e46c5b1be1041a2ac5e069a400a725a7ba3be9a5116626afcab990b0b2fd9a05": "2026-07-10T00:41:14+03:00"
+    "e46c5b1be1041a2ac5e069a400a725a7ba3be9a5116626afcab990b0b2fd9a05": "2026-07-10T00:41:14+03:00",
+    "d6415d6f523a3f53e6cc2e0871d2692b1c2c74a92db027feaa95d9c773f8ca5a": "2026-07-10T07:11:12+03:00",
+    "003bcd96ea03586084399791059f08bb485280490e91b23f0096826e2e6e45fc": "2026-07-10T07:11:12+03:00",
+    "0ae79f3f78ec0722cefd423fa186a9738047466f2236256108bc92551350e647": "2026-07-10T07:11:12+03:00",
+    "81cf47acf7d067867be980264188c6a34437c24d57ee4e47ca7bd4338bceb97a": "2026-07-10T07:11:12+03:00",
+    "5ab1349f742c80c07d26642a422617c299817a06bdff0c0c0e31f8c677e86092": "2026-07-10T07:11:12+03:00",
+    "43ad39c60a266f54fc08f822623b6475b3602282b3e1d50d8257725bf3890f7d": "2026-07-10T07:11:12+03:00"
   },
-  "updated_by_run_id": "29052178532"
+  "updated_by_run_id": "29068449063"
 }
