@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-12T09:45:42+03:00",
-  "last_successful_run_at_utc": "2026-07-12T09:45:43+03:00",
+  "updated_at_utc": "2026-07-12T13:01:14+03:00",
+  "last_successful_run_at_utc": "2026-07-12T13:01:14+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-07-10T23:44:12+03:00",
-      "last_seen_at_utc": "2026-07-11T00:19:05+03:00",
+      "last_seen_published_at_utc": "2026-07-12T12:00:44+03:00",
+      "last_seen_at_utc": "2026-07-12T13:00:10+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-07-10T15:24:18+03:00",
-      "last_seen_at_utc": "2026-07-10T17:49:24+03:00",
+      "last_seen_published_at_utc": "2026-07-12T11:00:07+03:00",
+      "last_seen_at_utc": "2026-07-12T13:00:10+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3766,7 +3766,9 @@
     "7319d5dd73deb649c8a9094141ca14fa5b21dda3d7db6e01638c2327f882882e": "2026-07-12T00:02:23+03:00",
     "04d1ec603ce4368d81b551b522fc1a6ba77737b4f16e760052cf16ac72f713f8": "2026-07-12T00:02:23+03:00",
     "2539df6b9e249400d48d77c64651333e684997142fefba058945f9f86005e063": "2026-07-12T00:02:23+03:00",
-    "f46048d0df10076c0ab917c47eff07febb608a5aba3836d9886cf2407d4d1764": "2026-07-12T09:44:34+03:00"
+    "f46048d0df10076c0ab917c47eff07febb608a5aba3836d9886cf2407d4d1764": "2026-07-12T09:44:34+03:00",
+    "e20e56bf09914ae76705e246b42817d29be7193aba9e9681b9b327f6834490d4": "2026-07-12T13:00:10+03:00",
+    "1056542d3496e9cbbeb34bbc37f853c1e3b4a0251239a6e9352dbc539077fecf": "2026-07-12T13:00:10+03:00"
   },
-  "updated_by_run_id": "29183104490"
+  "updated_by_run_id": "29188390796"
 }
