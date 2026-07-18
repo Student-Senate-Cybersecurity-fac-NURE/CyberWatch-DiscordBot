@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-18T09:18:21+03:00",
-  "last_successful_run_at_utc": "2026-07-18T09:18:21+03:00",
+  "updated_at_utc": "2026-07-18T12:45:00+03:00",
+  "last_successful_run_at_utc": "2026-07-18T12:45:01+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-07-17T20:35:00+03:00",
-      "last_seen_at_utc": "2026-07-18T00:06:31+03:00",
+      "last_seen_published_at_utc": "2026-07-18T12:30:41+03:00",
+      "last_seen_at_utc": "2026-07-18T12:43:24+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -3834,7 +3834,8 @@
     "051b62478f792782718d0791d49f3fd9f196f7c2df11b9c62d323cc5bbfb0795": "2026-07-18T06:27:48+03:00",
     "a5f92f6a641234c6105c081fcdc8e03801fc4d8b886a873a5ae8ddf2cc6c383d": "2026-07-18T06:27:48+03:00",
     "07af4126676223e342c8d7f86853a0f93b7e0157bbec9690533fbccf8009f9fc": "2026-07-18T06:27:48+03:00",
-    "a251a2764e7b82a25b7409f073da2e2cd0f661f5a1e0ccddac52b6f18e266141": "2026-07-18T09:17:05+03:00"
+    "a251a2764e7b82a25b7409f073da2e2cd0f661f5a1e0ccddac52b6f18e266141": "2026-07-18T09:17:05+03:00",
+    "5d72b4b5579b33f87839c56e09e207f23d55e5e50a5fad2ec0501a210f3bd58f": "2026-07-18T12:43:24+03:00"
   },
-  "updated_by_run_id": "29633681825"
+  "updated_by_run_id": "29639627677"
 }
