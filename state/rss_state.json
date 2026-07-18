@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-18T06:28:58+03:00",
-  "last_successful_run_at_utc": "2026-07-18T06:28:58+03:00",
+  "updated_at_utc": "2026-07-18T09:18:21+03:00",
+  "last_successful_run_at_utc": "2026-07-18T09:18:21+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-07-18T04:13:16+03:00",
-      "last_seen_at_utc": "2026-07-18T06:27:48+03:00",
+      "last_seen_published_at_utc": "2026-07-18T07:10:49+03:00",
+      "last_seen_at_utc": "2026-07-18T09:17:05+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -326,12 +326,6 @@
     }
   },
   "sent_fingerprints": {
-    "e211195f6ccbb26b250412970ee706fbd7b80d7be72701cf4e1f1078eece96cc": "2026-06-03T08:14:00+03:00",
-    "7d2f44398eb4e670fd08142f0d8e376aefade951f5d1d226dfdd20a565504a95": "2026-06-03T08:14:00+03:00",
-    "96531cab247a4c44800ff5c5f1a45cd3c55dfd39b40ef03ca8e7b07dc0db5b08": "2026-06-03T08:14:00+03:00",
-    "f001080ea55aef59f49a98d8a3acd8ebfb1a20344b8c80d6c3a6fac13a46eb23": "2026-06-03T08:14:00+03:00",
-    "1d4806a7bd54ab3fa4c8388fefc1e7886fbc8ce938ff4ef987fd9dcfe759cad5": "2026-06-03T08:14:00+03:00",
-    "585db5e772735a467d307f1bd2208d0dd20da9b83fa2b8fa0d2bbbb200e6eb31": "2026-06-03T08:14:00+03:00",
     "9736fed7badfa82f8b41fe4ad08ed0631760c4be84c5662961a8fa766e542256": "2026-06-03T15:49:47+03:00",
     "43d28e60944db12bb8542be2db426ef569e1c662be04b6987aeec9a773c63340": "2026-06-03T15:49:47+03:00",
     "c94464fc9e0ea4d99d1902dfe0ffd2ee59543a37a8a73f0970f21b47bdcea70a": "2026-06-03T15:49:47+03:00",
@@ -3839,7 +3833,8 @@
     "a375d02201879e188baef26b5f99fd98e50312b47b3a9779ee1595cf0b62cf78": "2026-07-18T06:27:48+03:00",
     "051b62478f792782718d0791d49f3fd9f196f7c2df11b9c62d323cc5bbfb0795": "2026-07-18T06:27:48+03:00",
     "a5f92f6a641234c6105c081fcdc8e03801fc4d8b886a873a5ae8ddf2cc6c383d": "2026-07-18T06:27:48+03:00",
-    "07af4126676223e342c8d7f86853a0f93b7e0157bbec9690533fbccf8009f9fc": "2026-07-18T06:27:48+03:00"
+    "07af4126676223e342c8d7f86853a0f93b7e0157bbec9690533fbccf8009f9fc": "2026-07-18T06:27:48+03:00",
+    "a251a2764e7b82a25b7409f073da2e2cd0f661f5a1e0ccddac52b6f18e266141": "2026-07-18T09:17:05+03:00"
   },
-  "updated_by_run_id": "29628850866"
+  "updated_by_run_id": "29633681825"
 }
