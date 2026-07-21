@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-21T09:40:46+03:00",
-  "last_successful_run_at_utc": "2026-07-21T09:40:47+03:00",
+  "updated_at_utc": "2026-07-21T13:34:20+03:00",
+  "last_successful_run_at_utc": "2026-07-21T13:34:20+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-07-21T03:00:33+03:00",
-      "last_seen_at_utc": "2026-07-21T06:41:03+03:00",
+      "last_seen_published_at_utc": "2026-07-21T13:01:03+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -45,18 +45,18 @@
       "source_name": "www.crowdstrike.com/blog"
     },
     "1c944410f3c64db869c30b11957ea3b7d7f1db2a4ff30c78df28cee79c36c545": {
-      "last_seen_published_at_utc": "2026-07-20T18:41:26+03:00",
-      "last_seen_at_utc": "2026-07-20T21:17:01+03:00",
+      "last_seen_published_at_utc": "2026-07-21T12:48:44+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "Malwarebytes Unpacked"
     },
     "852650ccf6c37cf65dae8352f0d05d556cab5e31a6ccaf89fa3478fdd6263d73": {
-      "last_seen_published_at_utc": "2026-07-20T18:00:00+03:00",
-      "last_seen_at_utc": "2026-07-20T21:17:01+03:00",
+      "last_seen_published_at_utc": "2026-07-21T12:38:00+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-07-20T19:36:56+03:00",
-      "last_seen_at_utc": "2026-07-20T21:17:01+03:00",
+      "last_seen_published_at_utc": "2026-07-21T13:08:31+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-07-21T01:39:30+03:00",
-      "last_seen_at_utc": "2026-07-21T06:41:03+03:00",
+      "last_seen_published_at_utc": "2026-07-21T13:12:24+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-07-15T03:35:38+03:00",
-      "last_seen_at_utc": "2026-07-15T06:29:59+03:00",
+      "last_seen_published_at_utc": "2026-07-21T10:30:24+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-07-20T21:23:03+03:00",
-      "last_seen_at_utc": "2026-07-21T00:21:30+03:00",
+      "last_seen_published_at_utc": "2026-07-21T11:59:30+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-07-21T07:30:16+03:00",
-      "last_seen_at_utc": "2026-07-21T09:39:27+03:00",
+      "last_seen_published_at_utc": "2026-07-21T12:14:25+03:00",
+      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -326,14 +326,6 @@
     }
   },
   "sent_fingerprints": {
-    "d24bd40483b6f6f4ba0eb783ab9fae14248cea50c3d27da678e057d3773e3c04": "2026-06-06T13:19:42+03:00",
-    "96556443184174516697e38711a3886ec6fff3c1ee9e28deff8b81599a9283fa": "2026-06-06T13:19:42+03:00",
-    "b356a7734df397bd4aa338c3a0445c1975d565c52c73298fb1affad14d15e2db": "2026-06-06T13:19:42+03:00",
-    "35c6de3eb862540c7c1c7fca0658fac2eb497d2e5ee26417372190f9083df051": "2026-06-06T13:19:42+03:00",
-    "d8c2fcbc06fe55e9e3043a51746fcede98be7fb3acf1c6bfa605e4389d68cb32": "2026-06-06T13:19:42+03:00",
-    "9d858df6a78dc4f5a845f60fcf3cedbd1f80a30aa19f5b08e3ca430bb76e8ec9": "2026-06-06T13:19:42+03:00",
-    "93b769f9d644aee4ded9d1d8d4e926bec53fba610cb65612818bebfd104996aa": "2026-06-06T13:19:42+03:00",
-    "f72a0220b5d60ad5aa85b1a34d2a52bd6b4ffe3d21892580a6d84d6343c62470": "2026-06-06T13:19:42+03:00",
     "925ea5aa0e974fd89de2280bac01ca9ee306aae42462ee28672df8d7ed797d77": "2026-06-06T17:06:18+03:00",
     "f390079b5b26dccf5eb2b417f0d81fb351323018f3e3760be997382d734730c7": "2026-06-06T17:06:18+03:00",
     "b96086f71445c1b0022026349dc9f3047dc1f69f0c1e6eb1385c485a14187fdb": "2026-06-06T20:33:31+03:00",
@@ -3687,7 +3679,27 @@
     "2a39d2d8e9329d8239970f88c11589f996075011c15dbcfbfbcfa2d6bcd4d536": "2026-07-21T09:39:27+03:00",
     "80b9fe380ca4b2aeed50323dfa56882aa92e4c5ff1e42ceca53aa56ab62446a8": "2026-07-21T09:39:27+03:00",
     "58139ef91bdd571a06ae43c8fafadc09ff09df75d7b80fe07a9682c6bc8f55a5": "2026-07-21T09:39:27+03:00",
-    "1b1c9b2fb16dac3cc301b5e73990d7429e682d9f633a973fa70884d051c7b837": "2026-07-21T09:39:27+03:00"
+    "1b1c9b2fb16dac3cc301b5e73990d7429e682d9f633a973fa70884d051c7b837": "2026-07-21T09:39:27+03:00",
+    "1c867f8d9ea0dc6f6d9b56cc475be04d3e9aa30053c391c029f54e37ec3ef522": "2026-07-21T13:33:06+03:00",
+    "28c145b29d327c00a42252d9c0d63e88785d4893123ddb4ef4ab8bd0aaf57b86": "2026-07-21T13:33:06+03:00",
+    "a7f1de4403dee5071cc6f8f8245b0554f525c19027b12f65f39002f8c91a8d8f": "2026-07-21T13:33:06+03:00",
+    "8601238fb37fbae3e60cd378384056024666ad5aae8272fc298c4da4aa0f025e": "2026-07-21T13:33:06+03:00",
+    "3ff296d7d7e3bfdbd99f463484f0ced418abd3f491cb3700f8d1745cc94e04ed": "2026-07-21T13:33:06+03:00",
+    "24463ed5c74c0e25583600c4f42571cb49a17aeddede87ef5021ec7e678a109b": "2026-07-21T13:33:06+03:00",
+    "9569c69a811d754faf54ddb41f06500b480440a67a7f960f989a3b545e3fd865": "2026-07-21T13:33:06+03:00",
+    "9a47da8eac76a6ffcb65083eb986adc4bc5618a2a39ef73e7afae548d8ecd168": "2026-07-21T13:33:06+03:00",
+    "c1c38d0d6d3f71129546d3dbd370d128a05a2e019a030f0bbc45a3642d412f62": "2026-07-21T13:33:06+03:00",
+    "cd3c57cf11e780d908ac6fe78fd7566dc227251e07affd633ac252c81dd41ca6": "2026-07-21T13:33:06+03:00",
+    "8877d871c797ae025d4716bf7d52a06e1322706f436ff3daddc269094901a3da": "2026-07-21T13:33:06+03:00",
+    "20872f224a9430b20259a90167b89f6af84d653a6c717634cab3e0f701249de9": "2026-07-21T13:33:06+03:00",
+    "6145bc4a37e35c6aec6828f11b781c563a824e2c9084101a7b4294d9704354f3": "2026-07-21T13:33:06+03:00",
+    "ddd5ae3e3ecabbdf23ca418448c8463ebe4da8574d3ddfa659a001468c94a300": "2026-07-21T13:33:06+03:00",
+    "ad9fba3a587ec6a2cf098bac65b0af8c53e665725f7a6ebf75f847a638aee811": "2026-07-21T13:33:06+03:00",
+    "5fd1c74dc56e9ce534a5c2829be30ecfcedb50ba2bd7da3935b11acd71348410": "2026-07-21T13:33:06+03:00",
+    "86b146c782b9b0f482c32a2d66e00543391c8e7719fe712c603c93a38e2e7682": "2026-07-21T13:33:06+03:00",
+    "55bd2fbcd12a8277cf9e84fa4a3541f7987781695bbd1ff320fe8c15275f06fb": "2026-07-21T13:33:06+03:00",
+    "016a36e55251ea5d45ff848b549dfdc0927f6d8dc4ad8da6927daf68546b5e9b": "2026-07-21T13:33:06+03:00",
+    "c56e78e30414b3fece35b7527f5c9771f41173136663dcdd56d4efadaf9e6b3b": "2026-07-21T13:33:06+03:00"
   },
-  "updated_by_run_id": "29807691248"
+  "updated_by_run_id": "29822633078"
 }
