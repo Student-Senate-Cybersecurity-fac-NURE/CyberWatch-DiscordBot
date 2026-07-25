@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-25T09:29:19+03:00",
-  "last_successful_run_at_utc": "2026-07-25T09:29:19+03:00",
+  "updated_at_utc": "2026-07-25T13:00:32+03:00",
+  "last_successful_run_at_utc": "2026-07-25T13:00:33+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-07-24T22:55:01+03:00",
-      "last_seen_at_utc": "2026-07-25T00:18:43+03:00",
+      "last_seen_published_at_utc": "2026-07-25T12:31:09+03:00",
+      "last_seen_at_utc": "2026-07-25T12:58:44+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-07-24T18:12:35+03:00",
-      "last_seen_at_utc": "2026-07-24T20:49:10+03:00",
+      "last_seen_published_at_utc": "2026-07-25T11:34:15+03:00",
+      "last_seen_at_utc": "2026-07-25T12:58:44+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -3854,7 +3854,9 @@
     "53c9ba13d67d295327cc09e4a984258c594b56c8a6ff1a9a9b399d8df1fc5f66": "2026-07-25T00:18:43+03:00",
     "c3d1ef11f5f2dd9c1d2f282329fce191cd175456caadf5751cf0c684107c245a": "2026-07-25T06:34:18+03:00",
     "29cd54cb8e115c3c06c417d563c42e194d5fde5c5db3538dfe1abf4b41d475e8": "2026-07-25T06:34:18+03:00",
-    "060018fe85ee3d4de51032d30d3495ec8c4d5894fd18a28f7ca82be063de7ff6": "2026-07-25T06:34:18+03:00"
+    "060018fe85ee3d4de51032d30d3495ec8c4d5894fd18a28f7ca82be063de7ff6": "2026-07-25T06:34:18+03:00",
+    "110f99f49ee865738712b6b49423b1fef319fa922647e6cdd2f4e33f9e8a55c1": "2026-07-25T12:58:44+03:00",
+    "92e863b55076e6f93eaef95a3b4a206adbc9285c5415e564a6e00fcdf7e5479d": "2026-07-25T12:58:44+03:00"
   },
-  "updated_by_run_id": "30147520404"
+  "updated_by_run_id": "30153658589"
 }
