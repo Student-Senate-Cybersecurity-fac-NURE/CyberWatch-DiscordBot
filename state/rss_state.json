@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-26T09:49:07+03:00",
-  "last_successful_run_at_utc": "2026-07-26T09:49:08+03:00",
+  "updated_at_utc": "2026-07-26T13:13:07+03:00",
+  "last_successful_run_at_utc": "2026-07-26T13:13:07+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-07-21T10:30:24+03:00",
-      "last_seen_at_utc": "2026-07-21T13:33:06+03:00",
+      "last_seen_published_at_utc": "2026-07-26T12:14:51+03:00",
+      "last_seen_at_utc": "2026-07-26T13:10:56+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-07-24T16:03:19+03:00",
-      "last_seen_at_utc": "2026-07-24T17:08:33+03:00",
+      "last_seen_published_at_utc": "2026-07-26T11:00:34+03:00",
+      "last_seen_at_utc": "2026-07-26T13:10:56+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3763,7 +3763,9 @@
     "170f665dd31bb659f750b913250e5d66b68867504fcfa9d5d39ec3d4bf91b35d": "2026-07-25T20:12:42+03:00",
     "27080b04d23d313c203aec5596c6d30e2507b1d4dd37e65345cba88a1da73da6": "2026-07-26T00:07:01+03:00",
     "dcf7cb5a30130349d7377f23ddf618abad7f84cd5d0f602f0b1f79ad6238f9a3": "2026-07-26T00:07:01+03:00",
-    "069e971f42db4e12214c84e7df929a11b6749429d07273c758f0628ea31fbad4": "2026-07-26T06:52:03+03:00"
+    "069e971f42db4e12214c84e7df929a11b6749429d07273c758f0628ea31fbad4": "2026-07-26T06:52:03+03:00",
+    "93f19ee75946551d7e5ed87f5eee4e0ec8c47b51b3010e9561a68144db123f30": "2026-07-26T13:10:56+03:00",
+    "7475af554ee11d463e032d0700d6cec5af94a3b778ac5c24393e0408c3af38ca": "2026-07-26T13:10:56+03:00"
   },
-  "updated_by_run_id": "30191635124"
+  "updated_by_run_id": "30197795572"
 }
