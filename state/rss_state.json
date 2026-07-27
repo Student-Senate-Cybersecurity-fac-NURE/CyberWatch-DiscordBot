@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-27T00:11:37+03:00",
-  "last_successful_run_at_utc": "2026-07-27T00:11:37+03:00",
+  "updated_at_utc": "2026-07-27T07:01:06+03:00",
+  "last_successful_run_at_utc": "2026-07-27T07:01:07+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-07-26T11:00:34+03:00",
-      "last_seen_at_utc": "2026-07-26T13:10:56+03:00",
+      "last_seen_published_at_utc": "2026-07-27T01:30:24+03:00",
+      "last_seen_at_utc": "2026-07-27T06:58:54+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -326,11 +326,6 @@
     }
   },
   "sent_fingerprints": {
-    "abc71c5f8305d298dc378f1b115774405003a32d76b8541d37fc264d9c24df90": "2026-06-12T01:14:31+03:00",
-    "feb1e687cdee5edf9baecff8dd1e1fa06fae9320c0e5b5d80ba86e8dfe18ba16": "2026-06-12T01:14:31+03:00",
-    "90c620be30ef9c22d8b4cbfcd110c6702f2987f8d8c4e64b0ad4a52dbb08b422": "2026-06-12T01:14:31+03:00",
-    "f7283d844906395366416421f6ac2da44d332bb70f2246655c56fdd147d3c65c": "2026-06-12T01:14:31+03:00",
-    "cbdae6fb9addb97a407c2abd00c334a66adcf094eb89b10749efc3ca3f88c166": "2026-06-12T01:14:31+03:00",
     "c227657e8cc3b6d87d21923a86a05cfb52d5abd4b9d75952bf806424c67d0e19": "2026-06-12T08:00:07+03:00",
     "a7a6214360ee40a73328a50172d6b962cd8cfc8501c0043476df47c23e3d6cb4": "2026-06-12T08:00:07+03:00",
     "2455d169c7fbe65d3609e3b4db86711272768e03ccf9aa6b1598b4de8413cdac": "2026-06-12T08:00:07+03:00",
@@ -3682,7 +3677,8 @@
     "ccd8d0b01b1dfa08c920a447521393f6137822f22ec69888688ecc6d3bc9bcbc": "2026-07-26T16:53:17+03:00",
     "080441c526d806f6f15e36d5aa9ae406065f7bdf14376bd338568ff7bc445ef7": "2026-07-26T20:13:27+03:00",
     "83b71beb57fa695f9ec2b99cbbb676c0a1409ab03babd066c017b799743c8c81": "2026-07-26T20:13:27+03:00",
-    "df3e92b692ba9b1b61850e4cf2db994bb5900b37505d70a15ea49805bc3b37e3": "2026-07-26T20:13:27+03:00"
+    "df3e92b692ba9b1b61850e4cf2db994bb5900b37505d70a15ea49805bc3b37e3": "2026-07-26T20:13:27+03:00",
+    "29dee6fec2c854329c3fb8311cf62fb6d087ec645143d5df5ec1a059bb0d4d49": "2026-07-27T06:58:54+03:00"
   },
-  "updated_by_run_id": "30220492390"
+  "updated_by_run_id": "30235867371"
 }
