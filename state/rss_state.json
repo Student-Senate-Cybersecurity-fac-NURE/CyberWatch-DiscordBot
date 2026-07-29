@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-07-29T00:23:08+03:00",
-  "last_successful_run_at_utc": "2026-07-29T00:23:08+03:00",
+  "updated_at_utc": "2026-07-29T06:36:37+03:00",
+  "last_successful_run_at_utc": "2026-07-29T06:36:37+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-07-28T22:21:01+03:00",
-      "last_seen_at_utc": "2026-07-29T00:20:36+03:00",
+      "last_seen_published_at_utc": "2026-07-29T05:16:31+03:00",
+      "last_seen_at_utc": "2026-07-29T06:34:34+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -65,8 +65,8 @@
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
-      "last_seen_published_at_utc": "2026-07-28T14:06:30+03:00",
-      "last_seen_at_utc": "2026-07-28T17:33:21+03:00",
+      "last_seen_published_at_utc": "2026-07-29T04:47:05+03:00",
+      "last_seen_at_utc": "2026-07-29T06:34:34+03:00",
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-07-28T23:27:36+03:00",
-      "last_seen_at_utc": "2026-07-29T00:20:36+03:00",
+      "last_seen_published_at_utc": "2026-07-29T00:33:23+03:00",
+      "last_seen_at_utc": "2026-07-29T06:34:34+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-07-28T22:32:34+03:00",
-      "last_seen_at_utc": "2026-07-29T00:20:36+03:00",
+      "last_seen_published_at_utc": "2026-07-29T01:10:02+03:00",
+      "last_seen_at_utc": "2026-07-29T06:34:34+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -100,13 +100,13 @@
       "source_name": "Business Insider"
     },
     "16b25a633f469ca3ef7c66a4b280e72ddec834d32c8aee68d41a0ffeb34e894f": {
-      "last_seen_published_at_utc": "2026-07-28T17:45:57+03:00",
-      "last_seen_at_utc": "2026-07-28T20:44:12+03:00",
+      "last_seen_published_at_utc": "2026-07-29T02:18:00+03:00",
+      "last_seen_at_utc": "2026-07-29T06:34:34+03:00",
       "source_name": "The Record from Recorded Future News"
     },
     "23552ce9b4f7cd04d59844b37a066816ffc7e011ae5220c0e0a0d89ebe3fb453": {
-      "last_seen_published_at_utc": "2026-07-28T19:19:13+03:00",
-      "last_seen_at_utc": "2026-07-28T20:44:12+03:00",
+      "last_seen_published_at_utc": "2026-07-29T00:55:43+03:00",
+      "last_seen_at_utc": "2026-07-29T06:34:34+03:00",
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
@@ -165,8 +165,8 @@
       "source_name": "Cisco Security Advisory"
     },
     "43bece994e5bb4666b1cef116492d293645883ff6bc571ee7a8fe6a8b8fba830": {
-      "last_seen_published_at_utc": "2026-07-28T21:26:50+03:00",
-      "last_seen_at_utc": "2026-07-29T00:20:36+03:00",
+      "last_seen_published_at_utc": "2026-07-28T23:53:41+03:00",
+      "last_seen_at_utc": "2026-07-29T06:34:34+03:00",
       "source_name": "Security on TechRepublic"
     },
     "16b9c83b849a4f6aa96e84d6c5219335ce8143eb36377d1a492ef1187e1e6018": {
@@ -326,8 +326,6 @@
     }
   },
   "sent_fingerprints": {
-    "63a0d213b258daac5edd0779c462d2cb9f447314a3a3a4376e07e0aec33fea3f": "2026-06-14T00:37:05+03:00",
-    "9e9089f7ed97ee4ae4c9194aa8d655fd781eb93882f511c8e9a75ce3dd430c5a": "2026-06-14T00:37:05+03:00",
     "d3ceaa3224d0ee5026df989191a99342139dc4b7903a6e5899c56e1ff90769e8": "2026-06-14T08:04:17+03:00",
     "0bd788cb2f7604ff6cdb42253f61ed1b7ec0d355949538b269cf7e65adc60c2b": "2026-06-14T14:07:47+03:00",
     "a264956001d127858ee647ee2e99fc9015141db3bcbd5c5a36604d51a1fb6123": "2026-06-14T14:07:47+03:00",
@@ -3769,7 +3767,17 @@
     "c60af7da5b9cb2c042efba8fee7d89bcf281a0b2c00bf52099c44a78b2b785be": "2026-07-29T00:20:36+03:00",
     "b3f2ad894c44173e9df4af5310fc4579412a39ef49bec67438ab1abd512bb2d7": "2026-07-29T00:20:36+03:00",
     "dddc7886549ceabaab7797d0732af46925fc15079f409bcb3ffed003f77c0450": "2026-07-29T00:20:36+03:00",
-    "81e11f7953824195256df1c1959ac5704b450089be349e5d1a75cadcc07a3b05": "2026-07-29T00:20:36+03:00"
+    "81e11f7953824195256df1c1959ac5704b450089be349e5d1a75cadcc07a3b05": "2026-07-29T00:20:36+03:00",
+    "e4992305887188c5985dd125935c823f490c84172faa72d47b55a22ee30ba9bd": "2026-07-29T06:34:34+03:00",
+    "72ed61ee6fd0871ec955408cad117b12c7dcbc28d33e08807d30ecce21b401e8": "2026-07-29T06:34:34+03:00",
+    "fb986de6f95bf8b387aef5bcda494b721e3227008c5f11cece86611bf29cf720": "2026-07-29T06:34:34+03:00",
+    "59ccd89dd0908ca583047b218f3a3831b763e27e96c41275fef488d820b69f77": "2026-07-29T06:34:34+03:00",
+    "de78552bc0815c6159cb19fb5fb7d753acd1c29ee8ea893aa8b672dfc5e8683a": "2026-07-29T06:34:34+03:00",
+    "7e4923415aebeef4872454e3ec512058050e6b8bc79d7994d83de404251df1ce": "2026-07-29T06:34:34+03:00",
+    "7a49d156e2f4760f6e1333d7c00f669a679fbe212b9e6431a0193788d04c6648": "2026-07-29T06:34:34+03:00",
+    "5a5582c3def65afadc0bb1722f4ba858b890253508c8657bb4b69d5cec335107": "2026-07-29T06:34:34+03:00",
+    "3f12d7b6d71c5958fdc7ec4495bd716351b4d4450e21d58e645969cd5233b1bd": "2026-07-29T06:34:34+03:00",
+    "a341adea7feae548f316c8ccc47ef208ad4255c05638e722835b689c73c95128": "2026-07-29T06:34:34+03:00"
   },
-  "updated_by_run_id": "30400246683"
+  "updated_by_run_id": "30419927838"
 }
