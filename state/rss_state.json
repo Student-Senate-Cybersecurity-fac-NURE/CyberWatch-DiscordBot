@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-02T09:45:30+03:00",
-  "last_successful_run_at_utc": "2026-08-02T09:45:31+03:00",
+  "updated_at_utc": "2026-08-02T13:08:57+03:00",
+  "last_successful_run_at_utc": "2026-08-02T13:08:57+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -10,8 +10,8 @@
       "source_name": "CERIAS Combined Feed"
     },
     "fe524111738f58be127416f469de1ef801c2af49603f9eb96fe773f33b09c70f": {
-      "last_seen_published_at_utc": "2026-08-01T13:01:02+03:00",
-      "last_seen_at_utc": "2026-08-01T13:07:59+03:00",
+      "last_seen_published_at_utc": "2026-08-02T13:00:43+03:00",
+      "last_seen_at_utc": "2026-08-02T13:06:07+03:00",
       "source_name": "Latest stories for ZDNET in Security"
     },
     "30965a2c1d597de2f3c9ed1b36d5edceca23b1631476df2be589c1e8e35891ff": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-07-31T16:00:02+03:00",
-      "last_seen_at_utc": "2026-07-31T17:31:34+03:00",
+      "last_seen_published_at_utc": "2026-08-02T11:00:17+03:00",
+      "last_seen_at_utc": "2026-08-02T13:06:07+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3747,7 +3747,9 @@
     "b404d452c303990e2df2d89a4e1b82fe9a775dcc54673f9811373764350a91cc": "2026-08-01T20:11:45+03:00",
     "0c52e53013c157a6340a3f63e853dbe9a8809b2a55d5c4d84a774ae4a2b9bfd3": "2026-08-01T20:11:45+03:00",
     "10f3476bf8599f6e462e9de04748cac1207c8d2ca02eb8c6f19288e26faa8d27": "2026-08-02T00:07:26+03:00",
-    "e59236f53d8a604a7c8d3eaa123266cf6e75bf875a8f6eadc1b8d0a6d9237192": "2026-08-02T09:43:19+03:00"
+    "e59236f53d8a604a7c8d3eaa123266cf6e75bf875a8f6eadc1b8d0a6d9237192": "2026-08-02T09:43:19+03:00",
+    "9b5644b2646cd1370f131e85485f4479ec06dcf20617c5d867df1fd68a779c96": "2026-08-02T13:06:07+03:00",
+    "33034096e7cddce7ec2b56a7304fcd244a7153b4e34024ceee580c3390e6ce2a": "2026-08-02T13:06:07+03:00"
   },
-  "updated_by_run_id": "30736420287"
+  "updated_by_run_id": "30743065054"
 }
