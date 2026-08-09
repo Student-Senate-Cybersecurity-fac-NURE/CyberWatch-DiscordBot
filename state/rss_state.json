@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-09T08:17:53+03:00",
-  "last_successful_run_at_utc": "2026-08-09T08:17:53+03:00",
+  "updated_at_utc": "2026-08-09T12:01:14+03:00",
+  "last_successful_run_at_utc": "2026-08-09T12:01:15+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-08-08T16:41:32+03:00",
-      "last_seen_at_utc": "2026-08-08T19:49:32+03:00",
+      "last_seen_published_at_utc": "2026-08-09T11:01:00+03:00",
+      "last_seen_at_utc": "2026-08-09T11:59:51+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-08-07T15:29:26+03:00",
-      "last_seen_at_utc": "2026-08-07T20:04:51+03:00",
+      "last_seen_published_at_utc": "2026-08-09T11:00:30+03:00",
+      "last_seen_at_utc": "2026-08-09T11:59:51+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3758,7 +3758,9 @@
     "4b112ac8bf4042bdaa5422559ba3cca42c0648449bea84ec017b768e86b548b6": "2026-08-08T19:49:32+03:00",
     "bb6fe8ca158c382cb43bb9b58d127f2ab5c66141b55688c72211d3724ea21fd3": "2026-08-08T19:49:32+03:00",
     "0e607ef6f3882eaded7e297fedc26763fc72f27610b45863bd57b4f99dc74d90": "2026-08-08T23:45:41+03:00",
-    "fe420fe12325b9b5ffa100a486a3670f32b7435efbad1535d0009d667daf0804": "2026-08-09T08:16:34+03:00"
+    "fe420fe12325b9b5ffa100a486a3670f32b7435efbad1535d0009d667daf0804": "2026-08-09T08:16:34+03:00",
+    "fae6387d06813f63374f3d841d141a14a832fc2edfce281d58ae53ba3acb94bc": "2026-08-09T11:59:51+03:00",
+    "f0619f2a54bf1950244c01f9bfa2de5da308ed81bea9f2fceefc26d1b0ace65a": "2026-08-09T11:59:51+03:00"
   },
-  "updated_by_run_id": "31296326575"
+  "updated_by_run_id": "31304829408"
 }
