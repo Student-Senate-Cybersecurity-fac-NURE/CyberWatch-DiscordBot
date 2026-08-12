@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-12T05:42:02+03:00",
-  "last_successful_run_at_utc": "2026-08-12T05:42:02+03:00",
+  "updated_at_utc": "2026-08-12T08:46:04+03:00",
+  "last_successful_run_at_utc": "2026-08-12T08:46:04+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -336,7 +336,6 @@
     }
   },
   "sent_fingerprints": {
-    "e924537ff93b9d9beb378ac632ced5bba21313635bba0ff9ad87c5797e214b77": "2026-06-28T07:47:35+03:00",
     "37c075d14097e28fdb34fd38e602acdac542161dd52c71a82fb487e467275979": "2026-06-28T13:33:12+03:00",
     "3503cbab0fbec534488f7899e66055340bc1b16ea33dc35ffe744fc0a55f9628": "2026-06-28T13:33:12+03:00",
     "a785643ff621dd2799a89e81c4231c45c1e35cf0d73703fa184eacc0c86a50ca": "2026-06-28T13:33:12+03:00",
@@ -3750,5 +3749,5 @@
     "2b0dfeab1e900a6f5e782f3685958c202455fb60bda85661477538e3eb5260ba": "2026-08-12T05:40:45+03:00",
     "3bc83879dcc101929f596eef6bbe0c88ec16fa6979fdfa1ae7adfcb235f23b46": "2026-08-12T05:40:45+03:00"
   },
-  "updated_by_run_id": "31557620511"
+  "updated_by_run_id": "31567505193"
 }
