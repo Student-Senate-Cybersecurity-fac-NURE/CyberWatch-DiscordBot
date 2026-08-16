@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-16T07:49:00+03:00",
-  "last_successful_run_at_utc": "2026-08-16T07:49:00+03:00",
+  "updated_at_utc": "2026-08-16T11:46:29+03:00",
+  "last_successful_run_at_utc": "2026-08-16T11:46:29+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-08-15T20:48:02+03:00",
-      "last_seen_at_utc": "2026-08-15T23:35:51+03:00",
+      "last_seen_published_at_utc": "2026-08-16T10:24:53+03:00",
+      "last_seen_at_utc": "2026-08-16T11:44:46+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -3706,7 +3706,8 @@
     "95fd0cbca472dbc8aef043e99bb8bdb2b0162a2d00d78571cddfd8cc8b6928a8": "2026-08-15T19:38:08+03:00",
     "7783e71906efb92fc0dd7d3be7d733ac090e58f2a5833aaed9761275e0395a86": "2026-08-15T23:35:51+03:00",
     "4e3fce358430ab28e85ec3a21103a8a4b951391828e34846b14c4a903b8ac875": "2026-08-15T23:35:51+03:00",
-    "5ced2bfbd7a73721f93bfe87322c84e674713f0d67cc330910110963fb7c4065": "2026-08-15T23:35:51+03:00"
+    "5ced2bfbd7a73721f93bfe87322c84e674713f0d67cc330910110963fb7c4065": "2026-08-15T23:35:51+03:00",
+    "92e8248225322acf827ad565d6f0d2a26998d2c6811ba988ca8eb9375748444f": "2026-08-16T11:44:46+03:00"
   },
-  "updated_by_run_id": "31927468876"
+  "updated_by_run_id": "31937218723"
 }
