@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-17T04:54:06+03:00",
-  "last_successful_run_at_utc": "2026-08-17T04:54:07+03:00",
+  "updated_at_utc": "2026-08-17T07:56:43+03:00",
+  "last_successful_run_at_utc": "2026-08-17T07:56:44+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-08-17T03:51:21+03:00",
-      "last_seen_at_utc": "2026-08-17T04:52:44+03:00",
+      "last_seen_published_at_utc": "2026-08-17T05:31:58+03:00",
+      "last_seen_at_utc": "2026-08-17T07:55:10+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-08-16T11:00:56+03:00",
-      "last_seen_at_utc": "2026-08-16T15:58:13+03:00",
+      "last_seen_published_at_utc": "2026-08-17T07:30:07+03:00",
+      "last_seen_at_utc": "2026-08-17T07:55:10+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -336,13 +336,6 @@
     }
   },
   "sent_fingerprints": {
-    "8e6b1e185c01f0336ceaf59f073aca3e5d189c91fa65b8f174b0f54f605ced03": "2026-07-03T07:06:08+03:00",
-    "f89ac70a0470f80c7d865e21b178af82cbd2d91798e1b38fe03a8ce24e86c940": "2026-07-03T07:06:08+03:00",
-    "8a4dccd889fc7c9b149bde6120ffa42f5635cf809035ca4e0f08dc5c29e8540a": "2026-07-03T07:06:08+03:00",
-    "4925fa382ffc33e54d32ff1c7aba2c7030c2119c32f38a2b5326393b2cf321af": "2026-07-03T07:06:08+03:00",
-    "8bb0a3f29ad256ad5c07c23687d43ae5059fc2b81b10451467989a286084e47c": "2026-07-03T07:06:08+03:00",
-    "eb5d99211a8e9879e3e4cef68c98531ce8eed6c9be9b545e4c391a3896a2418b": "2026-07-03T07:06:08+03:00",
-    "384b1bef08a4c87ca2566e16d53f9bd0ffa9482dc1d2876dc6c0ae5f6b041bcb": "2026-07-03T07:06:08+03:00",
     "c9c8311f72822bd2161f969e4e313087e30f9322937def3ba9525524d5c642a9": "2026-07-03T10:33:59+03:00",
     "96ee5ee110020af6450971307c300b00e94086777f4be1305035d4608081fdb0": "2026-07-03T10:33:59+03:00",
     "5077fc3f3dba5b696177bfdd6b10296618e3474d1315fe50b7cfb82f265a09e5": "2026-07-03T10:33:59+03:00",
@@ -3625,7 +3618,10 @@
     "b80d99a1d879e6a37f9f826de195edf194c7e3dfea0d68d7c37bfef110ce33af": "2026-08-17T04:52:44+03:00",
     "c37bc212af1d78cfe119546a95fc208937467c0bda9a12342b76259af29f9e9d": "2026-08-17T04:52:44+03:00",
     "5f4c25d5d428bbc2b96ae31fb2ffba34897a0818980811778c30ec2ea8213bd8": "2026-08-17T04:52:44+03:00",
-    "96e18d66a97ab60eb9586ea2d95a62e2076cbca81d9557f38e7c5039cd6693d2": "2026-08-17T04:52:44+03:00"
+    "96e18d66a97ab60eb9586ea2d95a62e2076cbca81d9557f38e7c5039cd6693d2": "2026-08-17T04:52:44+03:00",
+    "acab293f03cdfd90ab6c8072d7a3f52038bf2429f3266b7f9243aed7afd0b0fa": "2026-08-17T07:55:10+03:00",
+    "afc390dbf6eb2ea6900267c4754dc12ac65c0044668432d26eb2b001be5c2f12": "2026-08-17T07:55:10+03:00",
+    "c9ca741f21a2f89a92d34f31cb7c4fd87f8aba87f1baedf41c4e3f4c64901ef4": "2026-08-17T07:55:10+03:00"
   },
-  "updated_by_run_id": "31986239600"
+  "updated_by_run_id": "31996079271"
 }
