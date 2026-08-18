@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-18T04:49:29+03:00",
-  "last_successful_run_at_utc": "2026-08-18T04:49:29+03:00",
+  "updated_at_utc": "2026-08-18T07:50:02+03:00",
+  "last_successful_run_at_utc": "2026-08-18T07:50:02+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-08-18T03:06:58+03:00",
-      "last_seen_at_utc": "2026-08-18T04:48:03+03:00",
+      "last_seen_published_at_utc": "2026-08-18T07:47:36+03:00",
+      "last_seen_at_utc": "2026-08-18T07:48:52+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-08-12T11:16:15+03:00",
-      "last_seen_at_utc": "2026-08-12T12:23:17+03:00",
+      "last_seen_published_at_utc": "2026-08-18T06:44:58+03:00",
+      "last_seen_at_utc": "2026-08-18T07:48:52+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-08-17T17:20:20+03:00",
-      "last_seen_at_utc": "2026-08-17T19:43:38+03:00",
+      "last_seen_published_at_utc": "2026-08-18T07:30:15+03:00",
+      "last_seen_at_utc": "2026-08-18T07:48:52+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -336,8 +336,6 @@
     }
   },
   "sent_fingerprints": {
-    "43b83b976c75d965b877a82d811d30c70408d846c620b3a00ff5351fd03169b5": "2026-07-04T06:58:44+03:00",
-    "4902b4052ca7e767414611b29caca39920d5096747bd533cefdb8bac8c7a5a4b": "2026-07-04T06:58:44+03:00",
     "04a1105cfc3ae14ada921fc7ce349eb04d579149daf445e16d02f65ad692bff1": "2026-07-04T13:23:11+03:00",
     "11a34225e0860bb9fdc53db825825a0c2a26d04b24528b22d37f3e2c67744287": "2026-07-04T13:23:11+03:00",
     "f89e42911ce24f3ba6595e6583e8013f5d4e007b4ceb65b1f40afbb2839c3d34": "2026-07-04T13:23:11+03:00",
@@ -3671,7 +3669,11 @@
     "a154dd5b66ecdf92ce9777d78cf145aac98cdbbdde7ffc2d3596644f86eaa84f": "2026-08-18T04:48:03+03:00",
     "28932bc91321c12ff1c9e85892343f0da2d8fd168c85cbac5b0fea0010b5e568": "2026-08-18T04:48:03+03:00",
     "c2fb06a7408784b5d241dfa5c9590e4c46f7a8e1f45dde86007f4874d6c77025": "2026-08-18T04:48:03+03:00",
-    "bc18b50598223e460e6cdab0e237bb76cb9a9122f3ef0310e9b538144b2484f0": "2026-08-18T04:48:03+03:00"
+    "bc18b50598223e460e6cdab0e237bb76cb9a9122f3ef0310e9b538144b2484f0": "2026-08-18T04:48:03+03:00",
+    "2b6c8734a33a53bc10d8048c1572d43deaab3dc28e3e9c419baf0c853a8f235c": "2026-08-18T07:48:52+03:00",
+    "582c34f21452e05383ca6f1b8809ed78b554c784ebfe1da62c22be64b61b5f1d": "2026-08-18T07:48:52+03:00",
+    "dbe0ba98e1c4f2866cf589d7a9c7393940a58c81a38adb4658232fd66e7ba86c": "2026-08-18T07:48:52+03:00",
+    "0e321968a2481e753fd9c2bfcc2e047f5766ce3aebed81ef2bb66af7662b7df1": "2026-08-18T07:48:52+03:00"
   },
-  "updated_by_run_id": "32089486312"
+  "updated_by_run_id": "32100496773"
 }
