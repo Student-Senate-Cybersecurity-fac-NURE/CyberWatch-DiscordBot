@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-19T04:53:42+03:00",
-  "last_successful_run_at_utc": "2026-08-19T04:53:43+03:00",
+  "updated_at_utc": "2026-08-19T07:51:06+03:00",
+  "last_successful_run_at_utc": "2026-08-19T07:51:06+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-08-19T02:36:36+03:00",
-      "last_seen_at_utc": "2026-08-19T04:50:56+03:00",
+      "last_seen_published_at_utc": "2026-08-19T05:16:03+03:00",
+      "last_seen_at_utc": "2026-08-19T07:48:58+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-08-19T02:27:51+03:00",
-      "last_seen_at_utc": "2026-08-19T04:50:56+03:00",
+      "last_seen_published_at_utc": "2026-08-19T06:58:53+03:00",
+      "last_seen_at_utc": "2026-08-19T07:48:58+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-08-19T02:23:22+03:00",
-      "last_seen_at_utc": "2026-08-19T04:50:56+03:00",
+      "last_seen_published_at_utc": "2026-08-19T05:00:00+03:00",
+      "last_seen_at_utc": "2026-08-19T07:48:58+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -225,8 +225,8 @@
       "source_name": "Krypt3ia"
     },
     "433a18b178268911c5a9250c1b0222f97fd003e28795543bc9b3625156bcceec": {
-      "last_seen_published_at_utc": "2026-08-18T18:00:00+03:00",
-      "last_seen_at_utc": "2026-08-18T19:46:21+03:00",
+      "last_seen_published_at_utc": "2026-08-19T06:00:00+03:00",
+      "last_seen_at_utc": "2026-08-19T07:48:58+03:00",
       "source_name": "Mandiant | Transform Your Cybersecurity"
     },
     "330aa46787a0ab7673eab46a0bcebcc9878bb68b99ac47d00cf7eda41f05545f": {
@@ -3764,7 +3764,11 @@
     "f4d8ae004074635d85c3e059856e5fd6a192a6343b63ca1bad1a0d53476a7e4e": "2026-08-19T04:50:56+03:00",
     "be4883105d3c468e2ebe7312537cb6e383722ba41e10605f932adf0b11ec3aa2": "2026-08-19T04:50:56+03:00",
     "893c91c5fa54bdde39236c3c8f96ab0b720a9f576e50f5e8d125bf4bf2034a32": "2026-08-19T04:50:56+03:00",
-    "a4d81c0c68c61c26cfe6c5599db29943626e1aa8593d44cd64365ac6ebb9fb3f": "2026-08-19T04:50:56+03:00"
+    "a4d81c0c68c61c26cfe6c5599db29943626e1aa8593d44cd64365ac6ebb9fb3f": "2026-08-19T04:50:56+03:00",
+    "72447a6fde4a4284de6bc73d33570674d996adc1dcdd95a1897619d7954af34c": "2026-08-19T07:48:58+03:00",
+    "dcdd3d632b7641fba741c7fc88904e3faf529b3ce1a8e303f15fcdfe4dd0ba8f": "2026-08-19T07:48:58+03:00",
+    "2832af3ad5f69feb433a5855a049bfdb3f5d763d103753dc353c2e698b43ea0f": "2026-08-19T07:48:58+03:00",
+    "bd0701d5e5b40adb022d8953d9cf9ba52ea9d503b1b2c5137b364288803e7857": "2026-08-19T07:48:58+03:00"
   },
-  "updated_by_run_id": "32206379574"
+  "updated_by_run_id": "32217106005"
 }
