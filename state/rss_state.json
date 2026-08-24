@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-24T08:01:17+03:00",
-  "last_successful_run_at_utc": "2026-08-24T08:01:17+03:00",
+  "updated_at_utc": "2026-08-24T12:03:52+03:00",
+  "last_successful_run_at_utc": "2026-08-24T12:03:52+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-08-23T20:04:47+03:00",
-      "last_seen_at_utc": "2026-08-23T23:36:16+03:00",
+      "last_seen_published_at_utc": "2026-08-24T11:52:52+03:00",
+      "last_seen_at_utc": "2026-08-24T12:02:05+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -45,13 +45,13 @@
       "source_name": "www.crowdstrike.com/blog"
     },
     "1c944410f3c64db869c30b11957ea3b7d7f1db2a4ff30c78df28cee79c36c545": {
-      "last_seen_published_at_utc": "2026-08-21T17:03:48+03:00",
-      "last_seen_at_utc": "2026-08-21T19:49:03+03:00",
+      "last_seen_published_at_utc": "2026-08-24T10:01:00+03:00",
+      "last_seen_at_utc": "2026-08-24T12:02:05+03:00",
       "source_name": "Malwarebytes Unpacked"
     },
     "852650ccf6c37cf65dae8352f0d05d556cab5e31a6ccaf89fa3478fdd6263d73": {
-      "last_seen_published_at_utc": "2026-08-21T15:40:00+03:00",
-      "last_seen_at_utc": "2026-08-21T16:08:19+03:00",
+      "last_seen_published_at_utc": "2026-08-24T11:05:00+03:00",
+      "last_seen_at_utc": "2026-08-24T12:02:05+03:00",
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
@@ -125,8 +125,8 @@
       "source_name": "The Tor Blog blogs"
     },
     "8c3f2ae81d19f940b8bbee70b2e042075129ec417e9e6eb2f17e6a0ef379d6d4": {
-      "last_seen_published_at_utc": "2026-08-23T09:39:45+03:00",
-      "last_seen_at_utc": "2026-08-23T11:45:58+03:00",
+      "last_seen_published_at_utc": "2026-08-24T07:19:51+03:00",
+      "last_seen_at_utc": "2026-08-24T12:02:05+03:00",
       "source_name": "Troy Hunt's Blog"
     },
     "92730a2cfaa07d1eac8767434558e311fee634cec6d890d52b5f8a536c0384b6": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-08-22T17:32:41+03:00",
-      "last_seen_at_utc": "2026-08-22T19:37:39+03:00",
+      "last_seen_published_at_utc": "2026-08-24T11:08:31+03:00",
+      "last_seen_at_utc": "2026-08-24T12:02:05+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-08-23T11:00:00+03:00",
-      "last_seen_at_utc": "2026-08-23T15:59:31+03:00",
+      "last_seen_published_at_utc": "2026-08-24T08:30:33+03:00",
+      "last_seen_at_utc": "2026-08-24T12:02:05+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -336,13 +336,6 @@
     }
   },
   "sent_fingerprints": {
-    "f55122745ca0fd4c6214d7ae5245a7a70a84fd391e7d53a63d290d6d59c08e10": "2026-07-10T10:50:04+03:00",
-    "bbd4cccc9769e3af885a20130c4f8a1b37254e7336bb7cbcc65f6b73ad475c7c": "2026-07-10T10:50:04+03:00",
-    "a931220815f4b808e85ebe3a130c9bc187b8ff007b2d97a8bfcf660470d26b4d": "2026-07-10T10:50:04+03:00",
-    "c0ace71845c843e9bcae665a98c8c66299f10b5e2e60b5f92051fefe5b91431c": "2026-07-10T10:50:04+03:00",
-    "c8f5472124da5e6acb5d3f42f8232721b88668c52971a14d9e76298b50e3363c": "2026-07-10T10:50:04+03:00",
-    "49007fedb567e34f452a31058e373d4d1dd60bd13cb5d8764c6594ff8c48990c": "2026-07-10T10:50:04+03:00",
-    "85ba5ee69067f675ef9e4a2120e65a9e94ef371f16ed78d8b7ad501aaf35e8f0": "2026-07-10T10:50:04+03:00",
     "35c9ff142eef4ff1a3e29b729e85d2f5cef838f8a056ec7054530e7ea9172118": "2026-07-10T14:16:39+03:00",
     "491def3f8adef1929eaaa2b90de3160c82a1a776d6bf9a3d5eb3840788392713": "2026-07-10T14:16:39+03:00",
     "3df13de8f2c96e41b03735824c09c8ff9b81921a6c4338e984fac755e784eec2": "2026-07-10T14:16:39+03:00",
@@ -3649,7 +3642,18 @@
     "0169351a04a7eb90b26895cf25025d51761c191be540cebb172dda7c674a2807": "2026-08-23T23:36:16+03:00",
     "5d41a056af837723256ffeee07c8f390cb6e85b6f26c0cd8d36af40ddb680107": "2026-08-23T23:36:16+03:00",
     "3f091c30979e85c9e73aed91ff4558dc088b2a103bdda0bb739abc1dd662dc0c": "2026-08-24T04:55:20+03:00",
-    "e2d87f5ca394ccc044fe1cedeec92cc50627b2be3314aac642d2894f637c7ea5": "2026-08-24T04:55:20+03:00"
+    "e2d87f5ca394ccc044fe1cedeec92cc50627b2be3314aac642d2894f637c7ea5": "2026-08-24T04:55:20+03:00",
+    "a45807f3ba2d03220893f545076aa3234d514139aca56f043dd77865317ce607": "2026-08-24T12:02:05+03:00",
+    "94e16b5c455c9cfdac6a18a460a8f8a11c518141dbc54b828af506bb623ad9ef": "2026-08-24T12:02:05+03:00",
+    "71ca74b543ef9f010e16ac5a754d01b3f7077c5e6309d2eb8c5c3b16f9d7dd22": "2026-08-24T12:02:05+03:00",
+    "521a8ab4253ab2044c4114a182bf7d0954c85fd0bdff4ad73ce376f3cce727b8": "2026-08-24T12:02:05+03:00",
+    "bcccaed55ea0066f30326d47bbafa56eb025bc475960459ed363d688a7cd63fd": "2026-08-24T12:02:05+03:00",
+    "6006e149f69dc46ce81a307d8e2cda0d4a1c97302ff18146f0a3ee19d8284d5b": "2026-08-24T12:02:05+03:00",
+    "b7e767e8a56a37e653dd7aba085d5eef15770423cf6cf66d74da387b79d7af1c": "2026-08-24T12:02:05+03:00",
+    "caee60873eae41270b12538c3d73021dfe63fc266c60d6f5651c1cff3f073694": "2026-08-24T12:02:05+03:00",
+    "7a9b870b5d3d4f0d227c9bdbfb3ecf94f2f958f20b4c9fb4b772032c9f513cac": "2026-08-24T12:02:05+03:00",
+    "0e4bbcc44a063af540b950d22629704b33083319876bfc9874ecda500f003a66": "2026-08-24T12:02:05+03:00",
+    "187ea50bc482046c72174ff64628d4fa9b544ab18b40839098909b3c1df3ba9e": "2026-08-24T12:02:05+03:00"
   },
-  "updated_by_run_id": "32691929340"
+  "updated_by_run_id": "32709308820"
 }
