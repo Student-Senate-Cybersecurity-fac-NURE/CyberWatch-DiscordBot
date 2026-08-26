@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-08-26T04:57:53+03:00",
-  "last_successful_run_at_utc": "2026-08-26T04:57:53+03:00",
+  "updated_at_utc": "2026-08-26T07:55:13+03:00",
+  "last_successful_run_at_utc": "2026-08-26T07:55:13+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-07-07T19:30:00+03:00",
@@ -225,8 +225,8 @@
       "source_name": "Krypt3ia"
     },
     "433a18b178268911c5a9250c1b0222f97fd003e28795543bc9b3625156bcceec": {
-      "last_seen_published_at_utc": "2026-08-25T18:00:00+03:00",
-      "last_seen_at_utc": "2026-08-25T19:52:28+03:00",
+      "last_seen_published_at_utc": "2026-08-26T06:00:00+03:00",
+      "last_seen_at_utc": "2026-08-26T07:53:47+03:00",
       "source_name": "Mandiant | Transform Your Cybersecurity"
     },
     "330aa46787a0ab7673eab46a0bcebcc9878bb68b99ac47d00cf7eda41f05545f": {
@@ -3724,7 +3724,8 @@
     "b52fde42c466f66a8e6c68d41cb240338e27a7fc60b142eb7d1e988848800230": "2026-08-26T04:56:20+03:00",
     "c9efb2969da0cae87afe5742aca1b5ad74b736624bbc6825a72bb9888ab81943": "2026-08-26T04:56:20+03:00",
     "aafe72cb00a9cdf2b26b3ad79b3600cce2ca4a629abbf39516a58be555ba0603": "2026-08-26T04:56:20+03:00",
-    "0cbb34b3ec0da49d4d89f85adba99f92b8ffda99e14b6c68ac8166ad72f24620": "2026-08-26T04:56:20+03:00"
+    "0cbb34b3ec0da49d4d89f85adba99f92b8ffda99e14b6c68ac8166ad72f24620": "2026-08-26T04:56:20+03:00",
+    "a63ca0f45936ba3e3964df3c4d81225d4936c24a204e78d512d4693b14ee8938": "2026-08-26T07:53:47+03:00"
   },
-  "updated_by_run_id": "32920815857"
+  "updated_by_run_id": "32931918707"
 }
