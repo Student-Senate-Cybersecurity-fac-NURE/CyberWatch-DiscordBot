@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-09-03T01:37:35+03:00",
-  "last_successful_run_at_utc": "2026-09-03T01:37:36+03:00",
+  "updated_at_utc": "2026-09-03T07:21:37+03:00",
+  "last_successful_run_at_utc": "2026-09-03T07:21:37+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-01T17:02:00+03:00",
@@ -90,8 +90,8 @@
       "source_name": "Huntress Blog"
     },
     "596a852c6a1de93e018daa1e4f6dad46641e1b366f7724123ece8544cc6fa889": {
-      "last_seen_published_at_utc": "2026-09-03T00:32:59+03:00",
-      "last_seen_at_utc": "2026-09-03T01:36:03+03:00",
+      "last_seen_published_at_utc": "2026-09-03T03:02:18+03:00",
+      "last_seen_at_utc": "2026-09-03T07:20:06+03:00",
       "source_name": "VentureBeat"
     },
     "979dab2e4f232756fe76560a13344776831726674bd98151dd6c56a637b13364": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-09-02T17:48:00+03:00",
-      "last_seen_at_utc": "2026-09-02T22:22:18+03:00",
+      "last_seen_published_at_utc": "2026-09-03T02:10:47+03:00",
+      "last_seen_at_utc": "2026-09-03T07:20:06+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-09-02T17:48:00+03:00",
-      "last_seen_at_utc": "2026-09-02T22:22:18+03:00",
+      "last_seen_published_at_utc": "2026-09-03T02:10:47+03:00",
+      "last_seen_at_utc": "2026-09-03T07:20:06+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -155,8 +155,8 @@
       "source_name": "Cisco"
     },
     "484030fbcc9053ce4977637e90b6d3902adbcfde4071f9c66b7974a126944c0b": {
-      "last_seen_published_at_utc": "2026-09-02T01:48:28+03:00",
-      "last_seen_at_utc": "2026-09-02T07:26:35+03:00",
+      "last_seen_published_at_utc": "2026-09-03T01:51:18+03:00",
+      "last_seen_at_utc": "2026-09-03T07:20:06+03:00",
       "source_name": "Microsoft Security Blog"
     },
     "31734d9b3aef81d8b4aae547bb4912b13238de242ffdfeddaa2ca5e090d3ba62": {
@@ -170,8 +170,8 @@
       "source_name": "Security on TechRepublic"
     },
     "16b9c83b849a4f6aa96e84d6c5219335ce8143eb36377d1a492ef1187e1e6018": {
-      "last_seen_published_at_utc": "2026-09-02T23:58:36+03:00",
-      "last_seen_at_utc": "2026-09-03T01:36:03+03:00",
+      "last_seen_published_at_utc": "2026-09-03T00:01:10+03:00",
+      "last_seen_at_utc": "2026-09-03T07:20:06+03:00",
       "source_name": "Center of Internet Security"
     },
     "c99e489135fe50c0cfd0eea341b58adbf4f8515a57fc47a77641bc17efb72e7c": {
@@ -346,9 +346,6 @@
     }
   },
   "sent_fingerprints": {
-    "24ec9bcd80dd6d9b8f8e041fbc7978a0427d0bfcf3a5fd297def3cc95e58558f": "2026-07-20T07:00:11+03:00",
-    "911c0acea2f9ab177e6dcf955b60d7c55cf61692d2a4e881369a6c8be89acbb3": "2026-07-20T07:00:11+03:00",
-    "6991b2e751bea54daa04b9fbfd622481f01ced08eaf822a387e8801f2817d237": "2026-07-20T07:00:11+03:00",
     "fc3fad223a573ec7681c673e56af3ba79e45a9d9ecdbf565ab31f4249514b305": "2026-07-20T10:25:33+03:00",
     "752074370c1f9f94c81396df5215c1356f1f11aa9433e09ad32ee6a3dc187437": "2026-07-20T10:25:33+03:00",
     "51c42f223358c4b959aa707e8a91b51c3cd964591777c66854ac8e87c42c70d5": "2026-07-20T10:25:33+03:00",
@@ -3755,7 +3752,12 @@
     "3ffe98088230deb9ced4a2a3528601da21d8ef4f880a67c70350c9c882c042eb": "2026-09-03T01:36:03+03:00",
     "445d78993c860a9242c31a6b9664bcdb292ee59e46b1b1b513bef4fa8b34a22b": "2026-09-03T01:36:03+03:00",
     "ee593f80b37575a1335820c1ed08c9bb1c28bddc2aa9a4e7966634916b19ea87": "2026-09-03T01:36:03+03:00",
-    "12bc44b7cc42329bdf0a535254de93374040059df1393251df65e605823f10cd": "2026-09-03T01:36:03+03:00"
+    "12bc44b7cc42329bdf0a535254de93374040059df1393251df65e605823f10cd": "2026-09-03T01:36:03+03:00",
+    "8ed5dd99901adec91644b303c5ad52f0adf0bbab411e48c2167bc6f5f82420e2": "2026-09-03T07:20:06+03:00",
+    "3098fe9d903bc2203337913f776393d6c24ebc9f891d8d04a9da8da6233f2db7": "2026-09-03T07:20:06+03:00",
+    "d86406b04df10df009c5fdbf37a9e16b221d7b83fe8e0c7f44bf0b1330a4ba9d": "2026-09-03T07:20:06+03:00",
+    "beb3a98e4c7f0e07c37d9a1824621b8b950d2ad2419211bb125b6827559e8a2c": "2026-09-03T07:20:06+03:00",
+    "e97a2340f89bfa32bcdc8b67e7fb1b72736328f570f5167881ff2123822395c8": "2026-09-03T07:20:06+03:00"
   },
-  "updated_by_run_id": "33691145434"
+  "updated_by_run_id": "33714643248"
 }
