@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-09-11T01:34:11+03:00",
-  "last_successful_run_at_utc": "2026-09-11T01:34:11+03:00",
+  "updated_at_utc": "2026-09-11T07:36:11+03:00",
+  "last_successful_run_at_utc": "2026-09-11T07:36:12+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-01T17:02:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-09-10T22:50:24+03:00",
-      "last_seen_at_utc": "2026-09-11T01:32:50+03:00",
+      "last_seen_published_at_utc": "2026-09-11T01:38:35+03:00",
+      "last_seen_at_utc": "2026-09-11T07:34:08+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-09-11T00:57:43+03:00",
-      "last_seen_at_utc": "2026-09-11T01:32:50+03:00",
+      "last_seen_published_at_utc": "2026-09-11T02:23:43+03:00",
+      "last_seen_at_utc": "2026-09-11T07:34:08+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-09-10T23:36:03+03:00",
-      "last_seen_at_utc": "2026-09-11T01:32:50+03:00",
+      "last_seen_published_at_utc": "2026-09-11T04:00:00+03:00",
+      "last_seen_at_utc": "2026-09-11T07:34:08+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -351,12 +351,6 @@
     }
   },
   "sent_fingerprints": {
-    "2d41a99aeca94043fd933e59a4cbde90c2bb3bec313fc75f65cba06c0cd5c18a": "2026-07-28T06:30:54+03:00",
-    "c383fa4e9e427f42280631ceb78e6b9d1191f4fd5d4d185ec2bf9305d946fe96": "2026-07-28T06:30:54+03:00",
-    "750d2455534088c9c5f13c4da8b60831f284c4aa5b2b0ad1bfa8d433f8d5d708": "2026-07-28T06:30:54+03:00",
-    "9522eb28711b645bddf1dc0cccfb1c12e2c60f7782dd115654b7ce70679eb1be": "2026-07-28T06:30:54+03:00",
-    "f17fe012fbec149bec74c6dd8fc750a9ec189eb2e3370670944c52026b2f6b22": "2026-07-28T06:30:54+03:00",
-    "4eb880c0b72bb5fe75ff62db75a0aa2975ce1af63591656429b18872afa8755b": "2026-07-28T06:30:54+03:00",
     "c879191b83578d400cc1146c8ac5ebf0178294e462ffe5de4e1f0e6d115cb225": "2026-07-28T09:37:58+03:00",
     "4ba6154cd6e772f200970fc5ada05c06ad0e74c1cccb6736ef8bfa921c6abed5": "2026-07-28T09:37:58+03:00",
     "73847d37cfea4af2f89fcb4eaff999dbb507150eb53d3d88f1ab2ffae16ec1ff": "2026-07-28T09:37:58+03:00",
@@ -3643,7 +3637,11 @@
     "24d9a63859396953e160c4e71c8e5faa7d46e47567b471b05914417cbc9bfe59": "2026-09-11T01:32:50+03:00",
     "c53f8c2f5cf3e5c4aa26c047ad3339e61260b2fd5670cc81e70de0f4c4c28487": "2026-09-11T01:32:50+03:00",
     "23cda12f9e231fd75e1b1e9d4e5ab3e540e14b01cd315cb4796bbc1d50a19ab3": "2026-09-11T01:32:50+03:00",
-    "23e3f5ff6afde0791e6dc83aee67634ec1355a9bdc1c77651b4d159074257e8d": "2026-09-11T01:32:50+03:00"
+    "23e3f5ff6afde0791e6dc83aee67634ec1355a9bdc1c77651b4d159074257e8d": "2026-09-11T01:32:50+03:00",
+    "f30cc0d41b029d1f93a62d69a1e2dbefd009a524972d5eb95d769347650d14ae": "2026-09-11T07:34:08+03:00",
+    "da9aa1931588638f9a6ad0dce05d05b0249d5abed6a5f0af99bad0db93c0da31": "2026-09-11T07:34:08+03:00",
+    "028e5440b124bfa663511d12c30f901f12605b2f99b7aede86145ca41e95485c": "2026-09-11T07:34:08+03:00",
+    "b1d4a41e152f326751beca4c455a585fe464a1129e0f46c0476e63fad037db35": "2026-09-11T07:34:08+03:00"
   },
-  "updated_by_run_id": "34537955231"
+  "updated_by_run_id": "34562663274"
 }
