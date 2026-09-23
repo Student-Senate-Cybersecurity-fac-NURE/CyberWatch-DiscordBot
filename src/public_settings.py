@@ -6,6 +6,7 @@ PROJECT_ROOT: Final[Path] = Path(__file__).resolve().parent.parent
 # Formatting settings
 MAIN_COLOR: Final[int] = 0x000000
 THUMBNAIL_URL: Final[str] = "https://avatars.githubusercontent.com/u/277730359?s=280&v=4"
+DISCORD_EMBED_TITLE_MAX_LENGTH: Final[int] = 256
 CUT_SUFFIX: Final[str] = "..."
 SUMMARY_MAX_DESCRIPTION_LENGTH: Final[int] = 250
 SUMMARY_TRUNCATION_SUFFIX: Final[str] = ".."
@@ -81,5 +82,6 @@ RSS_FORCE_WINDOW_START_UTC_ENV_KEY: Final[str] = "RSS_FORCE_WINDOW_START_UTC"
 
 RSS_HTTP_USER_AGENT: Final[str] = "ThreatIntelligenceDiscordBot/rss-sync"
 RSS_EMBEDS_BATCH_SIZE: Final[int] = 10
+RSS_EMBEDS_MAX_CHARACTERS: Final[int] = 5500
 RSS_BATCH_DELAY_SECONDS: Final[int] = 3
 RSS_STATE_SCHEMA_VERSION: Final[int] = 2
