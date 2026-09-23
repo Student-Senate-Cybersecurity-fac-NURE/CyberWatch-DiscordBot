@@ -1,9 +1,9 @@
-from discord import Embed
-from typing import List, Dict, Any, Union
+from datetime import UTC, datetime
+from typing import Any
 
-from datetime import datetime, timezone
 import dateutil.parser
 from dateutil.tz import gettz
+from discord import Embed
 
 from .public_settings import (
     CUT_SUFFIX,
@@ -32,7 +32,7 @@ def cut_string(string: str, length: int) -> str:
     )
 
 
-def format_datetime(article_datetime: Union[datetime, str]) -> List[str]:
+def format_datetime(article_datetime: datetime | str) -> list[str]:
     dt_object: datetime
 
     if isinstance(article_datetime, datetime):
@@ -44,7 +44,7 @@ def format_datetime(article_datetime: Union[datetime, str]) -> List[str]:
             return article_datetime.split(DATETIME_FALLBACK_SEPARATOR)
 
     if dt_object.tzinfo is None:
-        dt_object = dt_object.replace(tzinfo=timezone.utc)
+        dt_object = dt_object.replace(tzinfo=UTC)
 
     kyiv_datetime = dt_object.astimezone(KYIV_TIMEZONE)
     return [
@@ -53,7 +53,7 @@ def format_datetime(article_datetime: Union[datetime, str]) -> List[str]:
     ]
 
 
-def format_single_article(article: Dict[str, Any]) -> Embed:
+def format_single_article(article: dict[str, Any]) -> Embed:
     description = ""
 
     if "summary" in article:

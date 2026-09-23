@@ -7,7 +7,7 @@ Discord-бот Cyber Watch (форк Threat Intelligence від vx-underground) 
 * Працює на Windows або Linux
 * Потрібен вебхук Discord
 * Легко додавати або видаляти домени для моніторингу
-* Логіка синхронізації RSS знаходиться в /Source/Bots/RSS.py
+* Логіка синхронізації RSS знаходиться в /src/bots/rss.py
 
 ## Початок роботи
 
@@ -17,7 +17,7 @@ Discord-бот Cyber Watch (форк Threat Intelligence від vx-underground) 
 * Крок 4. Запустіть RSS синхронізатор:
 
 ```bash
-python -m Source rss-sync
+python -m src rss-sync
 ```
 
 ## Інші нотатки

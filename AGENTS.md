@@ -7,7 +7,7 @@
 - Government Feed  
 - Status Messages
 
-**Entry point**: `python -m Source <command>`
+**Entry point**: `python -m src <command>`
 
 ## Commands
 
@@ -18,10 +18,10 @@
 
 ```bash
 # Development: Run once with manual state reset
-python -m Source rss
+python -m src rss
 
 # Or with explicit state file override
-RSS_STATE_FILE=state/custom_state.json python -m Source rss
+RSS_STATE_FILE=state/custom_state.json python -m src rss
 ```
 
 **State file**: `state/rss_state.json` — persisted between runs to track last processed timestamps and sent fingerprints.
@@ -68,12 +68,12 @@ RSS_STATE_FILE=state/custom_state.json python -m Source rss
 **Pattern**: Interval-based collection with overlap windows to avoid gaps.
 
 **Key files**:
-- `Source/Bots/RSS.py` — main sync logic, interval windows, dedup
-- `Source/__main__.py` — CLI entrypoint, command routing
-- `Source/__init__.py` — env loading, webhook initialization
-- `Source/public_settings.py` — constants, env keys, defaults
-- `Source/Formatting.py` — Discord embed formatting
-- `Source/Utils.py` — logger config, config validation
+- `src/bots/rss.py` — main sync logic, interval windows, dedup
+- `src/__main__.py` — CLI entrypoint, command routing
+- `src/__init__.py` — env loading, webhook initialization
+- `src/public_settings.py` — constants, env keys, defaults
+- `src/formatting.py` — Discord embed formatting
+- `src/utils.py` — logger config, config validation
 
 **State schema v2 fields**:
 - `schema_version`
@@ -93,7 +93,7 @@ Run locally:
 
 ```bash
 pip install bandit mypy ruff
-bandit -r Source -q
+bandit -r src -q
 mypy --config-file mypy.ini .
 ruff check .
 ```
@@ -103,7 +103,7 @@ ruff check .
 ```bash
 # 1. Ensure .env has all 3 webhook URLs
 # 2. Run RSS sync
-python -m Source rss
+python -m src rss
 
 # 3. Check logs
 cat logs/rss.info.log
@@ -144,7 +144,7 @@ raw_config["gov_rss_feed_list"].append(["https://govfeed.com", "Gov Source"])
 WEBHOOK_PRIVATE_SECTOR_FEED=https://hook1.com \
 WEBHOOK_GOVERNMENT_FEED=https://hook2.com \
 WEBHOOK_STATUS_MESSAGES=https://hook3.com \
-python -m Source rss
+python -m src rss
 ```
 
 **Check logs after run**:

@@ -1,16 +1,16 @@
-import sys
 import os
+import sys
 from pathlib import Path
-from typing import Dict, Any
+from typing import Any
 
 from discord import SyncWebhook
 
-from .Utils import verify_config_section
 from .public_settings import (
     CONFIG_SECTION_WEBHOOKS,
     LOGS_DIRECTORY,
     WEBHOOK_ENV_BY_KEY,
 )
+from .utils import verify_config_section
 
 
 def _load_environment_variables() -> None:
@@ -53,7 +53,7 @@ except OSError:
     pass  # Most likely simply means the folder already exists
 
 # Configuration dictionary to replace ConfigParser
-config: Dict[str, Dict[str, Any]] = {
+config: dict[str, dict[str, Any]] = {
     CONFIG_SECTION_WEBHOOKS: {
         hook_name: os.getenv(env_var_name)
         for hook_name, env_var_name in WEBHOOK_ENV_BY_KEY.items()

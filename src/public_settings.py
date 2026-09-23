@@ -1,6 +1,5 @@
 from pathlib import Path
-from typing import Dict, Final, Tuple
-
+from typing import Final
 
 PROJECT_ROOT: Final[Path] = Path(__file__).resolve().parent.parent
 
@@ -28,14 +27,14 @@ LOGGER_FORMAT: Final[str] = "[%(asctime)s] %(levelname)s у %(module)s: %(messag
 # Environment and config keys
 CONFIG_SECTION_WEBHOOKS: Final[str] = "Webhooks"
 
-WEBHOOK_ENV_BY_KEY: Final[Dict[str, str]] = {
+WEBHOOK_ENV_BY_KEY: Final[dict[str, str]] = {
     "PrivateSectorFeed": "WEBHOOK_PRIVATE_SECTOR_FEED",
     "GovermentFeed": "WEBHOOK_GOVERNMENT_FEED",
     "StatusMessages": "WEBHOOK_STATUS_MESSAGES",
 }
 
 # CLI settings
-SUPPORTED_RSS_COMMANDS: Final[Tuple[str, str]] = ("rss", "rss-sync")
+SUPPORTED_RSS_COMMANDS: Final[tuple[str, str]] = ("rss", "rss-sync")
 CLI_UNKNOWN_COMMAND_MESSAGE: Final[str] = (
     "Аргумент не розпізнано. Доступні варіанти: rss та rss-sync"
 )
@@ -43,7 +42,7 @@ CLI_MISSING_COMMAND_MESSAGE: Final[str] = (
     "Будь ласка, вкажіть аргумент, який бот запускати. "
     "Доступні варіанти: rss та rss-sync"
 )
-REQUIRED_RSS_WEBHOOK_KEYS: Final[Tuple[str, str, str]] = (
+REQUIRED_RSS_WEBHOOK_KEYS: Final[tuple[str, str, str]] = (
     "PrivateSectorFeed",
     "GovermentFeed",
     "StatusMessages",
