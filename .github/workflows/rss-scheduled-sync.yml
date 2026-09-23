@@ -103,7 +103,7 @@ jobs:
           WEBHOOK_GOVERNMENT_FEED: ${{ secrets.WEBHOOK_GOVERNMENT_FEED }}
           WEBHOOK_STATUS_MESSAGES: ${{ secrets.WEBHOOK_STATUS_MESSAGES }}
         run: |
-          python -m Source rss-sync
+          python -m src rss-sync
 
       - name: Update state metadata
         if: success()
