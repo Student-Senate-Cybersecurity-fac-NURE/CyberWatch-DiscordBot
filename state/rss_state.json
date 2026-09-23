@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-09-23T20:55:36+03:00",
-  "last_successful_run_at_utc": "2026-09-23T20:55:36+03:00",
+  "updated_at_utc": "2026-09-23T21:14:34+03:00",
+  "last_successful_run_at_utc": "2026-09-23T21:14:34+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-01T17:02:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-09-23T18:08:00+03:00",
-      "last_seen_at_utc": "2026-09-23T20:51:33+03:00",
+      "last_seen_published_at_utc": "2026-09-23T21:09:28+03:00",
+      "last_seen_at_utc": "2026-09-23T21:12:28+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-09-23T19:06:41+03:00",
-      "last_seen_at_utc": "2026-09-23T20:51:33+03:00",
+      "last_seen_published_at_utc": "2026-09-23T19:53:10+03:00",
+      "last_seen_at_utc": "2026-09-23T21:12:28+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -3317,7 +3317,9 @@
     "8b1d3e574824f9c6a3e862053add6b083bccd6fee6136a07d9dda981a919fa92": "2026-09-23T20:51:33+03:00",
     "6b85decab0450381b8ec0f3a1641494a372a2df3a99669d7d5e61b46422b3a3a": "2026-09-23T20:51:33+03:00",
     "58170e2025ad89afa4c26a0a6fa41625f0d102a1f7a28ad9d0825cef1d53ad30": "2026-09-23T20:51:33+03:00",
-    "5abe538bb395cf117b68851beeeae94523626cfd661679619b6249cc2cc54350": "2026-09-23T20:51:33+03:00"
+    "5abe538bb395cf117b68851beeeae94523626cfd661679619b6249cc2cc54350": "2026-09-23T20:51:33+03:00",
+    "4770bfe5bafdb02da5e1208eacf55f03d5cf3ed6b678829f5ebe713e7b783507": "2026-09-23T21:12:28+03:00",
+    "e56bfce5dc258fc276b436f7162784b560f5bd48231aa3ffb2fc16ad4bda417c": "2026-09-23T21:12:28+03:00"
   },
-  "updated_by_run_id": "35898467742"
+  "updated_by_run_id": "35900812282"
 }
