@@ -15,7 +15,7 @@ import requests
 from dateutil.tz import gettz
 
 from .. import webhooks
-from ..formatting import format_single_article
+from ..formatting import exceeds_embed_batch_limit, format_single_article
 from ..public_settings import (
     GOV_RSS_SOURCE_NAME,
     PRIVATE_RSS_SOURCE_NAME,
@@ -445,7 +445,31 @@ def _dispatch_interval_articles(
         payload_articles: list[dict[str, Any]] = []
 
         for article in detail_articles:
-            message_payload.append(format_single_article(article))
+            article_embed = format_single_article(article)
+            if message_payload and exceeds_embed_batch_limit(message_payload, article_embed):
+                hook.send(embeds=message_payload)
+                for sent_article in payload_articles:
+                    fingerprint = str(sent_article.get("_fingerprint", ""))
+                    feed_key = str(sent_article.get("_feed_key", ""))
+                    publish_date = str(sent_article.get("publish_date", ""))
+
+                    if len(fingerprint) > 0:
+                        sent_fingerprints[fingerprint] = _format_datetime_kyiv(run_end_utc)
+
+                    if len(feed_key) > 0:
+                        feeds_state[feed_key] = {
+                            "last_seen_published_at_utc": publish_date,
+                            "last_seen_at_utc": _format_datetime_kyiv(run_end_utc),
+                            "source_name": str(sent_article.get("source", "")),
+                        }
+
+                total_dispatched += len(payload_articles)
+                dispatched_by_source[detail_name] += len(payload_articles)
+                message_payload = []
+                payload_articles = []
+                time.sleep(RSS_BATCH_DELAY_SECONDS)
+
+            message_payload.append(article_embed)
             payload_articles.append(article)
 
             if len(message_payload) < RSS_EMBEDS_BATCH_SIZE:

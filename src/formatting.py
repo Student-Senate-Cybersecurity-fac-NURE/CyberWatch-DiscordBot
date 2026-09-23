@@ -10,7 +10,10 @@ from .public_settings import (
     DATE_OUTPUT_FORMAT,
     DATETIME_FALLBACK_SEPARATOR,
     DETAILS_FIELD_NAME,
+    DISCORD_EMBED_TITLE_MAX_LENGTH,
     MAIN_COLOR,
+    RSS_EMBEDS_BATCH_SIZE,
+    RSS_EMBEDS_MAX_CHARACTERS,
     SUMMARY_MAX_DESCRIPTION_LENGTH,
     SUMMARY_TRUNCATION_SUFFIX,
     THUMBNAIL_URL,
@@ -69,15 +72,19 @@ def format_single_article(article: dict[str, Any]) -> Embed:
         "**Дата**: " + " | *".join(format_datetime(article["publish_date"])) + "*"
     )
 
+    article_title = cut_string(
+        str(article.get("title", "")), DISCORD_EMBED_TITLE_MAX_LENGTH
+    )
+
     if "link" in article:
         message = Embed(
-            title=article["title"],
+            title=article_title,
             url=article["link"],
             color=MAIN_COLOR,
         )
     else:
         message = Embed(
-            title=article["title"],
+            title=article_title,
             color=MAIN_COLOR,
         )
 
@@ -91,7 +98,7 @@ def format_single_article(article: dict[str, Any]) -> Embed:
         )
 
     else:
-        if article["title"]:
+        if article_title:
             message.set_thumbnail(url=THUMBNAIL_URL)
 
         message.add_field(
@@ -101,3 +108,26 @@ def format_single_article(article: dict[str, Any]) -> Embed:
         )
 
     return message
+
+
+def count_embed_characters(embed: Embed) -> int:
+
+    def count_value(value: Any) -> int:
+        if isinstance(value, str):
+            return len(value)
+        if isinstance(value, dict):
+            return sum(count_value(nested_value) for nested_value in value.values())
+        if isinstance(value, list):
+            return sum(count_value(item) for item in value)
+        return 0
+
+    return count_value(embed.to_dict())
+
+
+def exceeds_embed_batch_limit(embeds: list[Embed], candidate: Embed) -> bool:
+
+    if len(embeds) >= RSS_EMBEDS_BATCH_SIZE:
+        return True
+
+    current_size = sum(count_embed_characters(embed) for embed in embeds)
+    return current_size + count_embed_characters(candidate) > RSS_EMBEDS_MAX_CHARACTERS
