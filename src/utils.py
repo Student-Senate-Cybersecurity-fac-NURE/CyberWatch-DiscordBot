@@ -1,5 +1,5 @@
 import logging
-from typing import Dict, List, Any
+from typing import Any
 
 from .public_settings import (
     ERROR_LOG_FILENAME_SUFFIX,
@@ -8,16 +8,15 @@ from .public_settings import (
     LOGS_DIRECTORY,
 )
 
-def get_missing_config_params(config: Dict[str, Any], section_name: str) -> List[str]:
+
+def get_missing_config_params(config: dict[str, Any], section_name: str) -> list[str]:
     return [
         detail_name for detail_name, detail in config[section_name].items() if not detail
     ]
 
 
-def verify_config_section(config: Dict[str, Any], section_name: str) -> bool:
-    return section_name in config and all(
-        [detail for detail_name, detail in config[section_name].items()]
-    )
+def verify_config_section(config: dict[str, Any], section_name: str) -> bool:
+    return section_name in config and all(config[section_name].values())
 
 def configure_logger(name: str = __name__) -> logging.Logger:
     logger = logging.getLogger(name)
@@ -39,7 +38,7 @@ def configure_logger(name: str = __name__) -> logging.Logger:
 
     logger_format = logging.Formatter(LOGGER_FORMAT)
 
-    handlers: List[logging.Handler] = [stream_handler, file_handler_info, file_handler_error]
+    handlers: list[logging.Handler] = [stream_handler, file_handler_info, file_handler_error]
     for handler in handlers:
         handler.setFormatter(logger_format)
         logger.addHandler(handler)

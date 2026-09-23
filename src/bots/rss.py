@@ -1,46 +1,46 @@
-import os
-import requests
-import time
-import json
 import hashlib
-from enum import Enum
-from datetime import datetime, timedelta, timezone
-from pathlib import Path
-from email.utils import parsedate_to_datetime
-from collections import defaultdict
-from typing import cast, List, Dict, Any, Tuple, Optional, Set
+import json
 import logging
+import os
+import time
+from collections import defaultdict
+from datetime import UTC, datetime, timedelta
+from email.utils import parsedate_to_datetime
+from enum import Enum
+from pathlib import Path
+from typing import Any, cast
 
 import feedparser  # type: ignore
+import requests
 from dateutil.tz import gettz
 
 from .. import webhooks
-from ..Formatting import format_single_article
+from ..formatting import format_single_article
 from ..public_settings import (
     GOV_RSS_SOURCE_NAME,
-    TIMEZONE_NAME,
     PRIVATE_RSS_SOURCE_NAME,
-    RSS_FEEDS_CONFIG_FILE_PATH,
-    RSS_GOV_FEEDS_CONFIG_KEY,
-    RSS_PRIVATE_FEEDS_CONFIG_KEY,
     RSS_BACKFILL_HOURS_DEFAULT,
     RSS_BACKFILL_HOURS_ENV_KEY,
     RSS_BATCH_DELAY_SECONDS,
     RSS_EMBEDS_BATCH_SIZE,
+    RSS_FEEDS_CONFIG_FILE_PATH,
     RSS_FINGERPRINT_RETENTION_DAYS_DEFAULT,
     RSS_FINGERPRINT_RETENTION_DAYS_ENV_KEY,
     RSS_FORCE_WINDOW_START_UTC_ENV_KEY,
+    RSS_GOV_FEEDS_CONFIG_KEY,
     RSS_HTTP_TIMEOUT_SECONDS_DEFAULT,
     RSS_HTTP_TIMEOUT_SECONDS_ENV_KEY,
     RSS_HTTP_USER_AGENT,
     RSS_INTERVAL_OVERLAP_MINUTES_DEFAULT,
     RSS_INTERVAL_OVERLAP_MINUTES_ENV_KEY,
+    RSS_PRIVATE_FEEDS_CONFIG_KEY,
     RSS_PROGRESS_NOTIFY_EVERY_DEFAULT,
     RSS_PROGRESS_NOTIFY_EVERY_ENV_KEY,
     RSS_STATE_FILE_DEFAULT,
     RSS_STATE_FILE_ENV_KEY,
     RSS_STATE_SCHEMA_VERSION,
     STATUS_MESSAGE_DATETIME_FORMAT,
+    TIMEZONE_NAME,
     WEBHOOK_KEY_GOVERNMENT_FEED,
     WEBHOOK_KEY_PRIVATE_SECTOR_FEED,
     WEBHOOK_KEY_STATUS_MESSAGES,
@@ -53,12 +53,12 @@ if KYIV_TIMEZONE is None:
     raise RuntimeError(f"Не вдалося визначити часовий пояс: {TIMEZONE_NAME}")
 
 
-def _normalize_feed_list(raw_feed_list: Any, list_name: str) -> List[List[str]]:
+def _normalize_feed_list(raw_feed_list: Any, list_name: str) -> list[list[str]]:
     if not isinstance(raw_feed_list, list):
         logger.warning("%s у %s не є списком", list_name, RSS_FEEDS_CONFIG_FILE_PATH)
         return []
 
-    normalized_feed_list: List[List[str]] = []
+    normalized_feed_list: list[list[str]] = []
     for item in raw_feed_list:
         if not isinstance(item, list) or len(item) != 2:
             continue
@@ -67,7 +67,7 @@ def _normalize_feed_list(raw_feed_list: Any, list_name: str) -> List[List[str]]:
     return normalized_feed_list
 
 
-def _load_feed_lists() -> Tuple[List[List[str]], List[List[str]]]:
+def _load_feed_lists() -> tuple[list[list[str]], list[list[str]]]:
     if not RSS_FEEDS_CONFIG_FILE_PATH.exists():
         logger.warning("Файл конфігурації RSS стрічок відсутній: %s", RSS_FEEDS_CONFIG_FILE_PATH)
         return [], []
@@ -104,7 +104,7 @@ private_rss_feed_list, gov_rss_feed_list = _load_feed_lists()
 
 FeedTypes = Enum("FeedTypes", "RSS")
 
-source_details: Dict[str, Dict[str, Any]] = {
+source_details: dict[str, dict[str, Any]] = {
     PRIVATE_RSS_SOURCE_NAME: {
         "source": private_rss_feed_list,
         "hook": webhooks[WEBHOOK_KEY_PRIVATE_SECTOR_FEED],
@@ -143,11 +143,11 @@ def _format_datetime_kyiv(value: datetime) -> str:
     return value.astimezone(KYIV_TIMEZONE).replace(microsecond=0).isoformat()
 
 
-def _parse_datetime_utc(value: Any) -> Optional[datetime]:
+def _parse_datetime_utc(value: Any) -> datetime | None:
     if value is None:
         return None
 
-    parsed_value: Optional[datetime] = None
+    parsed_value: datetime | None = None
     if isinstance(value, datetime):
         parsed_value = value
     elif isinstance(value, time.struct_time):
@@ -159,13 +159,13 @@ def _parse_datetime_utc(value: Any) -> Optional[datetime]:
                 value.tm_hour,
                 value.tm_min,
                 value.tm_sec,
-                tzinfo=timezone.utc,
+                tzinfo=UTC,
             )
         except ValueError:
             return None
     elif isinstance(value, (int, float)):
         try:
-            parsed_value = datetime.fromtimestamp(float(value), tz=timezone.utc)
+            parsed_value = datetime.fromtimestamp(float(value), tz=UTC)
         except (OverflowError, OSError, ValueError):
             return None
     elif isinstance(value, str):
@@ -190,12 +190,12 @@ def _parse_datetime_utc(value: Any) -> Optional[datetime]:
         return None
 
     if parsed_value.tzinfo is None:
-        parsed_value = parsed_value.replace(tzinfo=timezone.utc)
+        parsed_value = parsed_value.replace(tzinfo=UTC)
 
-    return parsed_value.astimezone(timezone.utc).replace(microsecond=0)
+    return parsed_value.astimezone(UTC).replace(microsecond=0)
 
 
-def _default_sync_state() -> Dict[str, Any]:
+def _default_sync_state() -> dict[str, Any]:
     now_kyiv = datetime.now(KYIV_TIMEZONE)
     return {
         "schema_version": RSS_STATE_SCHEMA_VERSION,
@@ -207,7 +207,7 @@ def _default_sync_state() -> Dict[str, Any]:
     }
 
 
-def _prune_sent_fingerprints(state: Dict[str, Any]) -> None:
+def _prune_sent_fingerprints(state: dict[str, Any]) -> None:
     raw_fingerprints = state.get("sent_fingerprints")
     if not isinstance(raw_fingerprints, dict):
         state["sent_fingerprints"] = {}
@@ -216,7 +216,7 @@ def _prune_sent_fingerprints(state: Dict[str, Any]) -> None:
     cutoff_datetime = datetime.now(KYIV_TIMEZONE) - timedelta(
         days=RSS_FINGERPRINT_RETENTION_DAYS
     )
-    pruned: Dict[str, str] = {}
+    pruned: dict[str, str] = {}
 
     for fingerprint, sent_at_raw in raw_fingerprints.items():
         parsed_sent_at = _parse_datetime_utc(sent_at_raw)
@@ -228,7 +228,7 @@ def _prune_sent_fingerprints(state: Dict[str, Any]) -> None:
     state["sent_fingerprints"] = pruned
 
 
-def _load_sync_state() -> Dict[str, Any]:
+def _load_sync_state() -> dict[str, Any]:
     if not RSS_STATE_FILE_PATH.exists():
         return _default_sync_state()
 
@@ -242,7 +242,7 @@ def _load_sync_state() -> Dict[str, Any]:
         return _default_sync_state()
 
     default_state = _default_sync_state()
-    state: Dict[str, Any] = {
+    state: dict[str, Any] = {
         "schema_version": RSS_STATE_SCHEMA_VERSION,
         "created_at_utc": loaded_state.get(
             "created_at_utc", default_state["created_at_utc"]
@@ -262,7 +262,7 @@ def _load_sync_state() -> Dict[str, Any]:
     return state
 
 
-def _save_sync_state(state: Dict[str, Any]) -> None:
+def _save_sync_state(state: dict[str, Any]) -> None:
     RSS_STATE_FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
     RSS_STATE_FILE_PATH.write_text(
         json.dumps(state, ensure_ascii=True, indent=2),
@@ -275,7 +275,7 @@ def _get_feed_key(feed_type: str, feed_url: str, feed_name: str) -> str:
     return hashlib.sha256(normalized_key.encode("utf-8")).hexdigest()
 
 
-def _get_article_fingerprint(article: Dict[str, Any], feed_key: str) -> str:
+def _get_article_fingerprint(article: dict[str, Any], feed_key: str) -> str:
     identity_candidates = [
         article.get("id"),
         article.get("guid"),
@@ -298,7 +298,7 @@ def _get_article_fingerprint(article: Dict[str, Any], feed_key: str) -> str:
     return hashlib.sha256(fallback_input.encode("utf-8")).hexdigest()
 
 
-def _get_window_start(sync_state: Dict[str, Any], run_end_utc: datetime) -> datetime:
+def _get_window_start(sync_state: dict[str, Any], run_end_utc: datetime) -> datetime:
     forced_start_raw = os.getenv(RSS_FORCE_WINDOW_START_UTC_ENV_KEY)
     forced_start = _parse_datetime_utc(forced_start_raw)
     if forced_start is not None:
@@ -340,7 +340,7 @@ def _extract_publish_date_from_entry(rss_object: Any) -> str:
     return ""
 
 
-def get_news_from_rss(rss_item: List[str]) -> List[Any]:
+def get_news_from_rss(rss_item: list[str]) -> list[Any]:
     logger.debug(f"Запит RSS стрічки за адресою {rss_item[0]}")
     try:
         response = requests.get(
@@ -365,22 +365,22 @@ def get_news_from_rss(rss_item: List[str]) -> List[Any]:
         rss_object["source"] = rss_item[1]
         rss_object["publish_date"] = _extract_publish_date_from_entry(rss_object)
 
-    return cast(List[Any], feed_entries)
+    return cast(list[Any], feed_entries)
 
 
 def _collect_interval_articles(
-    sync_state: Dict[str, Any],
+    sync_state: dict[str, Any],
     run_start_utc: datetime,
     run_end_utc: datetime,
-) -> Dict[str, List[Dict[str, Any]]]:
+) -> dict[str, list[dict[str, Any]]]:
     overlap_delta = timedelta(minutes=RSS_INTERVAL_OVERLAP_MINUTES)
     effective_start = run_start_utc - overlap_delta
 
     sent_fingerprints = sync_state.get("sent_fingerprints", {})
-    already_sent: Set[str] = set(sent_fingerprints.keys())
-    seen_in_current_run: Set[str] = set()
+    already_sent: set[str] = set(sent_fingerprints.keys())
+    seen_in_current_run: set[str] = set()
 
-    articles_by_source: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    articles_by_source: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
     for detail_name, details in source_details.items():
         write_status_message(f"Перевірка {detail_name}")
@@ -394,7 +394,7 @@ def _collect_interval_articles(
                     )
                 raw_articles = get_news_from_rss(rss_feed)
                 for raw_article in raw_articles:
-                    article = cast(Dict[str, Any], raw_article)
+                    article = cast(dict[str, Any], raw_article)
                     published_at = _parse_datetime_utc(article.get("publish_date"))
                     if published_at is None:
                         continue
@@ -430,19 +430,19 @@ def _collect_interval_articles(
 
 
 def _dispatch_interval_articles(
-    articles_by_source: Dict[str, List[Dict[str, Any]]],
-    sync_state: Dict[str, Any],
+    articles_by_source: dict[str, list[dict[str, Any]]],
+    sync_state: dict[str, Any],
     run_end_utc: datetime,
-) -> Tuple[int, Dict[str, int]]:
+) -> tuple[int, dict[str, int]]:
     sent_fingerprints = sync_state.setdefault("sent_fingerprints", {})
     feeds_state = sync_state.setdefault("feeds", {})
     total_dispatched = 0
-    dispatched_by_source: Dict[str, int] = defaultdict(int)
+    dispatched_by_source: dict[str, int] = defaultdict(int)
 
     for detail_name, detail_articles in articles_by_source.items():
         hook = source_details[detail_name]["hook"]
-        message_payload: List[Any] = []
-        payload_articles: List[Dict[str, Any]] = []
+        message_payload: list[Any] = []
+        payload_articles: list[dict[str, Any]] = []
 
         for article in detail_articles:
             message_payload.append(format_single_article(article))
