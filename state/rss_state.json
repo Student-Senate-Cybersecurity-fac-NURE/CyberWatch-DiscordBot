@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-09-24T01:57:16+03:00",
-  "last_successful_run_at_utc": "2026-09-24T01:57:17+03:00",
+  "updated_at_utc": "2026-09-24T07:44:44+03:00",
+  "last_successful_run_at_utc": "2026-09-24T07:44:45+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-01T17:02:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-09-23T21:09:28+03:00",
-      "last_seen_at_utc": "2026-09-23T21:12:28+03:00",
+      "last_seen_published_at_utc": "2026-09-24T03:03:03+03:00",
+      "last_seen_at_utc": "2026-09-24T07:43:27+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-09-24T01:25:43+03:00",
-      "last_seen_at_utc": "2026-09-24T01:55:37+03:00",
+      "last_seen_published_at_utc": "2026-09-24T02:20:45+03:00",
+      "last_seen_at_utc": "2026-09-24T07:43:27+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-09-17T17:43:48+03:00",
-      "last_seen_at_utc": "2026-09-23T20:51:33+03:00",
+      "last_seen_published_at_utc": "2026-09-24T02:15:05+03:00",
+      "last_seen_at_utc": "2026-09-24T07:43:27+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-09-17T17:43:48+03:00",
-      "last_seen_at_utc": "2026-09-23T20:51:33+03:00",
+      "last_seen_published_at_utc": "2026-09-24T02:15:05+03:00",
+      "last_seen_at_utc": "2026-09-24T07:43:27+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-09-23T17:01:12+03:00",
-      "last_seen_at_utc": "2026-09-23T20:51:33+03:00",
+      "last_seen_published_at_utc": "2026-09-24T01:15:08+03:00",
+      "last_seen_at_utc": "2026-09-24T07:43:27+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -366,7 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "e2315e652e2942585003c2cb3c85545bd0b0f64d84082c5752d4f0ccd792a5da": "2026-08-10T05:31:06+03:00",
     "73824949b0c645655fa9658988a322dc5975094eac1f2e9dcc2a0bac41bc3227": "2026-08-10T08:42:07+03:00",
     "f253a92b38ab7fb9e369191bd5053974fc26c17691b113bef03b062ee4e10297": "2026-08-10T12:45:32+03:00",
     "47c3d5b8e698f3bb9f1ae897ec7f7668115120791f32209c6c904945efff72fd": "2026-08-10T12:45:32+03:00",
@@ -3334,7 +3333,12 @@
     "ad80a8095d2ea7bfad386e260653717f7c7bd0b975cea02358821f89dfe55362": "2026-09-24T01:55:37+03:00",
     "8df6860965830a84fe5a7a1ce3180667cd2e6918421ba171fa93e197291d22c8": "2026-09-24T01:55:37+03:00",
     "18d8593b1cf6bf77852b275b7965abca11435a8a2ea2232a79c3eb8ee7edb41d": "2026-09-24T01:55:37+03:00",
-    "b7701f6688dd889b28990685da6ff19bbadad5220f7a21aacbe9d7912f991b65": "2026-09-24T01:55:37+03:00"
+    "b7701f6688dd889b28990685da6ff19bbadad5220f7a21aacbe9d7912f991b65": "2026-09-24T01:55:37+03:00",
+    "227c9fb3bb9b3d6944213cc1c5d5d086b0bf4d8362a805e6b86969b4e27f177d": "2026-09-24T07:43:27+03:00",
+    "18f6d1c8f507d8670c38ceb29dcf1ba651fc77aecbcde00e8c3b8897480eace8": "2026-09-24T07:43:27+03:00",
+    "08c87e6f56cb21af7f43fde89bebc8b01bbb79d31716ef8c4b6384d84d2b777e": "2026-09-24T07:43:27+03:00",
+    "4924bfae4f50b775e681f9a3914b5c7d9579db16499e049b9c447043ff457de5": "2026-09-24T07:43:27+03:00",
+    "cf43a6eb07a512d77c2542eded0067729727b3c2618b7128a7ed704c4f01d7d5": "2026-09-24T07:43:27+03:00"
   },
-  "updated_by_run_id": "35930944469"
+  "updated_by_run_id": "35956832041"
 }
