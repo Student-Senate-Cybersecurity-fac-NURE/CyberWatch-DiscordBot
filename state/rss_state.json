@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-09-25T07:53:47+03:00",
-  "last_successful_run_at_utc": "2026-09-25T07:53:47+03:00",
+  "updated_at_utc": "2026-09-25T09:40:25+03:00",
+  "last_successful_run_at_utc": "2026-09-25T09:40:25+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-01T17:02:00+03:00",
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-09-24T21:10:18+03:00",
-      "last_seen_at_utc": "2026-09-24T22:59:07+03:00",
+      "last_seen_published_at_utc": "2026-09-25T07:49:22+03:00",
+      "last_seen_at_utc": "2026-09-25T09:38:53+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -366,7 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "9d06f35d97d1c6cfab520f580433c3c5619a863a6aeeeffaa5721fa4a102c5b1": "2026-08-11T08:20:43+03:00",
     "fb0a3680d360789977ce39f08fe51b936cf07dc39b497d283e4d70f8ac828078": "2026-08-11T12:11:58+03:00",
     "57fa32024da949d557e6dcda2bdf6fa2b36463790fd98487b9d0e2cd1c0ec6bc": "2026-08-11T12:11:58+03:00",
     "fd5b5d9d624004a68a0680a986e83fdf282ff3fbad86e03e102cf9389204d281": "2026-08-11T12:11:58+03:00",
@@ -3342,7 +3341,9 @@
     "d49822e4eb81244d812f4546e6db41896b409537a4174bade02e4ef18ac4c8d3": "2026-09-25T07:52:23+03:00",
     "5719ed326df04ef71c8bd8f50c63b4588e4dd3ca442496672a1420e6d24bd610": "2026-09-25T07:52:23+03:00",
     "f429daa3f8431541f7bcfbeab71241f0917ef226787001c4b05ac6bc39f78813": "2026-09-25T07:52:23+03:00",
-    "55334d865635c644b76a6e4d867b456b19b4f0cb30fd881c83eb0bd9380bd5ac": "2026-09-25T07:52:23+03:00"
+    "55334d865635c644b76a6e4d867b456b19b4f0cb30fd881c83eb0bd9380bd5ac": "2026-09-25T07:52:23+03:00",
+    "6b293b4367815f19f2be98bf31dea2055062ca855f46ecdb8545e132956e5078": "2026-09-25T09:38:53+03:00",
+    "ade110e6edc310802557becf9cd4eadd9dbdcbbc247567f76b0dfafd33483589": "2026-09-25T09:38:53+03:00"
   },
-  "updated_by_run_id": "36096185673"
+  "updated_by_run_id": "36103781829"
 }
