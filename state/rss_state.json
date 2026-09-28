@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-09-28T02:02:06+03:00",
-  "last_successful_run_at_utc": "2026-09-28T02:02:07+03:00",
+  "updated_at_utc": "2026-09-28T08:18:53+03:00",
+  "last_successful_run_at_utc": "2026-09-28T08:18:53+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-01T17:02:00+03:00",
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-09-27T19:02:37+03:00",
-      "last_seen_at_utc": "2026-09-27T22:44:35+03:00",
+      "last_seen_published_at_utc": "2026-09-28T02:40:39+03:00",
+      "last_seen_at_utc": "2026-09-28T08:17:33+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-09-27T11:00:49+03:00",
-      "last_seen_at_utc": "2026-09-27T16:54:46+03:00",
+      "last_seen_published_at_utc": "2026-09-28T07:30:42+03:00",
+      "last_seen_at_utc": "2026-09-28T08:17:33+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -366,13 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "738191072be52bb341d1ea010278fa011f986158201ecbcbe64b9fe3a2d98742": "2026-08-14T05:43:02+03:00",
-    "2aa9d6ba085a475108f1dd165d0fd714e1c0e9dc8e7b9ea1fcdb2567e54c60e7": "2026-08-14T05:43:02+03:00",
-    "40417f47c4403551513069de0384786653e1dedb1fb8a5529b9da60203b703f9": "2026-08-14T05:43:02+03:00",
-    "3247f77f6ba6f6672fa2e8a445d69b72c829f956183d832caa4f0b67e0756479": "2026-08-14T05:43:02+03:00",
-    "e3613fbaa3de3e9b3c55dde488a63fa03eea7d579de093d160b8f2a4fb185a92": "2026-08-14T05:43:02+03:00",
-    "0e0c36d2a42e2e5f257f0f0350c308d9de346a76b55fab061d017abc634c7b27": "2026-08-14T05:43:02+03:00",
-    "281c25d29979db23ae9b7e25ed62e92ebb0af815797cdd1f14ec55068a49ad13": "2026-08-14T05:43:02+03:00",
     "1f4f13542c695d250b5b67406bd67e4abe3fed6b20662a18ee7bfb4772d7cf5f": "2026-08-14T08:43:52+03:00",
     "1612e1b989fd0ac5e36f891c275afc31af75a3badcd6dec9cc31213f09c3ad08": "2026-08-14T08:43:52+03:00",
     "bbcd74bea16800023cfd2adb1c7c476b080839b65c08e827da2ed1aac5f8bf90": "2026-08-14T12:18:05+03:00",
@@ -3150,7 +3143,10 @@
     "8eb9350f35c434a3e0391c4342f7c32158f6c68324b8e4ac86507c30d5c83b63": "2026-09-27T22:44:35+03:00",
     "8d35003060f7ab7fe0dad1401ff0131219acb062faa46783ed3691f925eea92d": "2026-09-27T22:44:35+03:00",
     "ec0c50aa7383eeea2c80a0f6bdb926ba3e33173d73d38c62c86dfea35604de66": "2026-09-27T22:44:35+03:00",
-    "5c46da50c3a794b055c1f1c1b933bb1b61a4d1e3ef508251879ba7a8567117f2": "2026-09-27T22:44:35+03:00"
+    "5c46da50c3a794b055c1f1c1b933bb1b61a4d1e3ef508251879ba7a8567117f2": "2026-09-27T22:44:35+03:00",
+    "348b6f6d237c8ddcb4b1c33b28d83c7ef234f6831719c821fd95c0ff5260f95d": "2026-09-28T08:17:33+03:00",
+    "fa2fa9d912db8db33558a82a43e7a0e7850caf68754079169e4f1c0b9ce31444": "2026-09-28T08:17:33+03:00",
+    "6930943625619c2fe1aa6a779ef4e7ee32ebbd6ca3b92d355d02a3f924d6315b": "2026-09-28T08:17:33+03:00"
   },
-  "updated_by_run_id": "36357194021"
+  "updated_by_run_id": "36381256706"
 }
