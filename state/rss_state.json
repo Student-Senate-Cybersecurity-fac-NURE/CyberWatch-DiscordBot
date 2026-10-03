@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-03T16:22:21+03:00",
-  "last_successful_run_at_utc": "2026-10-03T16:22:22+03:00",
+  "updated_at_utc": "2026-10-03T22:13:15+03:00",
+  "last_successful_run_at_utc": "2026-10-03T22:13:16+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-29T20:43:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-10-02T20:37:05+03:00",
-      "last_seen_at_utc": "2026-10-02T23:41:09+03:00",
+      "last_seen_published_at_utc": "2026-10-03T18:27:00+03:00",
+      "last_seen_at_utc": "2026-10-03T22:11:55+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-10-03T13:43:39+03:00",
-      "last_seen_at_utc": "2026-10-03T16:20:25+03:00",
+      "last_seen_published_at_utc": "2026-10-03T18:11:16+03:00",
+      "last_seen_at_utc": "2026-10-03T22:11:55+03:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-10-02T22:01:40+03:00",
-      "last_seen_at_utc": "2026-10-02T23:41:09+03:00",
+      "last_seen_published_at_utc": "2026-10-03T22:09:38+03:00",
+      "last_seen_at_utc": "2026-10-03T22:11:55+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-10-03T14:00:00+03:00",
-      "last_seen_at_utc": "2026-10-03T16:20:25+03:00",
+      "last_seen_published_at_utc": "2026-10-03T17:38:46+03:00",
+      "last_seen_at_utc": "2026-10-03T22:11:55+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -3248,7 +3248,13 @@
     "fc61d4c8b6050e021396fc7436906566d8e9ac33b99de88c63ebfec06f6a20a4": "2026-10-03T16:20:25+03:00",
     "24bdea0c49adc5519b1b3a207ffad8ca7b2b02ec2944ab6eac1587c431652e7e": "2026-10-03T16:20:25+03:00",
     "c17dc75fa10cdabcdff7d95ab066f8242eb6e873617ba0ebdf7b7ae889a456dc": "2026-10-03T16:20:25+03:00",
-    "e4ad024d45707e767dc5053b0e754c964d692c62afe5a1325b3ef5be6376e2d3": "2026-10-03T16:20:25+03:00"
+    "e4ad024d45707e767dc5053b0e754c964d692c62afe5a1325b3ef5be6376e2d3": "2026-10-03T16:20:25+03:00",
+    "d4ad35aa8f0214e783b71b72aad2f11644c9bdd611fe897257657e44280a16dd": "2026-10-03T22:11:55+03:00",
+    "e3cf1fd0971b2462042bef62a2c0dbf7fe1e88b41cd3a6173b9b42fad89401d1": "2026-10-03T22:11:55+03:00",
+    "f3f838badd56f6b26e18d0a4aee43665047887fc755274a0b9a6827273d447b4": "2026-10-03T22:11:55+03:00",
+    "36592c99a697207852e42c85cb4b7872e5f3f4902ad8a380ca4506ed396ea780": "2026-10-03T22:11:55+03:00",
+    "6f7b6ca2047ade8c811f66c6ec206c5962dd4b460eb80764abb0eafbb343f8bf": "2026-10-03T22:11:55+03:00",
+    "ec1a445d4fc4f82d70a43572ac93a4498ccb3c7a22805120f5e3f8a08d2543f5": "2026-10-03T22:11:55+03:00"
   },
-  "updated_by_run_id": "37125821311"
+  "updated_by_run_id": "37147006443"
 }
