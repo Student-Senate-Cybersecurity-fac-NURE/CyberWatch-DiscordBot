@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-04T01:55:03+03:00",
-  "last_successful_run_at_utc": "2026-10-04T01:55:04+03:00",
+  "updated_at_utc": "2026-10-04T08:47:55+03:00",
+  "last_successful_run_at_utc": "2026-10-04T08:47:55+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-29T20:43:00+03:00",
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-10-03T22:09:38+03:00",
-      "last_seen_at_utc": "2026-10-03T22:11:55+03:00",
+      "last_seen_published_at_utc": "2026-10-04T02:12:34+03:00",
+      "last_seen_at_utc": "2026-10-04T08:46:53+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -3254,7 +3254,8 @@
     "f3f838badd56f6b26e18d0a4aee43665047887fc755274a0b9a6827273d447b4": "2026-10-03T22:11:55+03:00",
     "36592c99a697207852e42c85cb4b7872e5f3f4902ad8a380ca4506ed396ea780": "2026-10-03T22:11:55+03:00",
     "6f7b6ca2047ade8c811f66c6ec206c5962dd4b460eb80764abb0eafbb343f8bf": "2026-10-03T22:11:55+03:00",
-    "ec1a445d4fc4f82d70a43572ac93a4498ccb3c7a22805120f5e3f8a08d2543f5": "2026-10-03T22:11:55+03:00"
+    "ec1a445d4fc4f82d70a43572ac93a4498ccb3c7a22805120f5e3f8a08d2543f5": "2026-10-03T22:11:55+03:00",
+    "32ff5a29dbf8c16a14789a2ead83554f984bbc66b36bbb86d073f385ac107447": "2026-10-04T08:46:53+03:00"
   },
-  "updated_by_run_id": "37159943405"
+  "updated_by_run_id": "37180853528"
 }
