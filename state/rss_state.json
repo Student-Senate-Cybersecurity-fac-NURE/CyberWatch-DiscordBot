@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-09T23:53:30+03:00",
-  "last_successful_run_at_utc": "2026-10-09T23:53:30+03:00",
+  "updated_at_utc": "2026-10-10T08:47:15+03:00",
+  "last_successful_run_at_utc": "2026-10-10T08:47:16+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-09-29T20:43:00+03:00",
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-10-09T22:26:26+03:00",
-      "last_seen_at_utc": "2026-10-09T23:51:07+03:00",
+      "last_seen_published_at_utc": "2026-10-09T23:58:32+03:00",
+      "last_seen_at_utc": "2026-10-10T08:45:56+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -105,8 +105,8 @@
       "source_name": "The Record from Recorded Future News"
     },
     "23552ce9b4f7cd04d59844b37a066816ffc7e011ae5220c0e0a0d89ebe3fb453": {
-      "last_seen_published_at_utc": "2026-10-09T19:41:43+03:00",
-      "last_seen_at_utc": "2026-10-09T23:51:07+03:00",
+      "last_seen_published_at_utc": "2026-10-10T00:46:34+03:00",
+      "last_seen_at_utc": "2026-10-10T08:45:56+03:00",
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
@@ -210,8 +210,8 @@
       "source_name": "Palo Alto Networks Blog"
     },
     "4ac7a16df315ff636d9b99034c9ad965fbfac3fb307f4bf57a43ce3332334bc0": {
-      "last_seen_published_at_utc": "2026-10-07T16:48:45+03:00",
-      "last_seen_at_utc": "2026-10-07T18:31:31+03:00",
+      "last_seen_published_at_utc": "2026-10-10T03:17:42+03:00",
+      "last_seen_at_utc": "2026-10-10T08:45:56+03:00",
       "source_name": "Krebs on Security"
     },
     "aeef726f8751bc64afb51b4f55d68afea204d504e24c734a9e65dcf041557a02": {
@@ -366,13 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "fcd94030c71ecce7533158feb14d7227cd5f754163a44f28c21cbdb4909d021a": "2026-08-26T04:56:20+03:00",
-    "046ed193b88ce98c23fa55d522310ba1c693d7bc0fdd667a5ea86900ba17e366": "2026-08-26T04:56:20+03:00",
-    "b52fde42c466f66a8e6c68d41cb240338e27a7fc60b142eb7d1e988848800230": "2026-08-26T04:56:20+03:00",
-    "c9efb2969da0cae87afe5742aca1b5ad74b736624bbc6825a72bb9888ab81943": "2026-08-26T04:56:20+03:00",
-    "aafe72cb00a9cdf2b26b3ad79b3600cce2ca4a629abbf39516a58be555ba0603": "2026-08-26T04:56:20+03:00",
-    "0cbb34b3ec0da49d4d89f85adba99f92b8ffda99e14b6c68ac8166ad72f24620": "2026-08-26T04:56:20+03:00",
-    "a63ca0f45936ba3e3964df3c4d81225d4936c24a204e78d512d4693b14ee8938": "2026-08-26T07:53:47+03:00",
     "37398b3460ee07864e8f832e09dfea416d45d8ad7af146f9058f92f4a6a47aae": "2026-08-26T11:59:41+03:00",
     "f6c23c6327a46b1eaca1f04c29845c2058c0b8babaca61d1ed3df2d43044e90c": "2026-08-26T11:59:41+03:00",
     "d545ebe001067f4545eeb01bff369aa978dce5add652d55fdc05224218a85d7c": "2026-08-26T11:59:41+03:00",
@@ -3266,7 +3259,10 @@
     "4c2545d22be59ec72439145e486c19df207b6c90f2e0b308b6a7b609b9a0dc06": "2026-10-09T23:51:07+03:00",
     "b551f105722a92d250809909285f32a174b0b4c1a3db02817c5cde1859931e5a": "2026-10-09T23:51:07+03:00",
     "c0578c02bd8ca55c80250d826ffc601d4bd226aec3ccad76327945a6a72f417f": "2026-10-09T23:51:07+03:00",
-    "67bf72ba835f6dd1d0ea85ac5cc8a0e59840b4020e2669d109a87dbd6f4b06a6": "2026-10-09T23:51:07+03:00"
+    "67bf72ba835f6dd1d0ea85ac5cc8a0e59840b4020e2669d109a87dbd6f4b06a6": "2026-10-09T23:51:07+03:00",
+    "8f80ac7e1a73d2a4805c304eb9b5d4a2e31c41ce09dd40ca846d826635db6254": "2026-10-10T08:45:56+03:00",
+    "15fc1123c320eb03298857a9ccbd92a17f1456bfe366a041722602fbf5f61526": "2026-10-10T08:45:56+03:00",
+    "58f4a9eace084d3bf2bf3c6b263a32507abb039c2bb0d868e7ebce493cf31e93": "2026-10-10T08:45:56+03:00"
   },
-  "updated_by_run_id": "37989691535"
+  "updated_by_run_id": "38028598271"
 }
