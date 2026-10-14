@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-14T02:44:20+03:00",
-  "last_successful_run_at_utc": "2026-10-14T02:44:20+03:00",
+  "updated_at_utc": "2026-10-14T07:49:10+03:00",
+  "last_successful_run_at_utc": "2026-10-14T07:49:11+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-10-13T17:40:51+03:00",
-      "last_seen_at_utc": "2026-10-13T22:13:23+03:00",
+      "last_seen_published_at_utc": "2026-10-14T06:08:53+03:00",
+      "last_seen_at_utc": "2026-10-14T07:47:20+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -170,8 +170,8 @@
       "source_name": "Security on TechRepublic"
     },
     "16b9c83b849a4f6aa96e84d6c5219335ce8143eb36377d1a492ef1187e1e6018": {
-      "last_seen_published_at_utc": "2026-10-14T00:12:19+03:00",
-      "last_seen_at_utc": "2026-10-14T02:42:41+03:00",
+      "last_seen_published_at_utc": "2026-10-14T02:57:26+03:00",
+      "last_seen_at_utc": "2026-10-14T07:47:20+03:00",
       "source_name": "Center of Internet Security"
     },
     "c99e489135fe50c0cfd0eea341b58adbf4f8515a57fc47a77641bc17efb72e7c": {
@@ -200,8 +200,8 @@
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
-      "last_seen_published_at_utc": "2026-10-13T21:20:57+03:00",
-      "last_seen_at_utc": "2026-10-13T22:13:23+03:00",
+      "last_seen_published_at_utc": "2026-10-14T04:59:25+03:00",
+      "last_seen_at_utc": "2026-10-14T07:47:20+03:00",
       "source_name": "The Hacker News"
     },
     "4b3f20cce0f7c6c37b257785602350eca8358d1062c320f8efd626bb5f8bf8d7": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-10-13T16:35:06+03:00",
-      "last_seen_at_utc": "2026-10-13T22:13:23+03:00",
+      "last_seen_published_at_utc": "2026-10-14T07:00:43+03:00",
+      "last_seen_at_utc": "2026-10-14T07:47:20+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3135,7 +3135,11 @@
     "432d88c290e63862ca00aca2e058a4d38412c60a02ca3b78f09c09f93c32fc02": "2026-10-14T02:42:41+03:00",
     "39b23ca33e14dfc675757d875764fe67683929d82e9918736ff432d4aa09db0f": "2026-10-14T02:42:41+03:00",
     "c0baeb95138e57ad3fead7f5bec3aa5c17375dc39d0627a418b05c01317024cf": "2026-10-14T02:42:41+03:00",
-    "12114fa3bae1e9146dc8183087f6e6cbe7ef311a50cea106431bfb0f8aeca4ff": "2026-10-14T02:42:41+03:00"
+    "12114fa3bae1e9146dc8183087f6e6cbe7ef311a50cea106431bfb0f8aeca4ff": "2026-10-14T02:42:41+03:00",
+    "fecdf6cc6a48ba388fe9adf4077dec535077375099d5bbf0d1e8f6952a9db4cb": "2026-10-14T07:47:20+03:00",
+    "22de20bc3f4b98e63ba830f8ebd6aee85dfa7c08632a896bf1e1ffba5806a244": "2026-10-14T07:47:20+03:00",
+    "ba39894b8ad0f3f81e5a98adfb953359606e7c6034104329205a2e354e3120de": "2026-10-14T07:47:20+03:00",
+    "b7056e06d655b6654b2f636d1948f6f9b38e2267336aea30b723fa9c81167938": "2026-10-14T07:47:20+03:00"
   },
-  "updated_by_run_id": "38485861161"
+  "updated_by_run_id": "38513177231"
 }
