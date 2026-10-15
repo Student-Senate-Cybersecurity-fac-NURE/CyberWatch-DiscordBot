@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-15T02:13:14+03:00",
-  "last_successful_run_at_utc": "2026-10-15T02:13:14+03:00",
+  "updated_at_utc": "2026-10-15T07:33:06+03:00",
+  "last_successful_run_at_utc": "2026-10-15T07:33:07+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -105,8 +105,8 @@
       "source_name": "The Record from Recorded Future News"
     },
     "23552ce9b4f7cd04d59844b37a066816ffc7e011ae5220c0e0a0d89ebe3fb453": {
-      "last_seen_published_at_utc": "2026-10-14T23:27:13+03:00",
-      "last_seen_at_utc": "2026-10-15T02:11:04+03:00",
+      "last_seen_published_at_utc": "2026-10-15T02:21:37+03:00",
+      "last_seen_at_utc": "2026-10-15T07:31:29+03:00",
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-10-13T11:20:56+03:00",
-      "last_seen_at_utc": "2026-10-13T14:42:58+03:00",
+      "last_seen_published_at_utc": "2026-10-15T02:06:42+03:00",
+      "last_seen_at_utc": "2026-10-15T07:31:29+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-10-13T11:20:56+03:00",
-      "last_seen_at_utc": "2026-10-13T14:42:58+03:00",
+      "last_seen_published_at_utc": "2026-10-15T02:06:42+03:00",
+      "last_seen_at_utc": "2026-10-15T07:31:29+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -235,8 +235,8 @@
       "source_name": "Rational Security"
     },
     "df4b3e16817f7694ef23349873bac8c67cecc34d2504a1cf1e93bb41c45a4a6b": {
-      "last_seen_published_at_utc": "2026-10-14T01:00:04+03:00",
-      "last_seen_at_utc": "2026-10-14T02:42:41+03:00",
+      "last_seen_published_at_utc": "2026-10-15T01:00:44+03:00",
+      "last_seen_at_utc": "2026-10-15T07:31:29+03:00",
       "source_name": "Unit 42"
     },
     "e5f73f26e22ff2d07d79d41264ba9871a3a07d8cc4c7760d36ab2405eb1c62ee": {
@@ -3226,7 +3226,11 @@
     "a2023e97ca47b3d43c5f2a713a494ec2ef6db3c2fe095c7d039fe6d4c7107a40": "2026-10-15T02:11:04+03:00",
     "2e35f88d1a8db993df853a529d89cd3f8b1d855edb5ca81934cb7b4f8fcd249d": "2026-10-15T02:11:04+03:00",
     "271bd8bce65cbd3c41331c448ac04d043da5ca5247f00e66b900f2fa44037cd3": "2026-10-15T02:11:04+03:00",
-    "c7f9e5f68d4eff73c1a850b0dd6ffb5e9f4092c6dda252b4aed353b8e1523a56": "2026-10-15T02:11:04+03:00"
+    "c7f9e5f68d4eff73c1a850b0dd6ffb5e9f4092c6dda252b4aed353b8e1523a56": "2026-10-15T02:11:04+03:00",
+    "1540ecf56775a85bd165ee9403aff765fc12bfe868908774b8b6d0c742869a12": "2026-10-15T07:31:29+03:00",
+    "2a0a01c58d30ecf0bd292c69969b3b2712a9acf6b043343ea71e2a63e53380c5": "2026-10-15T07:31:29+03:00",
+    "5b175595367b6fb6d6498ba0c7cd41ab9e0cb716303221103a57288293f03f23": "2026-10-15T07:31:29+03:00",
+    "ed73c26f0170a0b746672abf005d9265fcfcd9d4245231f969d16beaf2724622": "2026-10-15T07:31:29+03:00"
   },
-  "updated_by_run_id": "38652468488"
+  "updated_by_run_id": "38681884206"
 }
