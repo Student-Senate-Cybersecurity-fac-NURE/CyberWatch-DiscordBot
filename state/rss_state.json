@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-16T02:04:25+03:00",
-  "last_successful_run_at_utc": "2026-10-16T02:04:26+03:00",
+  "updated_at_utc": "2026-10-16T07:27:06+03:00",
+  "last_successful_run_at_utc": "2026-10-16T07:27:07+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -105,8 +105,8 @@
       "source_name": "The Record from Recorded Future News"
     },
     "23552ce9b4f7cd04d59844b37a066816ffc7e011ae5220c0e0a0d89ebe3fb453": {
-      "last_seen_published_at_utc": "2026-10-15T23:08:58+03:00",
-      "last_seen_at_utc": "2026-10-16T02:02:53+03:00",
+      "last_seen_published_at_utc": "2026-10-16T03:07:22+03:00",
+      "last_seen_at_utc": "2026-10-16T07:25:17+03:00",
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
@@ -235,8 +235,8 @@
       "source_name": "Rational Security"
     },
     "df4b3e16817f7694ef23349873bac8c67cecc34d2504a1cf1e93bb41c45a4a6b": {
-      "last_seen_published_at_utc": "2026-10-15T01:00:44+03:00",
-      "last_seen_at_utc": "2026-10-15T07:31:29+03:00",
+      "last_seen_published_at_utc": "2026-10-16T01:00:09+03:00",
+      "last_seen_at_utc": "2026-10-16T07:25:17+03:00",
       "source_name": "Unit 42"
     },
     "e5f73f26e22ff2d07d79d41264ba9871a3a07d8cc4c7760d36ab2405eb1c62ee": {
@@ -3249,7 +3249,9 @@
     "720aead2e83c6e7a61f951784f352dffd2ea3f76df50268584d6d8e7a8629150": "2026-10-16T02:02:53+03:00",
     "0cb517d14caf2d6f1c94768d40f00a42d131985fda7ffabbddcd3b54ab3e3deb": "2026-10-16T02:02:53+03:00",
     "f5d27de7b3d19077a83850a9062d0f5ea5ee8575f0f6e375fe0f13e2d5613249": "2026-10-16T02:02:53+03:00",
-    "98c4a31f485f5deaa57b44586ce0f316464fd06e79e03e32670edc56cfbafd26": "2026-10-16T02:02:53+03:00"
+    "98c4a31f485f5deaa57b44586ce0f316464fd06e79e03e32670edc56cfbafd26": "2026-10-16T02:02:53+03:00",
+    "6608d0381ba25455517543e6b0fc9dac0dc13a47669bc7258ecb7e228d30a1e4": "2026-10-16T07:25:17+03:00",
+    "94239dccdbc726c6e53eb9712772bfbde585dca8926226e101a96ccfe70f2f3c": "2026-10-16T07:25:17+03:00"
   },
-  "updated_by_run_id": "38821105224"
+  "updated_by_run_id": "38850506369"
 }
