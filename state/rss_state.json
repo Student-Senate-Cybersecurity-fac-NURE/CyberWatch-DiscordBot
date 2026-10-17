@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-17T01:49:30+03:00",
-  "last_successful_run_at_utc": "2026-10-17T01:49:30+03:00",
+  "updated_at_utc": "2026-10-17T07:21:10+03:00",
+  "last_successful_run_at_utc": "2026-10-17T07:21:11+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-10-16T20:53:54+03:00",
-      "last_seen_at_utc": "2026-10-16T22:32:09+03:00",
+      "last_seen_published_at_utc": "2026-10-17T02:11:43+03:00",
+      "last_seen_at_utc": "2026-10-17T07:19:12+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -3236,7 +3236,8 @@
     "93038f384df4738dff673ead3735ba1dc3e82564a7d51433e25287522171f253": "2026-10-17T01:48:11+03:00",
     "1959f2b2f9d8e24a408d6399ce8b86d901dd365e6202361cbf7dfaaf3794adbd": "2026-10-17T01:48:11+03:00",
     "f684e70ddfe053481cdf03177df536a91d69c30188ec0bb27b1d1defd5d867a9": "2026-10-17T01:48:11+03:00",
-    "5cb9682e1267b20cccf330e61f0bb47558a62f321fa190762f04732299998f1e": "2026-10-17T01:48:11+03:00"
+    "5cb9682e1267b20cccf330e61f0bb47558a62f321fa190762f04732299998f1e": "2026-10-17T01:48:11+03:00",
+    "c74b5661021b97bb0b36134779e52585b20de702f88c062a7bd17e58f3f7124a": "2026-10-17T07:19:12+03:00"
   },
-  "updated_by_run_id": "38977862838"
+  "updated_by_run_id": "39002097742"
 }
