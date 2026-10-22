@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-22T02:17:13+03:00",
-  "last_successful_run_at_utc": "2026-10-22T02:17:13+03:00",
+  "updated_at_utc": "2026-10-22T07:38:13+03:00",
+  "last_successful_run_at_utc": "2026-10-22T07:38:14+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-10-22T01:02:17+03:00",
-      "last_seen_at_utc": "2026-10-22T02:15:29+03:00",
+      "last_seen_published_at_utc": "2026-10-22T03:35:56+03:00",
+      "last_seen_at_utc": "2026-10-22T07:36:50+03:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-10-20T12:41:49+03:00",
-      "last_seen_at_utc": "2026-10-20T16:32:03+03:00",
+      "last_seen_published_at_utc": "2026-10-22T02:12:20+03:00",
+      "last_seen_at_utc": "2026-10-22T07:36:50+03:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-10-20T12:41:49+03:00",
-      "last_seen_at_utc": "2026-10-20T16:32:03+03:00",
+      "last_seen_published_at_utc": "2026-10-22T02:12:20+03:00",
+      "last_seen_at_utc": "2026-10-22T07:36:50+03:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-10-21T17:11:24+03:00",
-      "last_seen_at_utc": "2026-10-21T23:06:31+03:00",
+      "last_seen_published_at_utc": "2026-10-22T07:00:14+03:00",
+      "last_seen_at_utc": "2026-10-22T07:36:50+03:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -366,9 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "aad41d9460b6e1798881c68ca45dbd9bb52ea7845b49a2b8228207f3d1d59a7b": "2026-09-07T07:32:52+03:00",
-    "f936c78745a6c7e57c6f76ef94da408f51bc5d1e8043057fa23c7080a72fe1f1": "2026-09-07T07:32:52+03:00",
-    "9524e12dbf03638d882567686649a53aaa06ed0311ed3c059432589c8b27c066": "2026-09-07T07:32:52+03:00",
     "fca6ffc3c711d8763386c0746fa6e01184814d2e0f690e3d62a45229b47e8e60": "2026-09-07T17:13:12+03:00",
     "219f0c6202b1b2ab35d1b3c27c52ec8f4cdcf630600b0181964349d8aecf3d55": "2026-09-07T17:13:12+03:00",
     "e9840117ca3000ef2b257d1455b19424e6c0075483eae1871efea0b3c99f3916": "2026-09-07T17:13:12+03:00",
@@ -3298,7 +3295,14 @@
     "86170a0a4316d83084aca24099183b2982a04b40b876395a8946a0ff76fcfcaf": "2026-10-22T02:15:29+03:00",
     "177378ebf40a658fbb0a58431305177dcbdb0589bdf84f3ab89e247cca24a26c": "2026-10-22T02:15:29+03:00",
     "3ca3d1371dfef904bd97e3dd9c765f6202cf37d0d0a9701b9d696d53006a8888": "2026-10-22T02:15:29+03:00",
-    "01819a551c5610af08136b3ce7cb238c6b20e8f2dd2c9f8c562160b727df773f": "2026-10-22T02:15:29+03:00"
+    "01819a551c5610af08136b3ce7cb238c6b20e8f2dd2c9f8c562160b727df773f": "2026-10-22T02:15:29+03:00",
+    "ffa550659b71bb05831e03b05c9e85f47425ad0494bc6facd1d7b8187c86523d": "2026-10-22T07:36:50+03:00",
+    "87dfcfa5d5d254c7d287357fa6469c289ebe0dcdc43db2ecd02ceadbde32cdfd": "2026-10-22T07:36:50+03:00",
+    "4e771e393c36a51dba5b77a6f6ec997d9955bfce45835cbffef9e061f576e753": "2026-10-22T07:36:50+03:00",
+    "b50e14d5b3ffcbbcbd55279544282d327c278a3faf0b30c191a5c2db84c2e426": "2026-10-22T07:36:50+03:00",
+    "0fd0e80e0d031ed2d06654104123752bcb48b96979343f935c130e87ef20a55a": "2026-10-22T07:36:50+03:00",
+    "eb28f8115220de314672f85a39e6861882b4a4aedf717eb5cc99a4187fda6de1": "2026-10-22T07:36:50+03:00",
+    "9ac0ae8a36291a088c02b28b104da1b2ff2f59b6f914c1bdc2adf6a698d57177": "2026-10-22T07:36:50+03:00"
   },
-  "updated_by_run_id": "39692194517"
+  "updated_by_run_id": "39723323099"
 }
