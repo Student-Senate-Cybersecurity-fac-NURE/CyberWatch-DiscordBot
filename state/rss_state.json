@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-23T22:58:03+03:00",
-  "last_successful_run_at_utc": "2026-10-23T22:58:03+03:00",
+  "updated_at_utc": "2026-10-24T02:08:22+03:00",
+  "last_successful_run_at_utc": "2026-10-24T02:08:22+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -20,8 +20,8 @@
       "source_name": "Have I been pwned? latest breaches"
     },
     "3e47570b0c89c897c5d4319b8a2b5fd9b36a768f5d7ba7f67176098e16f0811e": {
-      "last_seen_published_at_utc": "2026-10-23T22:14:57+03:00",
-      "last_seen_at_utc": "2026-10-23T22:56:28+03:00",
+      "last_seen_published_at_utc": "2026-10-23T23:04:40+03:00",
+      "last_seen_at_utc": "2026-10-24T02:06:41+03:00",
       "source_name": "The Register \u2013 Security"
     },
     "b07d05caa87a1e153e3e93562b9e282fe93751db5d947673598221938e8b48e5": {
@@ -65,13 +65,13 @@
       "source_name": "Articles"
     },
     "2027e0e4a9673fd9c4bdce1b7d4896f97629dfcbcfe6e21685552a38c35cd663": {
-      "last_seen_published_at_utc": "2026-10-23T14:04:22+03:00",
-      "last_seen_at_utc": "2026-10-23T16:21:25+03:00",
+      "last_seen_published_at_utc": "2026-10-24T00:00:09+03:00",
+      "last_seen_at_utc": "2026-10-24T02:06:41+03:00",
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-10-23T21:54:41+03:00",
-      "last_seen_at_utc": "2026-10-23T22:56:28+03:00",
+      "last_seen_published_at_utc": "2026-10-23T23:55:05+03:00",
+      "last_seen_at_utc": "2026-10-24T02:06:41+03:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-10-23T20:26:59+03:00",
-      "last_seen_at_utc": "2026-10-23T22:56:28+03:00",
+      "last_seen_published_at_utc": "2026-10-23T23:57:56+03:00",
+      "last_seen_at_utc": "2026-10-24T02:06:41+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -105,8 +105,8 @@
       "source_name": "The Record from Recorded Future News"
     },
     "23552ce9b4f7cd04d59844b37a066816ffc7e011ae5220c0e0a0d89ebe3fb453": {
-      "last_seen_published_at_utc": "2026-10-23T21:19:34+03:00",
-      "last_seen_at_utc": "2026-10-23T22:56:28+03:00",
+      "last_seen_published_at_utc": "2026-10-24T01:36:46+03:00",
+      "last_seen_at_utc": "2026-10-24T02:06:41+03:00",
       "source_name": "Deeplinks"
     },
     "b3b0cbe741e82377185e2c350376b2b711669ec95297a603a58d1afdd854b4b8": {
@@ -366,21 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "3eb38fd973f3fcb1679a4ca7e8da32d67934aafc38ddc348a49b425382f1ced5": "2026-09-09T01:37:48+03:00",
-    "b25e97648f9cbb04611f743e611ccfea13b21f70779dd9b3af73a499490b33d0": "2026-09-09T01:37:48+03:00",
-    "f4985877e5bc4f19fbf6b777868bdd2a6af95279dbc313e14e8b6922e618db86": "2026-09-09T01:37:48+03:00",
-    "60e7cdd3ba49246b522801aab3385be57c193d593e3cb5b3c00883c0a1a91c62": "2026-09-09T01:37:48+03:00",
-    "d253ee2e0fc5239636842f13c16ae3c155a3ccc14dfce8b33e1f8b1d429a1488": "2026-09-09T01:37:48+03:00",
-    "3e0b0bafe44c86483db65c764f578fc5445eea5cb75a935ccd1859284b68109f": "2026-09-09T01:37:48+03:00",
-    "e2bdb52031ea4d14af325b47ae48ac49b0a4f22fa4deebbbf7bbbf0f887de275": "2026-09-09T01:37:48+03:00",
-    "56adaa6e084a3dacac57f0c214dbf47d5350c1b6dcde929fdf0980571dbbee30": "2026-09-09T01:37:48+03:00",
-    "871b82fc73842002189795230d93d267a8e125909ccf2f4ce270d5ad04bb62aa": "2026-09-09T01:37:48+03:00",
-    "b88fb708623c22ca054c7ed78206ed0071d54c5aba904c4b0b0162872788a325": "2026-09-09T01:37:48+03:00",
-    "d7f873063016887f954cf7ca8710c16268d20ba82e60309a059005a8aeb82019": "2026-09-09T01:37:48+03:00",
-    "2ed0756e8c21015a3e6b1565572e51d9453337f5b048e8fe6efdb5339dbbf436": "2026-09-09T01:37:48+03:00",
-    "79f065c23c0878455495b8d020b46870d4eb61196721e26a96a4b4991b2c6c51": "2026-09-09T01:37:48+03:00",
-    "b6471c125da00d37ce8b1c387264767b2af34b5c7ae09653f62af8e4bb20f4e1": "2026-09-09T01:37:48+03:00",
-    "5138651fba9b55470cd35a624cd85f8c18ec35aaaae551f488c96b5f9489944c": "2026-09-09T01:37:48+03:00",
     "587bf6c0f8da4ad84c1b3331440bdc5d28e25de3cf0acc0d2f9c019ed3d3f7fc": "2026-09-09T07:36:24+03:00",
     "9572346c727cc943d0b7a425e716290dab3629f72ba48599b6a556f2544ce848": "2026-09-09T07:36:24+03:00",
     "1104876f46f6421dd7c548bce48a2b95e7eb6ab90abc6c4a43cb79875e77b944": "2026-09-09T07:36:24+03:00",
@@ -3306,7 +3291,14 @@
     "c5b23143298f86ee5a907f6c1f0d3e660de5397b57205f414557124cc78cf409": "2026-10-23T22:56:28+03:00",
     "fc418be9df885d9abc80bf07a8f6b8f01b016272cfeda7ff4e156bde590a945a": "2026-10-23T22:56:28+03:00",
     "b1ae28c25f0553167959ef3a21369589dd76f6591392b12ed8cb671d9d778684": "2026-10-23T22:56:28+03:00",
-    "ab53e9028ceadf540e9462e249c79c5409e350401d03b17f9b2a191aafd59f97": "2026-10-23T22:56:28+03:00"
+    "ab53e9028ceadf540e9462e249c79c5409e350401d03b17f9b2a191aafd59f97": "2026-10-23T22:56:28+03:00",
+    "766541e96a2fe2a419ca0b340a0d3f0360465c28fe52fc351e320268c2dd4a52": "2026-10-24T02:06:41+03:00",
+    "3b047d4f0209f4a40a22ef17f1cfae3189776dd0f1f76fe1af49d371ba63890e": "2026-10-24T02:06:41+03:00",
+    "e613556174f8e874bbff3d40e7cadc5e352db950a509daade10d4658a1d54587": "2026-10-24T02:06:41+03:00",
+    "5b08dbbcc170ba0335907c70178147bba0abb99f3511d7ce9c5db2593110034a": "2026-10-24T02:06:41+03:00",
+    "f780801e0a441de9487242a4ee21eb3599bc1a5004386f64b57269fe2b62c56f": "2026-10-24T02:06:41+03:00",
+    "95b25a83d62f98f245a6b26bc27b59f1d5cd1a0e3c26ba0162181733b9fcb1c0": "2026-10-24T02:06:41+03:00",
+    "423cc780e87f607dd5c952b8a39adac14fc18960a732609e4a6333396864e186": "2026-10-24T02:06:41+03:00"
   },
-  "updated_by_run_id": "40015289604"
+  "updated_by_run_id": "40037720926"
 }
