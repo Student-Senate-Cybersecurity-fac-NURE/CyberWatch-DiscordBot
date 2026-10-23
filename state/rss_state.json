@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-23T02:22:36+03:00",
-  "last_successful_run_at_utc": "2026-10-23T02:22:37+03:00",
+  "updated_at_utc": "2026-10-23T07:43:55+03:00",
+  "last_successful_run_at_utc": "2026-10-23T07:43:55+03:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-10-22T23:42:17+03:00",
-      "last_seen_at_utc": "2026-10-23T02:20:12+03:00",
+      "last_seen_published_at_utc": "2026-10-23T06:30:00+03:00",
+      "last_seen_at_utc": "2026-10-23T07:42:34+03:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -366,8 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "90bf4cca3481ea2a2589e9999f2987ba2b2eaedbfe55fb91c16a7fa50013fc55": "2026-09-08T07:29:51+03:00",
-    "fbb76ab0ae21015862f66f816a87bd4b237246e5659fd1b618ac14361eb12053": "2026-09-08T07:29:51+03:00",
     "638c8c243a3c78951b039eb5dc04fdfcf112a66279ac9121f0b52c4f77eb2934": "2026-09-08T15:50:48+03:00",
     "a790ec7561cca99c7f0b599078ab13596786c1e59f7b9fe51d18b1d0725e3137": "2026-09-08T15:50:48+03:00",
     "8f510e7e347fd8cb29077becc7673d19f857d447bb3f449e29ad32c31add43e6": "2026-09-08T15:50:48+03:00",
@@ -3336,7 +3334,8 @@
     "3435d145416a1ed407ec7d7a89b83623955d2b9299d15e228e55ef09cbcf4abe": "2026-10-23T02:20:12+03:00",
     "28d3655d0733e75d40bd736611c1a410a13bd6c7702595a039738c60890f76a9": "2026-10-23T02:20:12+03:00",
     "0b3b508719529e6e6da3b9ffaffbe90e3742d1ecac0788e27ac051aee516ffe3": "2026-10-23T02:20:12+03:00",
-    "61cf0e917413ced3540b86d5541fdf51ec864ed0b3ecfe25cb95af19c1d335fb": "2026-10-23T02:20:12+03:00"
+    "61cf0e917413ced3540b86d5541fdf51ec864ed0b3ecfe25cb95af19c1d335fb": "2026-10-23T02:20:12+03:00",
+    "149f470e406ef72282d645e0f28009b11ea39f4ab81b601aa09b9169fb253669": "2026-10-23T07:42:34+03:00"
   },
-  "updated_by_run_id": "39871056012"
+  "updated_by_run_id": "39901737963"
 }
