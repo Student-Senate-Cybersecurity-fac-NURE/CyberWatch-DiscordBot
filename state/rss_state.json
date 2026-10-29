@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-28T23:02:35+02:00",
-  "last_successful_run_at_utc": "2026-10-28T23:02:35+02:00",
+  "updated_at_utc": "2026-10-29T07:42:09+02:00",
+  "last_successful_run_at_utc": "2026-10-29T07:42:09+02:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-12T15:46:00+03:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-10-28T21:09:42+02:00",
-      "last_seen_at_utc": "2026-10-28T23:00:56+02:00",
+      "last_seen_published_at_utc": "2026-10-29T03:00:22+02:00",
+      "last_seen_at_utc": "2026-10-29T07:40:48+02:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -80,8 +80,8 @@
       "source_name": "Checkpoint Research"
     },
     "3e90867f722ece9d8d1161e332a93a0c16b194c6aae54cee52bf6fcf2eda62c5": {
-      "last_seen_published_at_utc": "2026-10-28T16:37:52+02:00",
-      "last_seen_at_utc": "2026-10-28T17:03:38+02:00",
+      "last_seen_published_at_utc": "2026-10-28T21:39:00+02:00",
+      "last_seen_at_utc": "2026-10-29T07:40:48+02:00",
       "source_name": "Dark Reading"
     },
     "084ff53b00f07c2c5e8c122c7c834ce28c40da2a239a8e95491f2580265d71df": {
@@ -140,13 +140,13 @@
       "source_name": "Proof Point"
     },
     "7afb1849c27824a1295d0986ae0e4c62ac28ccfbda3ad3fec4adce776040b439": {
-      "last_seen_published_at_utc": "2026-10-28T17:27:15+02:00",
-      "last_seen_at_utc": "2026-10-28T23:00:56+02:00",
+      "last_seen_published_at_utc": "2026-10-29T02:16:56+02:00",
+      "last_seen_at_utc": "2026-10-29T07:40:48+02:00",
       "source_name": "Graham Cluley"
     },
     "3d6307e51b454ea8e53b535a149dcd3dc0017f39026193e41825a52c0c7c9495": {
-      "last_seen_published_at_utc": "2026-10-28T17:27:15+02:00",
-      "last_seen_at_utc": "2026-10-28T23:00:56+02:00",
+      "last_seen_published_at_utc": "2026-10-29T02:16:56+02:00",
+      "last_seen_at_utc": "2026-10-29T07:40:48+02:00",
       "source_name": "Graham Cluley"
     },
     "7fd59f74b28419d53400830325505c1a72d0668c32c453b2e675042e4f0efb99": {
@@ -160,8 +160,8 @@
       "source_name": "Microsoft Security Blog"
     },
     "31734d9b3aef81d8b4aae547bb4912b13238de242ffdfeddaa2ca5e090d3ba62": {
-      "last_seen_published_at_utc": "2026-10-28T21:15:00+02:00",
-      "last_seen_at_utc": "2026-10-28T23:00:56+02:00",
+      "last_seen_published_at_utc": "2026-10-28T23:54:35+02:00",
+      "last_seen_at_utc": "2026-10-29T07:40:48+02:00",
       "source_name": "Cisco Security Advisory"
     },
     "43bece994e5bb4666b1cef116492d293645883ff6bc571ee7a8fe6a8b8fba830": {
@@ -195,8 +195,8 @@
       "source_name": "The Red Canary Blog: Information Security Insights"
     },
     "e828994a2eb3265e0504ddec0c6356e4bbe1bd04e04e39f101e0e8c9f1e75f09": {
-      "last_seen_published_at_utc": "2026-10-27T09:31:56+02:00",
-      "last_seen_at_utc": "2026-10-27T16:24:36+02:00",
+      "last_seen_published_at_utc": "2026-10-29T06:12:45+02:00",
+      "last_seen_at_utc": "2026-10-29T07:40:48+02:00",
       "source_name": "Full Disclosure"
     },
     "54c82d1e3b57f4e637fcac5123d1bd29750cfc9c60b68c9504d3a594fb6cc40f": {
@@ -366,7 +366,6 @@
     }
   },
   "sent_fingerprints": {
-    "fb3a3b3d8bfeac556e9dee8228659be03e0fcfb654be8f9c5df8fb4ab1055283": "2026-09-14T01:22:59+03:00",
     "e52397ae15638bee642a06c5a926be8ddb269d48be77fca3ae2da3a5524ef893": "2026-09-14T07:50:14+03:00",
     "07226c6b145e04637bb2ba797a400af01cfa5ffafd49be57f9aed4e9ebe137fc": "2026-09-14T07:50:14+03:00",
     "a817a6dc8eee1743d7c1fb51cf3675c9bafc9bdc499669a62289d2e26677a092": "2026-09-14T17:59:19+03:00",
@@ -3347,7 +3346,22 @@
     "6ed8bd838a0e16649ee0d606c7658db0b22716344c76195a47b2eeb3abd1bc19": "2026-10-28T23:00:56+02:00",
     "ff159e4801473e2c4e2696040dc0776dd1e13f2057e6548e05bfae9a2555e886": "2026-10-28T23:00:56+02:00",
     "684bcf80474699c2071291041ca2e7ac7a178d9649a315e4fc1d0e3c16c469fd": "2026-10-28T23:00:56+02:00",
-    "a5921f28ac185a6738ffc62bf9252e6becc77e97293534f4b92f3d9f5239fcde": "2026-10-28T23:00:56+02:00"
+    "a5921f28ac185a6738ffc62bf9252e6becc77e97293534f4b92f3d9f5239fcde": "2026-10-28T23:00:56+02:00",
+    "6bde7f8437d9f95d8608785dc9a714cbb5052ff9e1879478c79d5460ca0f1fa5": "2026-10-29T07:40:48+02:00",
+    "0bc5765f7b82d0b000337bc1d07e34cef282d1d4cc9559369dbc6ef2f72a64e8": "2026-10-29T07:40:48+02:00",
+    "00e2069037ddbc7385508cebbbf984ab4737b55a5a91255100cf990810c216ac": "2026-10-29T07:40:48+02:00",
+    "e571318492c07be631bfc1b359cf8ab6cfdd703730f2a540f107e761ad3f21c5": "2026-10-29T07:40:48+02:00",
+    "48a58c41e69fa38f21b31e070027f7cbf3c8f47f614f7b996d84d60da1fa4803": "2026-10-29T07:40:48+02:00",
+    "893aa37a37a9cb4c0dfc34bb7801649e03305f5f261474ce1e11bd504120d868": "2026-10-29T07:40:48+02:00",
+    "08a3dd6f2716eca43cd2509903ebfb9b2f0a81a8f40d83e30b99275b3b6472d3": "2026-10-29T07:40:48+02:00",
+    "317c7d0cd78cc6d40fbc836854046010687a8d31853431394a87487d563c10ca": "2026-10-29T07:40:48+02:00",
+    "330338277aa0a10a73ef9a126930b26e97287a4d783d1736f1257fcc98558a22": "2026-10-29T07:40:48+02:00",
+    "2570e65a407e9a6f77b2b6d120ec5e0667cd2770ff6226305ac1c7ba8742bcb1": "2026-10-29T07:40:48+02:00",
+    "88f680ceb35c4bec6329f8489cf706c6a8fcd65af02a45035b8d03f13f5b8939": "2026-10-29T07:40:48+02:00",
+    "feeca8b419b1df7c4a6134c0b2dee28de9ac862b97cf600f3e90e34d7855b077": "2026-10-29T07:40:48+02:00",
+    "d089863adcd0f630a4c6d2b79c1262cb867cbeaa29f66a6f5a64d36646d7f5a7": "2026-10-29T07:40:48+02:00",
+    "802575c74799374dcec9307118402f5291cab43b5f5da21e8c3e1c49fbe4403c": "2026-10-29T07:40:48+02:00",
+    "42726b85cc9f3253d79140d8b1c309805fa0acae799c3fbafd31f6df91e38cca": "2026-10-29T07:40:48+02:00"
   },
-  "updated_by_run_id": "40768269074"
+  "updated_by_run_id": "40824759762"
 }
