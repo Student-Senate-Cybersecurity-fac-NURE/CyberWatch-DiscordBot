@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-10-31T16:30:58+02:00",
-  "last_successful_run_at_utc": "2026-10-31T16:30:59+02:00",
+  "updated_at_utc": "2026-10-31T21:58:40+02:00",
+  "last_successful_run_at_utc": "2026-10-31T21:58:40+02:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-29T17:46:00+02:00",
@@ -35,8 +35,8 @@
       "source_name": "The Hacker News"
     },
     "dc34ea789fd5025957c820b1241ba574c20299ace8858aa7d025955495807449": {
-      "last_seen_published_at_utc": "2026-10-31T11:08:58+02:00",
-      "last_seen_at_utc": "2026-10-31T16:29:49+02:00",
+      "last_seen_published_at_utc": "2026-10-31T21:33:36+02:00",
+      "last_seen_at_utc": "2026-10-31T21:56:51+02:00",
       "source_name": "Security Affairs"
     },
     "d29b593216a19af377c55ba16cfe22502754eb8580602692ddbde81a70c4a635": {
@@ -70,8 +70,8 @@
       "source_name": "Schneier on Security"
     },
     "d9ea00f5ec52a41f0583f553cb190277e4cd40796452c369ba280e7e41978c88": {
-      "last_seen_published_at_utc": "2026-10-31T16:05:15+02:00",
-      "last_seen_at_utc": "2026-10-31T16:29:49+02:00",
+      "last_seen_published_at_utc": "2026-10-31T20:01:12+02:00",
+      "last_seen_at_utc": "2026-10-31T21:56:51+02:00",
       "source_name": "Bleeping Computer"
     },
     "91d9881fa194685fa593fc500b2cfb5d5c0b6522336821a547a9b2178f9f800d": {
@@ -3340,7 +3340,10 @@
     "80f2eced335390f22999e89f5ff84757b47759a1309abfdb18c2bc042e27645e": "2026-10-31T16:29:49+02:00",
     "af170dd9a0e92e8f7156e081e5413861c1a9de3e8799f6de2b821446f58083af": "2026-10-31T16:29:49+02:00",
     "48c35c5aa05c18453a4d81a8c607469cd1879c07c910a71769cad2a6db7b471e": "2026-10-31T16:29:49+02:00",
-    "9b58d776fefaaeb7e0658163ca41c30ef73da727f48205d3521658f4f474dd05": "2026-10-31T16:29:49+02:00"
+    "9b58d776fefaaeb7e0658163ca41c30ef73da727f48205d3521658f4f474dd05": "2026-10-31T16:29:49+02:00",
+    "fff6d62e49e7628a48874a9af42a6a23e3cc381b420d4c0c9ac46bda68d9c4dd": "2026-10-31T21:56:51+02:00",
+    "3f38322b978456bbf5ee85503de5e139af6367ef9d0bbc39d0c34d40e259c110": "2026-10-31T21:56:51+02:00",
+    "4c71bbddf51a5b5bc42ab2b69d89b514af7909825b3c7c9103d4a264575a6104": "2026-10-31T21:56:51+02:00"
   },
-  "updated_by_run_id": "41210361154"
+  "updated_by_run_id": "41236544965"
 }
