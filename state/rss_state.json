@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "created_at_utc": "2026-04-28T13:02:12+03:00",
-  "updated_at_utc": "2026-11-01T22:29:20+02:00",
-  "last_successful_run_at_utc": "2026-11-01T22:29:20+02:00",
+  "updated_at_utc": "2026-11-02T07:57:28+02:00",
+  "last_successful_run_at_utc": "2026-11-02T07:57:28+02:00",
   "feeds": {
     "77c8ce0c6f94839664c4094a5ecfeaa1305840c298aec01cffa87b081a81501c": {
       "last_seen_published_at_utc": "2026-10-29T17:46:00+02:00",
@@ -55,8 +55,8 @@
       "source_name": "Information Security Magazine"
     },
     "5025a47ce368144e6f6b115bf1aab76a400a0c086c4f68398442fa33d37e2362": {
-      "last_seen_published_at_utc": "2026-11-01T19:19:31+02:00",
-      "last_seen_at_utc": "2026-11-01T22:28:03+02:00",
+      "last_seen_published_at_utc": "2026-11-02T06:32:13+02:00",
+      "last_seen_at_utc": "2026-11-02T07:55:48+02:00",
       "source_name": "Technical Information Security Content & Discussion"
     },
     "0c4bfb440f8092770d4cadbd62ee55a36c8b2d5cf237b28255e7d2af8102148e": {
@@ -255,8 +255,8 @@
       "source_name": "Netflix TechBlog - Medium"
     },
     "f3bcab8221f3da2ca7368568436cf7068ef616a5bb68af71a8716d7e5a5968ef": {
-      "last_seen_published_at_utc": "2026-11-01T11:00:00+02:00",
-      "last_seen_at_utc": "2026-11-01T17:03:09+02:00",
+      "last_seen_published_at_utc": "2026-11-02T07:30:38+02:00",
+      "last_seen_at_utc": "2026-11-02T07:55:48+02:00",
       "source_name": "Help Net Security"
     },
     "6ad0e4e3703443624f86a08fb9c3100a625f30996113c30b0729b58ee8e1635d": {
@@ -3361,7 +3361,10 @@
     "9f00f20aef747bf998287ae635e9c9d9a6c221eb6ee7a0060c1dfecf0108aded": "2026-11-01T22:28:03+02:00",
     "40916a49fbabe50d2efb6bd50fe7bd13d235ef901afc33a5c55188160e4dbde5": "2026-11-01T22:28:03+02:00",
     "fbc8c6adc3572d2de0278f32578904f67359265c9277681bed179b7b2b44fff5": "2026-11-01T22:28:03+02:00",
-    "e75707f69682484d343c3100a60a18a242256456bbbab50866fcaafd70ab3770": "2026-11-01T22:28:03+02:00"
+    "e75707f69682484d343c3100a60a18a242256456bbbab50866fcaafd70ab3770": "2026-11-01T22:28:03+02:00",
+    "14aeb784d5b03fa0db2447d16b78db0bbd8ad662d2685d29fe7b95cf80f11c19": "2026-11-02T07:55:48+02:00",
+    "7f910d3b953a5656d4d62cb31d0d3a1b6e0bef57dc5c085008b5b8e4abc5a97d": "2026-11-02T07:55:48+02:00",
+    "cbff9618d8cd741df427de1af01dd984f21c079aa97967603ef6393793e11eb1": "2026-11-02T07:55:48+02:00"
   },
-  "updated_by_run_id": "41346964068"
+  "updated_by_run_id": "41396817523"
 }
